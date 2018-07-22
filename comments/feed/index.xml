@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>colopixie へのコメント</title>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 03 Aug 2014 04:33:40 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.8</generator>
+	<item>
+		<title>jQueryで実装するレスポンシブ対応のメニュープラグインまとめ &#124; Code-Hunter より レスポンシブなレイアウトに役立つ２５個のjQueryプラグイン へのコメント</title>
+		<link>/diary/25-jquery-plugins-to-help-with-responsive-layouts/#comment-3770</link>
+		<dc:creator><![CDATA[jQueryで実装するレスポンシブ対応のメニュープラグインまとめ &#124; Code-Hunter]]></dc:creator>
+		<pubDate>Sun, 03 Aug 2014 04:33:40 +0000</pubDate>
+		<guid isPermaLink="false">/?p=154#comment-3770</guid>
+		<description><![CDATA[[&#8230;] レスポンシブなレイアウトに役立つ２５個のjQueryプラグイン [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] レスポンシブなレイアウトに役立つ２５個のjQueryプラグイン [&#8230;]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>MBPセットアップ（Photoshop編） &#124; より Slicyはあっと驚くほど便利だった。 へのコメント</title>
+		<link>/webdesign/mac-slicy/#comment-3635</link>
+		<dc:creator><![CDATA[MBPセットアップ（Photoshop編） &#124;]]></dc:creator>
+		<pubDate>Mon, 19 May 2014 04:26:20 +0000</pubDate>
+		<guid isPermaLink="false">/?p=821#comment-3635</guid>
+		<description><![CDATA[[&#8230;] スライス書き出しツール。 使い方は、Slicyはあっと驚くほど便利だった。を見るのが最高。 [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] スライス書き出しツール。 使い方は、Slicyはあっと驚くほど便利だった。を見るのが最高。 [&#8230;]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>レスポンシブレイアウトを学ぶ より レスポンシブなレイアウトに役立つ２５個のjQueryプラグイン へのコメント</title>
+		<link>/diary/25-jquery-plugins-to-help-with-responsive-layouts/#comment-3612</link>
+		<dc:creator><![CDATA[レスポンシブレイアウトを学ぶ]]></dc:creator>
+		<pubDate>Wed, 12 Mar 2014 01:00:16 +0000</pubDate>
+		<guid isPermaLink="false">/?p=154#comment-3612</guid>
+		<description><![CDATA[[&#8230;] レスポンシブなレイアウトに役立つ２５個のjQueryプラグイン [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] レスポンシブなレイアウトに役立つ２５個のjQueryプラグイン [&#8230;]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>トグ・ケイ より Adobe Creative Cloud 契約しました へのコメント</title>
+		<link>/computer/adobe-creative-cloud/#comment-3611</link>
+		<dc:creator><![CDATA[トグ・ケイ]]></dc:creator>
+		<pubDate>Thu, 27 Feb 2014 18:33:12 +0000</pubDate>
+		<guid isPermaLink="false">/?p=611#comment-3611</guid>
+		<description><![CDATA[クラウドコンピューティングの目的は、PCに負荷が掛からないようにするためのものですが、AdobeのCCをダウンロードして使用して見ましたが、モタモタと重い動作になりました。それはPCやメモリのせいではなく、ソフトウェアに問題があると存じます。クラウドに関しては、インフラの問題があり、通信速度が高速化しない限り、現実的な道具ではありません。とくにビデオ編集などは厳しいものがあります。]]></description>
+		<content:encoded><![CDATA[<p>クラウドコンピューティングの目的は、PCに負荷が掛からないようにするためのものですが、AdobeのCCをダウンロードして使用して見ましたが、モタモタと重い動作になりました。それはPCやメモリのせいではなく、ソフトウェアに問題があると存じます。クラウドに関しては、インフラの問題があり、通信速度が高速化しない限り、現実的な道具ではありません。とくにビデオ編集などは厳しいものがあります。</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>guchitaka より Slicyはあっと驚くほど便利だった。 へのコメント</title>
+		<link>/webdesign/mac-slicy/#comment-3607</link>
+		<dc:creator><![CDATA[guchitaka]]></dc:creator>
+		<pubDate>Wed, 29 Jan 2014 13:23:02 +0000</pubDate>
+		<guid isPermaLink="false">/?p=821#comment-3607</guid>
+		<description><![CDATA[Slicy 便利ですよね。そのSlicy をもうちょっと便利にする Photoshop の拡張を機能を作ってみました。良かったらご覧ください。
+http://guchitaka.com/?p=299]]></description>
+		<content:encoded><![CDATA[<p>Slicy 便利ですよね。そのSlicy をもうちょっと便利にする Photoshop の拡張を機能を作ってみました。良かったらご覧ください。<br />
+<a href="http://guchitaka.com/?p=299" rel="nofollow">http://guchitaka.com/?p=299</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>MBPセットアップ（Photoshop編） &#124; SAITOKENSUKE&#039;S BLOG より Slicyはあっと驚くほど便利だった。 へのコメント</title>
+		<link>/webdesign/mac-slicy/#comment-3562</link>
+		<dc:creator><![CDATA[MBPセットアップ（Photoshop編） &#124; SAITOKENSUKE&#039;S BLOG]]></dc:creator>
+		<pubDate>Wed, 15 Jan 2014 07:16:23 +0000</pubDate>
+		<guid isPermaLink="false">/?p=821#comment-3562</guid>
+		<description><![CDATA[[&#8230;] スライス書き出しツール。 使い方は、Slicyはあっと驚くほど便利だった。を見るのが最高。 [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] スライス書き出しツール。 使い方は、Slicyはあっと驚くほど便利だった。を見るのが最高。 [&#8230;]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Twitter 人気のつぶやき 9/7～9/20 2013 &#124; Webクリエイターボックス より Photoshop CC 14.1 に画像パーツ書き出し機能がやってきた へのコメント</title>
+		<link>/webdesign/photoshopcc_generator/#comment-2742</link>
+		<dc:creator><![CDATA[Twitter 人気のつぶやき 9/7～9/20 2013 &#124; Webクリエイターボックス]]></dc:creator>
+		<pubDate>Fri, 20 Sep 2013 23:01:34 +0000</pubDate>
+		<guid isPermaLink="false">/?p=904#comment-2742</guid>
+		<description><![CDATA[[...] 10. Photoshop：Photoshop CC 14.1 に画像パーツ書き出し機能がやってきた [...]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] 10. Photoshop：Photoshop CC 14.1 に画像パーツ書き出し機能がやってきた [&#8230;]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Webニュースまとめメルマガ「週刊e-Report」 2013年09月12日号　Vol.649 &#124; さぶみっと！JAPAN より Photoshop CC 14.1 に画像パーツ書き出し機能がやってきた へのコメント</title>
+		<link>/webdesign/photoshopcc_generator/#comment-2701</link>
+		<dc:creator><![CDATA[Webニュースまとめメルマガ「週刊e-Report」 2013年09月12日号　Vol.649 &#124; さぶみっと！JAPAN]]></dc:creator>
+		<pubDate>Wed, 11 Sep 2013 16:08:11 +0000</pubDate>
+		<guid isPermaLink="false">/?p=904#comment-2701</guid>
+		<description><![CDATA[[...] Photoshop CC 14.1 に画像パーツ書き出し機能がやってきた /webdesign/photoshopcc_generator/ （colopixie） [...]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] Photoshop CC 14.1 に画像パーツ書き出し機能がやってきた <a href="/webdesign/photoshopcc_generator/" rel="nofollow">/webdesign/photoshopcc_generator/</a> （colopixie） [&#8230;]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>動画 &#8211; colopixie</title>
+	<atom:link href="/tag/動画/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.7</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>スタートアップで事業のプロモーション動画を作った話</title>
+		<link>/video/%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%88%e3%82%a2%e3%83%83%e3%83%97%e3%81%a7%e4%ba%8b%e6%a5%ad%e3%81%ae%e3%83%97%e3%83%ad%e3%83%a2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e5%8b%95%e7%94%bb%e3%82%92%e4%bd%9c/</link>
+		<comments>/video/%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%88%e3%82%a2%e3%83%83%e3%83%97%e3%81%a7%e4%ba%8b%e6%a5%ad%e3%81%ae%e3%83%97%e3%83%ad%e3%83%a2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e5%8b%95%e7%94%bb%e3%82%92%e4%bd%9c/#respond</comments>
+		<pubDate>Wed, 15 Feb 2017 15:27:08 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Video]]></category>
+		<category><![CDATA[動画]]></category>
+
+		<guid isPermaLink="false">/?p=1357</guid>
+		<description><![CDATA[<p>それは、昨年の8月のことでした。 動画作らない？ TECH::CAMPをことを知ってもらうために、サイトを見て一通りはカバーしてるとは思いつつ、教室の雰囲気や、直接人の声がないのでなかなかわからないので、そこでわかりやす [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/video/%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%88%e3%82%a2%e3%83%83%e3%83%97%e3%81%a7%e4%ba%8b%e6%a5%ad%e3%81%ae%e3%83%97%e3%83%ad%e3%83%a2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e5%8b%95%e7%94%bb%e3%82%92%e4%bd%9c/">スタートアップで事業のプロモーション動画を作った話</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<style>figure{margin: 0 0 0 20px;} iframe{width: 100%;} </style>
+<p class="graf graf--p">それは、昨年の8月のことでした。</p>
+<blockquote class="graf graf--blockquote"><p>動画作らない？</p></blockquote>
+<p class="graf graf--p">TECH::CAMPをことを知ってもらうために、サイトを見て一通りはカバーしてるとは思いつつ、教室の雰囲気や、直接人の声がないのでなかなかわからないので、そこでわかりやすく伝わる、動画を作ろうという話になりました。</p>
+<p class="graf graf--p">できた動画はこちらです。(Vimeo は再アップロードができるから便利…)</p>
+<figure class="graf graf--figure graf--iframe graf--layoutFillWidth">
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill"></div>
+<div class="iframeContainer"><iframe width="100%" height="400px" src="https://player.vimeo.com/video/153600789?referrer=https%3A%2F%2Fmedium.com%2Fmedia%2F7a2ddd5349e39c5611c38660cf9152df%3FpostId%3D2dcdcab17704" data-media-id="7a2ddd5349e39c5611c38660cf9152df" allowfullscreen="allowfullscreen" frameborder="0" data-mce-fragment="1"></iframe></div>
+</div><figcaption class="imageCaption">TECH::CAMP 紹介動画</figcaption></figure>
+<p class="graf graf--p">シナリオ以外は、ほぼ全部自分が考えて作っています。(実写動画初です)</p>
+<p class="graf graf--p">機材とソフトウェアは</p>
+<figure class="graf graf--figure"><img class="graf-image" src="https://i2.wp.com/cdn-images-1.medium.com/max/800/1*NINUN6P5ICSZYJRBokHW9Q.jpeg?resize=1500%2C1004&#038;ssl=1" data-image-id="1*NINUN6P5ICSZYJRBokHW9Q.jpeg" data-width="1500" data-height="1004" data-recalc-dims="1" /></figure>
+<h4 class="graf graf--h4">機材</h4>
+<ul class="postList">
+<li class="graf graf--li">Canon EOS 70D で撮影</li>
+<li class="graf graf--li">Picture Style : CineStyle</li>
+<li class="graf graf--li">Canon 50mm f1.8, 35mm f2.0</li>
+<li class="graf graf--li">ショットガンマイク (アマゾンで3000円くらいの)</li>
+<li class="graf graf--li">ビデオスタビライザー</li>
+<li class="graf graf--li">ビデオライトを使って光調整</li>
+</ul>
+<p class="graf graf--p">で基本行いました。</p>
+<figure class="graf graf--figure"><img class="graf-image" src="https://i0.wp.com/cdn-images-1.medium.com/max/800/1*UB4wF0LDJzKeYEQEbjW7bw.png?resize=2558%2C1123&#038;ssl=1" data-image-id="1*UB4wF0LDJzKeYEQEbjW7bw.png" data-width="2558" data-height="1123" data-recalc-dims="1" /><figcaption class="imageCaption">Vegas Pro 13</figcaption></figure>
+<h4 class="graf graf--h4">ソフトウェア</h4>
+<ul class="postList">
+<li class="graf graf--li">Sony Vegas Pro 13 で編集</li>
+<li class="graf graf--li">Adobe AfterEffects CC 2015 で元素材のスタビライザーや Denoiser II を使ってのノイズ除去</li>
+<li class="graf graf--li">Sony Sound Forge Pro 11で Noise Reduction 2 にお世話になりました。</li>
+<li class="graf graf--li">Adobe Audition CC 2015 、DeVerberateを使って反響音を抑える</li>
+<li class="graf graf--li">Blackmagic Design DaVinci Resolve 色の補正</li>
+</ul>
+<p class="graf graf--p">dynabook WS754M i7 4810MQ, 32GB, 512GB, Quadro K2100M (Quadroのおかげでだいぶレンダリングが高速化された), 撮影後直接編集も行いたかったためノートで行っていました。</p>
+<h3 class="graf graf--h3">撮影の難しさ</h3>
+<p class="graf graf--p">動画を撮ろうと思い、70D を買いましたが実はそこまてま使いこなしてませんでした。スタビライザーの機材は持っていたりやる気はありました。<br />
+そして初めてやる撮影でたくさんの？がでてきました。</p>
+<h4 class="graf graf--h4">撮影場所問題</h4>
+<figure class="graf graf--figure graf--layoutOutsetLeft"><img class="graf-image" src="https://i1.wp.com/cdn-images-1.medium.com/max/600/1*YJa84_olfWc7us6b8zQOUA.png?resize=1915%2C1072&#038;ssl=1" data-image-id="1*YJa84_olfWc7us6b8zQOUA.png" data-width="1915" data-height="1072" data-recalc-dims="1" /></figure>
+<p class="graf graf--p">動画の構成は3人が順番に話して行くというものですが、3人をどこの場所で撮影するのがいいか考えました。TECH::CAMPのオフィスはそこまで広くなく、それぞれ違う場所で撮影を行いたかったのでそれを決めなくては行けません。</p>
+<p class="graf graf--p">結果的にテックキャンプとわかる壁シーンが2個、教室が背景の一つになりました。</p>
+<h4 class="graf graf--h4">撮影方法</h4>
+<p class="graf graf--p">撮影自体は、ピントをオートでまず合わせてから、マニュアルで微調整して行いました。また、ピクチャースタイルは、<a class="markup--anchor markup--p-anchor" href="http://www.technicolor.com/en/solutions-services/cinestyle" target="_blank" rel="noopener" data-href="http://www.technicolor.com/en/solutions-services/cinestyle">CineStyle</a> を使い、編集しやすい映像を撮りました。<br />
+70D は仕様的に HDMI の<a class="markup--anchor markup--p-anchor" href="http://bbs.kakaku.com/bbs/K0000534203/SortID=16966497/" target="_blank" rel="noopener" data-href="http://bbs.kakaku.com/bbs/K0000534203/SortID=16966497/">出力もうまくいかないよう</a>で、<a class="markup--anchor markup--p-anchor" href="http://www.atomos.co.jp/ninja/" target="_blank" rel="noopener" data-href="http://www.atomos.co.jp/ninja/">Atomos NINJA</a> なども使えず。。。画質的には不満が残ります。</p>
+<p class="graf graf--p">間にあるシーン（プログラミングをしている様子など）は、何パターンかを撮影し一番よかったものを採用しています。人がたくさんいるのでなるべくじかんがかからないようパパッと行いました。そのため三脚やスタビライザーは使えず手持ち撮影で行いました。</p>
+<h4 class="graf graf--h4">一番問題だった音ノイズ問題</h4>
+<figure class="graf graf--figure"><img class="graf-image" src="https://i1.wp.com/cdn-images-1.medium.com/max/800/1*3n1b_Nx6_YkdsbHD8hRbug.jpeg?resize=2000%2C1325&#038;ssl=1" data-image-id="1*3n1b_Nx6_YkdsbHD8hRbug.jpeg" data-width="2000" data-height="1325" data-recalc-dims="1" /></figure>
+<p class="graf graf--p">ショットガンマイクを使っていましたが、どうも反響音や環境ノイズが混ざっていてひどい音声になってしまいました。（下にサンプルあり）<br />
+そこで、ピンマイクなども検討したのですが、お高いこともあり、ガンショットマイクを延長ケーブルなどを使って、撮影人物にできるだけ近づけることで反響音や環境ノイズなどは減りました。</p>
+<p class="graf graf--p">余談ですが、撮影をしているときに、いきなりヤマトが来たりすると、こちらもあちらも「あっ」となってしまうので何か張り紙でもして入れないようにしたほうがよかったですね。反省。</p>
+<h4 class="graf graf--h4">編集</h4>
+<p class="graf graf--p">はじめは、 Premiere を使っていたのですが、リアルタイムに編集することができなかったことがストレスになり、Vegas Pro 12（当時） で作ることにしました。軽量な動作且つ、今回の動画では機能的に事足りると思ったことから Vegas Pro を使いました。</p>
+<p class="graf graf--p">Vegas Pro は基本的には他のソフトウェアと操作は同じですが、フィルターをかけるときの速さや、切貼りのリアルタイム感は素晴らしいです。</p>
+<p class="graf graf--p">また、スタビライザーを適用させるために、AfterEffects 標準のスタビライザーを使いました。Denoiser II を使ってノイズ除去も行いました。（だいぶ消えた）</p>
+<figure class="graf graf--figure graf--iframe graf--layoutOutsetCenter">
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill"></div>
+<div class="iframeContainer"><iframe width="980" height="551" data-width="1280" data-height="720" src="https://player.vimeo.com/video/165245138?referrer=https%3A%2F%2Fmedium.com%2Fmedia%2Fc976a91b885322f8f13823276d21ae05%3FpostId%3D2dcdcab17704" data-media-id="c976a91b885322f8f13823276d21ae05" allowfullscreen="allowfullscreen" frameborder="0" data-mce-fragment="1"></iframe></div>
+</div><figcaption class="imageCaption">Stabilizer Test</figcaption></figure>
+<p class="graf graf--p"><strong class="markup--strong markup--p-strong">音声</strong></p>
+<figure class="graf graf--figure graf--layoutOutsetLeft"><img class="graf-image" src="https://i2.wp.com/cdn-images-1.medium.com/max/600/1*1WK4abcsasPO8E4ewgiqEg.png?resize=2560%2C1398&#038;ssl=1" data-image-id="1*1WK4abcsasPO8E4ewgiqEg.png" data-width="2560" data-height="1398" data-recalc-dims="1" /><figcaption class="imageCaption">Sony Noise Reduction</figcaption></figure>
+<p class="graf graf--p">音声は、Sound Forge Pro 11で音量一定化や SONY の Noise Reduction 2 を使いノイズを消していきました。Audition では、DeVerberate を使い反響音をなくしました。まじなくなってびっくり。</p>
+<figure class="graf graf--figure graf--iframe graf--layoutOutsetCenter">
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill"></div>
+<div class="iframeContainer"><iframe width="980" height="551" data-width="1920" data-height="1080" src="https://player.vimeo.com/video/165245139?referrer=https%3A%2F%2Fmedium.com%2Fmedia%2F11dc74feb11fbaad5dc8758635075268%3FpostId%3D2dcdcab17704" data-media-id="11dc74feb11fbaad5dc8758635075268" allowfullscreen="allowfullscreen" frameborder="0" data-mce-fragment="1"></iframe></div>
+</div><figcaption class="imageCaption">Noise Reduction 2 Test</figcaption></figure>
+<p class="graf graf--p"><strong class="markup--strong markup--p-strong">そして最後に、全部合わせて完成。</strong></p>
+<p class="graf graf--p">レンズによって色味が少し違うので、最後に撮影映像を DaVinci Resolve でカラーグレーディングをして、キャプチャなどをつけて終わり。</p>
+<p class="graf graf--p">なぜ、8月初めのプロジェクトにも関わらずこんなんときにリリースとなってしまったからというと、そもそも動画を作っているとすぐに時間が経ってしまってなかなか集中できないこと、何人か撮影したい人がいたことで、スケジュールを抑えることが難しかったこともあります。</p>
+<figure class="graf graf--figure"><img class="graf-image" src="https://i0.wp.com/cdn-images-1.medium.com/max/800/1*bYXvGhTV2xkvQJroAWi4LQ.jpeg?resize=2000%2C1339&#038;ssl=1" data-image-id="1*bYXvGhTV2xkvQJroAWi4LQ.jpeg" data-width="2000" data-height="1339" data-recalc-dims="1" /></figure>
+<p class="graf graf--p">動画の撮影から編集まで、楽しさはありますが、やはりツライです。デザインを作ってるほうが、ある意味目に見える速度は速いので安心が出来ますね。</p>
+<p class="graf graf--p">一方動画は、出来上がりがあまりなくイメージが最後の方に行かないとわかないということです。イメージがわかないとどうなるかというと、使っている映像が合わない可能性もあるのです。<br />
+そうなると、また撮影して音声編集して…みたいな工程を行わなくてはいけないのでした(またコツみたいなのわかってないから説ありますが)</p>
+<figure class="graf graf--figure"><img class="graf-image" src="https://i1.wp.com/cdn-images-1.medium.com/max/800/1*m-td9bcOKDkvl7xFrm5-og.png?resize=624%2C544&#038;ssl=1" data-image-id="1*m-td9bcOKDkvl7xFrm5-og.png" data-width="624" data-height="544" data-recalc-dims="1" /></figure>
+<p class="graf graf--p">映像制作(モーショングラフィックス)は、やったことありましたが、実写動画は初で、動画の取り方初で一番学びが多かったのは、音声の編集でした。どうすれば音がクリアに聞きやすいかを毎日のように試していて声に取り憑かれそうでした。だんだんとノイズ除去の方法も覚え最後の方には比較的ラクになってましたが。。。。にしても動画作成についてはいろいろな知識とマシンスペックが要求されるので大変疲れます。動画を作ってる方々マジ△といった感じです。</p>
+<p class="graf graf--p">また機会があれば作りたいですね()</p>
+<blockquote class="graf graf--blockquote"><p>TECH::CAMP 人生を変える1ヶ月<br />
+<a class="markup--anchor markup--blockquote-anchor" href="https://tech-camp.in/" target="_blank" rel="noopener" data-href="https://tech-camp.in/">https://tech-camp.in/</a></p></blockquote>
+<p>via. <a href="https://medium.com/@puzzeljp/%E4%BA%8B%E6%A5%AD%E3%81%AE%E3%83%97%E3%83%AD%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E5%8B%95%E7%94%BB%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E8%A9%B1-2dcdcab17704#.mk1nvt2ah">スタートアップで事業のプロモーション動画を作った話 – Medium</a></p>
+<p>投稿<a rel="nofollow" href="/video/%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%88%e3%82%a2%e3%83%83%e3%83%97%e3%81%a7%e4%ba%8b%e6%a5%ad%e3%81%ae%e3%83%97%e3%83%ad%e3%83%a2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e5%8b%95%e7%94%bb%e3%82%92%e4%bd%9c/">スタートアップで事業のプロモーション動画を作った話</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/video/%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%88%e3%82%a2%e3%83%83%e3%83%97%e3%81%a7%e4%ba%8b%e6%a5%ad%e3%81%ae%e3%83%97%e3%83%ad%e3%83%a2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e5%8b%95%e7%94%bb%e3%82%92%e4%bd%9c/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1357</post-id>	</item>
+	</channel>
+</rss>

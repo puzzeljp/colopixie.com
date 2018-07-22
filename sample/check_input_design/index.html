@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>Checkboxを綺麗にするん</title>
+<script src="/cdn-cgi/apps/head/CObJSFH8KurN0eh4C3JbphVMe_g.js"></script><link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
+<style>
+* {
+	font-size: 16px;
+	font-family: 'Jockey One', sans-serif;
+	color: #555
+}
+h1 {
+	margin: 50px 0;
+	font-size: 40px
+}
+label input {
+	width: 500px !important;
+	position: absolute;
+	display: block;
+	padding: 5px 15px;
+	height: 20px !important;
+	left: -20px
+}
+label{	
+	position: relative;
+	height: 20px !important;
+	
+	border: 1px solid #ddd;
+	display: block;
+	float:left;
+	margin: 5px;
+	line-height: 20px !important;
+	border-radius: 3px;
+	padding: 5px 15px;
+	background: url(/sample/check_input_design/check.png);
+   	overflow: hidden; 
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="164bc37c8ba8c0952835801e-"></script>
+<script type="164bc37c8ba8c0952835801e-">
+$(function(){
+	$("#form :checked").each(function(){
+		var isl = $(this).attr("id");
+		$("label[for="+isl+"]").css({"border":"1px solid #cb003a","color":"#fff","background":"url(checked.png)","text-shadow":"-1px -1px 0px #a4002f"});
+	});
+	$("#form :checkbox").click(function() {
+		var isl = $(this).attr("id");
+		if($(this).attr('checked') == true) {
+			$("label[for="+isl+"]").css({"border":"1px solid #cb003a","color":"#fff","background":"url(checked.png)","text-shadow":"-1px -1px 0px #a4002f"});
+		} else {
+			$("label[for="+isl+"]").css({"border":"1px solid #ddd","color":"","background":"url(check.png)","text-shadow":""});
+		}
+	});
+});
+</script>
+</head>
+<body>
+<h1>Checkboxを綺麗にするん</h1>
+<form action="" id="form" method="post">
+<label for="checkbox1">
+<input type="checkbox" name="Checkbox" value="Checkbox" id="checkbox1" checked="checked" />Checkbox
+</label>
+<label for="checkbox2">
+<input type="checkbox" name="Checkbox" value="Checkbox" id="checkbox2" />Checkbox
+</label>
+<label for="checkbox3">
+<input type="checkbox" name="Checkbox" value="Checkbox" id="checkbox3" />Checkbox
+</label>
+<label for="checkbox4">
+<input type="checkbox" name="Checkbox" value="Checkbox" id="checkbox4" />Checkbox
+</label>
+<label for="checkbox5">
+<input type="checkbox" name="Checkbox" value="Checkbox" id="checkbox5" />Checkbox
+</label>
+<label for="checkbox6">
+<input type="checkbox" name="Checkbox" value="Checkbox" id="checkbox6" />Checkbox
+</label>
+<label for="checkbox7">
+<input type="checkbox" name="Checkbox" value="Checkbox" id="checkbox7" />Checkbox
+</label>
+<label for="checkbox8">
+<input type="checkbox" name="Checkbox" value="Checkbox" id="checkbox8" />Checkbox
+</label>
+<label for="checkbox9">
+<input type="checkbox" name="Checkbox" value="Checkbox" id="checkbox9" />Checkbox
+</label>
+<label for="checkbox10">
+<input type="checkbox" name="Checkbox" value="Checkbox" id="checkbox10" />Checkbox
+</label>
+</form>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/4f936b58/cloudflare-static/rocket-loader.min.js" data-cf-nonce="164bc37c8ba8c0952835801e-" defer=""></script></body>
+</html>

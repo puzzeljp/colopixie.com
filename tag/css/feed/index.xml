@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CSS &#8211; colopixie</title>
+	<atom:link href="/tag/css/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.3</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>[IE6/7] 複数 class を指定したのに適用されない [Advent Calendar 2015]</title>
+		<link>/htmlcss/ie6_7-multiple-class/</link>
+		<comments>/htmlcss/ie6_7-multiple-class/#respond</comments>
+		<pubDate>Thu, 17 Dec 2015 00:59:53 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[HTML/CSS]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[IE6]]></category>
+
+		<guid isPermaLink="false">/?p=1191</guid>
+		<description><![CDATA[<p>本エントリーは「CSS 昔話 Advent Calendar 2015」17日目のエントリーです。 自分がちゃんとCSSを触ったのは、８年くらい前でしょうか。 当時は、IE6真っ盛りでぼちぼちIE7がで始めた頃でした。  [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/htmlcss/ie6_7-multiple-class/">[IE6/7] 複数 class を指定したのに適用されない [Advent Calendar 2015]</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-1201" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_53022.jpg?resize=2000%2C1333&#038;ssl=1" alt="IMG_53022" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_53022.jpg?w=2000&amp;ssl=1 2000w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_53022.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_53022.jpg?resize=768%2C512&amp;ssl=1 768w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_53022.jpg?resize=1024%2C682&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p><img class="aligncenter size-full wp-image-1195" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5306.jpg?resize=3648%2C2432&#038;ssl=1" alt="IMG_5306" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5306.jpg?w=3648&amp;ssl=1 3648w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5306.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5306.jpg?resize=768%2C512&amp;ssl=1 768w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5306.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5306.jpg?w=2000&amp;ssl=1 2000w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5306.jpg?w=3000&amp;ssl=1 3000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p><img class="aligncenter size-full wp-image-1196" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5309.jpg?resize=3648%2C2432&#038;ssl=1" alt="IMG_5309" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5309.jpg?w=3648&amp;ssl=1 3648w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5309.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5309.jpg?resize=768%2C512&amp;ssl=1 768w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5309.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5309.jpg?w=2000&amp;ssl=1 2000w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5309.jpg?w=3000&amp;ssl=1 3000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>本エントリーは「<a href="http://www.adventar.org/calendars/723" target="_blank">CSS 昔話 Advent Calendar 2015</a>」17日目のエントリーです。</p>
+<p>自分がちゃんとCSSを触ったのは、８年くらい前でしょうか。<br />
+当時は、IE6真っ盛りでぼちぼちIE7がで始めた頃でした。<br />
+海外ではNetscape Navigator 9が出ていたものの、日本ではNetscape 7.1 止まりだったことが記憶にあります。</p>
+<p>昔話ということで、IE6の時にお世話になっていたCSSについて書きたいと思います。<br />
+<strong>複数のclass 指定をしている場合、一番最後の class が適用されてしまうバグについて。</strong><br />
+IE6 と IE7 が対象です。</p>
+<p>ネット接続をしていない、WinXPの環境を使ってためしてみました。</p>
+<p><img class="aligncenter size-full wp-image-1197" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/01.png?resize=1024%2C768&#038;ssl=1" alt="01" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/01.png?w=1024&amp;ssl=1 1024w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/01.png?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/01.png?resize=768%2C576&amp;ssl=1 768w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p></p><pre class="crayon-plain-tag">.content01.content {
+  background-color: red;
+}
+
+.content02.content {
+  background-color: blue;
+}</pre><p></p>
+<p>と指定した場合、IE6/IE7では、<code>background-color: blue;</code>が適用されてしまいます。</p>
+<h3>その対策</h3>
+<p><img class="aligncenter size-full wp-image-1198" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/02.png?resize=1024%2C768&#038;ssl=1" alt="02" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/02.png?w=1024&amp;ssl=1 1024w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/02.png?resize=300%2C225&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/02.png?resize=768%2C576&amp;ssl=1 768w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p></p><pre class="crayon-plain-tag">.content.content01 {
+  background-color: red;
+}
+
+.content.content02 {
+  background-color: blue;
+}</pre><p></p>
+<p>としていすると、IE6/IE7ではきちんと適用できます。<br />
+今の話をすと、Scss のネストで書いておけば、対策ですね！</p>
+<p></p><pre class="crayon-plain-tag">.content {
+  &amp;.content01 {
+    background-color: red;
+  }
+
+  &amp;.content02 {
+    background-color: blue;
+  }
+}</pre><p></p>
+<p>今となっては、セレクタの順番をそれほど気にしなくてもいいですが、昔は気にしてCSSを書かないといけなかったので、<br />
+今よりは慎重にCSSを書いていましたね&#8230;</p>
+<p>&nbsp;</p>
+<p><img class="aligncenter size-full wp-image-1199" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/paint.png?resize=1024%2C768&#038;ssl=1" alt="paint" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/paint.png?w=1024&amp;ssl=1 1024w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/paint.png?resize=300%2C225&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/paint.png?resize=768%2C576&amp;ssl=1 768w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /><img class="aligncenter size-full wp-image-1200" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/system.png?resize=487%2C435&#038;ssl=1" alt="system" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/system.png?w=487&amp;ssl=1 487w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/system.png?resize=300%2C268&amp;ssl=1 300w" sizes="(max-width: 487px) 100vw, 487px" data-recalc-dims="1" /></p>
+<p><img class="aligncenter size-full wp-image-1203" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/66c19942ab4ba346fdb64ccc04cde373.png?resize=1576%2C1065&#038;ssl=1" alt="キャプチャ" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/66c19942ab4ba346fdb64ccc04cde373.png?w=1576&amp;ssl=1 1576w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/66c19942ab4ba346fdb64ccc04cde373.png?resize=300%2C203&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/66c19942ab4ba346fdb64ccc04cde373.png?resize=768%2C519&amp;ssl=1 768w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/66c19942ab4ba346fdb64ccc04cde373.png?resize=1024%2C692&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>久しぶりにWindows XPを使ってみたけど、使いづらすぎて困った。キャプチャー時に使ったペイントがWin7あたりから進化してて違いにビビる。<br />
+XPの方メモリ256MBだけど、メインは32GBなので差すごい。</p>
+<p>投稿<a rel="nofollow" href="/htmlcss/ie6_7-multiple-class/">[IE6/7] 複数 class を指定したのに適用されない [Advent Calendar 2015]</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/htmlcss/ie6_7-multiple-class/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1191</post-id>	</item>
+		<item>
+		<title>Webkit系ブラウザでの印刷・box-shadowのバグ？</title>
+		<link>/htmlcss/webki_print/</link>
+		<comments>/htmlcss/webki_print/#respond</comments>
+		<pubDate>Mon, 20 Feb 2012 14:00:07 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[HTML/CSS]]></category>
+		<category><![CDATA[Browser]]></category>
+		<category><![CDATA[CSS]]></category>
+
+		<guid isPermaLink="false">/?p=325</guid>
+		<description><![CDATA[<p>File View (実際にChromeやSafariなどでプリントプレビューしてみてください) 何があったのか Chromeで960pxがあるコンテンツのPrint CSSを書いていて、印刷プレビューすると途中でコンテ [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/htmlcss/webki_print/">Webkit系ブラウザでの印刷・box-shadowのバグ？</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img src="https://i0.wp.com/colopixie.com/wp-content/uploads/2012/02/webkit_print.png?resize=558%2C180" alt="" title="webkit_print" class="aligncenter size-full wp-image-331" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2012/02/webkit_print.png?w=558&amp;ssl=1 558w, https://i0.wp.com/colopixie.com/wp-content/uploads/2012/02/webkit_print.png?resize=300%2C96&amp;ssl=1 300w" sizes="(max-width: 558px) 100vw, 558px" data-recalc-dims="1" /></p>
+<div class="free_fonts"><a href="/wp-content/uploads/2012/02/print.html" target="_blank">File View</a></div>
+<p>(実際にChromeやSafariなどでプリントプレビューしてみてください)</p>
+<h3>何があったのか</h3>
+<p>Chromeで960pxがあるコンテンツのPrint CSSを書いていて、印刷プレビューすると途中でコンテンツが切れてしまうという現象にぶち当たりました(-_-)/~~~ピシー!ピシー!</p>
+<p>そこで、Box-Shadow(inset)を使ってどこまで印刷（なんpx）できるのか試していたのです！</p>
+<p>以下ソース</p>
+<p></p><pre class="crayon-plain-tag">&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;quot; &amp;quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;quot;&amp;gt;
+&amp;lt;html xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot; content=&amp;quot;text/html; charset=UTF-8&amp;quot; /&amp;gt;
+&amp;lt;title&amp;gt;無題ドキュメント&amp;lt;/title&amp;gt;
+
+
+&amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
+
+div {
+	height: 500px;
+	font-size: 24px;
+	font-family: Georgia, &amp;quot;Times New Roman&amp;quot;, Times, serif;
+	color: #fff;
+	line-height:50px;
+}
+#w750 {
+	background-color: #3FB8AF;
+	width: 750px;
+	box-shadow: 0 0 5px #3FB8AF inset;
+	-o-box-shadow: 0 0 5px #3FB8AF inset;
+}
+
+#w800 {
+	background-color: #7FC7AF;
+	width: 800px;
+	box-shadow: 0 0 5px #7FC7AF inset;
+}
+
+
+#w850 {
+	background-color: #DAD8A7;
+	width: 850px;
+	box-shadow: 0 0 5px #DAD8A7 inset;
+}
+
+#w900 {
+	
+	background-color: #FF9E9D;
+	width: 900px;
+	box-shadow: 0 0 5px #FF9E9D inset;
+}
+
+
+#w950 {
+	background-color: #FF3D7F;
+	width: 950px;
+	box-shadow: 0 0 5px #FF3D7F inset;
+}
+
+&amp;lt;/style&amp;gt;
+
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body&amp;gt;
+
+&amp;lt;div id=&amp;quot;w950&amp;quot;&amp;gt;
+950px
+
+&amp;lt;div id=&amp;quot;w900&amp;quot;&amp;gt;
+900px
+&amp;lt;div id=&amp;quot;w850&amp;quot;&amp;gt;
+850px
+&amp;lt;div id=&amp;quot;w800&amp;quot;&amp;gt;
+800px
+&amp;lt;div id=&amp;quot;w750&amp;quot;&amp;gt;
+750px
+&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;</pre><p></p>
+<p>しかし</p>
+<p>分かりやす行く色分けしていたのですが、印刷プレビューをみると・・・・・！？</p>
+<p>あれ…</p>
+<p>全部一番内側のBox-shadowの色になってね…</p>
+<p>どういうことなんでしょうね…</p>
+<p>ふしぎです。</p>
+<h3>何か</h3>
+<p>このソースおかしくね。バカじゃねーの。まじありえなーい。などありましたら<a href="http://twitter.com/puzzeljp" target="_blank">@puzzeljp</a>までリプライくれると、やべーまじ感謝だわー。といって喜びます。<br />
+これまじバグ！とかくれると、てへぺろ〜〜〜〜といって納得してバグ発見かも〜と喜びます。</p>
+<div class="free_fonts"><a href="/wp-content/uploads/2012/02/print.html" target="_blank">File View</a></div>
+<p>(実際にChromeやSafariなどでプリントプレビューしてみてください)</p>
+<p>投稿<a rel="nofollow" href="/htmlcss/webki_print/">Webkit系ブラウザでの印刷・box-shadowのバグ？</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/htmlcss/webki_print/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">325</post-id>	</item>
+		<item>
+		<title>Checkboxを綺麗にするん</title>
+		<link>/htmlcss/checkbox_design/</link>
+		<comments>/htmlcss/checkbox_design/#respond</comments>
+		<pubDate>Thu, 15 Dec 2011 15:01:49 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[HTML/CSS]]></category>
+		<category><![CDATA[Checkbox]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[JS]]></category>
+
+		<guid isPermaLink="false">/?p=237</guid>
+		<description><![CDATA[<p>Checkboxにあるチェックをなくしてなんかクリックしてこれ選択してるんじゃいって感じにできるようにしてみた。 ⇒⇒⇒⇒⇒Checkboxを綺麗にするん ▼こんな感じです HTML [crayon-5a8f98b9dd [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/htmlcss/checkbox_design/">Checkboxを綺麗にするん</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/12/checkd.png?resize=558%2C180" alt="" title="checkd" class="alignnone size-full wp-image-238" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/12/checkd.png?w=558&amp;ssl=1 558w, https://i1.wp.com/colopixie.com/wp-content/uploads/2011/12/checkd.png?resize=300%2C96&amp;ssl=1 300w" sizes="(max-width: 558px) 100vw, 558px" data-recalc-dims="1" /><br />
+Checkboxにあるチェックをなくしてなんかクリックしてこれ選択してるんじゃいって感じにできるようにしてみた。</p>
+<p>⇒⇒⇒⇒⇒<a href="/sample/check_input_design/" target="_blank" link="Checkboxを綺麗にするん">Checkboxを綺麗にするん</a></p>
+<h3>▼こんな感じです</h3>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/12/a98fbc4513a2de5dafcf51bec1dc4289.png" rel="lightbox[237]" title="スクリーンショット 2011-12-15 23.43.33"><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/12/a98fbc4513a2de5dafcf51bec1dc4289-1024x991.png?w=100%25" alt="" title="スクリーンショット 2011-12-15 23.43.33" class="aligncenter size-large wp-image-239" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/12/a98fbc4513a2de5dafcf51bec1dc4289.png?resize=1024%2C991&amp;ssl=1 1024w, https://i2.wp.com/colopixie.com/wp-content/uploads/2011/12/a98fbc4513a2de5dafcf51bec1dc4289.png?resize=300%2C290&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2011/12/a98fbc4513a2de5dafcf51bec1dc4289.png?w=1153&amp;ssl=1 1153w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<h3>HTML</h3>
+<p></p><pre class="crayon-plain-tag">&amp;lt;form action=&amp;quot;&amp;quot; id=&amp;quot;form&amp;quot; method=&amp;quot;post&amp;quot;&amp;gt;
+&amp;lt;label for=&amp;quot;checkbox1&amp;quot;&amp;gt;
+	&amp;lt;input type=&amp;quot;checkbox&amp;quot; name=&amp;quot;Checkbox&amp;quot; value=&amp;quot;Checkbox&amp;quot; id=&amp;quot;checkbox1&amp;quot; checked=&amp;quot;checked&amp;quot; /&amp;gt;Checkbox
+&amp;lt;/label&amp;gt;
+......</pre><p></p>
+<h3>CSS</h3>
+<p></p><pre class="crayon-plain-tag">label input {
+	width: 500px !important;
+	position: absolute;
+	display: block;
+	padding: 5px 15px;
+	height: 20px !important;
+	left: -20px
+}
+label{	
+	position: relative;
+	height: 20px !important;
+	
+	border: 1px solid #ddd;
+	display: block;
+	float:left;
+	margin: 5px;
+	line-height: 20px !important;
+	border-radius: 3px;
+	padding: 5px 15px;
+	background: url(check.png);
+   	overflow: hidden; 
+}</pre><p></p>
+<ul>
+<li>checkbox部分はleft:-20pxでぶっ飛ばしてから親のlabelにoverflow:hiddenして消し去ってます</li>
+</ul>
+<h3>jQuery</h3>
+<p>使ってます。<br />
+自分で頑張って売っていたのですが、諦めてグーグル先生に聞いてみたら<br />
+<a href="http://www.detelu.com/blog/2009/02/jquery-%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%E3%81%8C%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%81%95%E3%82%8C%E3%81%9F%E3%82%89%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB/" target="_blank" link="jQuery – チェックボックスがチェックされたらスタイルを変更する | 1：n – DETELU Blog">jQuery – チェックボックスがチェックされたらスタイルを変更する | 1：n – DETELU Blog</a>の記事にありましたので、使わせて頂きました。ありがたやありがたや…</p><pre class="crayon-plain-tag">$(function(){
+	$(&quot;#form :checked&quot;).each(function(){
+		var isl = $(this).attr(&quot;id&quot;);
+		$(&quot;label[for=&quot;+isl+&quot;]&quot;).css({&quot;border&quot;:&quot;1px solid #cb003a&quot;,&quot;color&quot;:&quot;#fff&quot;,&quot;background&quot;:&quot;url(checked.png)&quot;,&quot;text-shadow&quot;:&quot;-1px -1px 0px #a4002f&quot;});
+	});
+	$(&quot;#form :checkbox&quot;).click(function() {
+		var isl = $(this).attr(&quot;id&quot;);
+		if($(this).attr('checked') == true) {
+			$(&quot;label[for=&quot;+isl+&quot;]&quot;).css({&quot;border&quot;:&quot;1px solid #cb003a&quot;,&quot;color&quot;:&quot;#fff&quot;,&quot;background&quot;:&quot;url(checked.png)&quot;,&quot;text-shadow&quot;:&quot;-1px -1px 0px #a4002f&quot;});
+		} else {
+			$(&quot;label[for=&quot;+isl+&quot;]&quot;).css({&quot;border&quot;:&quot;1px solid #ddd&quot;,&quot;color&quot;:&quot;&quot;,&quot;background&quot;:&quot;url(check.png)&quot;,&quot;text-shadow&quot;:&quot;&quot;});
+		}
+	});
+});</pre><p>jQueryの方は元サイトをみた方がいいと思います。</p>
+<p>とりあえず、Checkboxの見た目をがらーんと変えたい人へ。<br />
+押す場所が大きくなる（できる）ので押しやすい！というメリットがあるような。</p>
+<p>サンプルです：<a href="/sample/check_input_design/" target="_blank" link="Checkboxを綺麗にするん">Checkboxを綺麗にするん</a></p>
+<p>投稿<a rel="nofollow" href="/htmlcss/checkbox_design/">Checkboxを綺麗にするん</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/htmlcss/checkbox_design/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">237</post-id>	</item>
+		<item>
+		<title>スタイルシートを読み込むだけでul,h1などが綺麗になる Cool CSS</title>
+		<link>/htmlcss/coolcss/</link>
+		<comments>/htmlcss/coolcss/#respond</comments>
+		<pubDate>Sun, 04 Sep 2011 12:12:04 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[HTML/CSS]]></category>
+		<category><![CDATA[CSS]]></category>
+
+		<guid isPermaLink="false">/?p=29</guid>
+		<description><![CDATA[<p>リストやｈ１やテーブルなどを簡単に（CSSを１つ読み込ませるだけ）で綺麗にできるCSSです。 使い方 [html]&#60;link rel=&#34;stylesheet&#34; type=&#34;text/c [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/htmlcss/coolcss/">スタイルシートを読み込むだけでul,h1などが綺麗になる Cool CSS</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><a href="http://dl.dropbox.com/u/5840617/coolcss.html" target="_blank"><img src="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/coolcss1.jpg?resize=558%2C180" alt="" title="coolcss" class="alignnone size-full wp-image-45" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/coolcss1.jpg?w=558&amp;ssl=1 558w, https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/coolcss1.jpg?resize=300%2C96&amp;ssl=1 300w" sizes="(max-width: 558px) 100vw, 558px" data-recalc-dims="1" /></a><br />
+<a href="http://dl.dropbox.com/u/5840617/coolcss.html" target="_blank"><img src="https://i1.wp.com/colopixie.com/wp-content/themes/colopixie/images/sampleview.png" alt="sampleview" class="sampleview" data-recalc-dims="1" /></a></p>
+<p>リストやｈ１やテーブルなどを簡単に（CSSを１つ読み込ませるだけ）で綺麗にできるCSSです。</p>
+<h3>使い方</h3>
+<p>[html]&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://puzzel.jp/css/coolcss.css&quot; /&gt; [/html]<br />
+を&lt;head&gt;に入れるだけ！<br />
+Dropboxばん<br />
+[html]&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://dl.dropbox.com/u/5840617/coolcss.css&quot; /&gt; [/html]<br />
+<span id="more-29"></span></p>
+<h3>CSS</h3>
+<p>[css]<br />
+@charset &#8220;UTF-8&#8221;;<br />
+/* CSS Document */</p>
+<p>ul {<br />
+	margin: 0;<br />
+	padding: 0;<br />
+	list-style: none;<br />
+	border: 1px solid #ddd;<br />
+	border-radius: 2px;<br />
+}<br />
+ul li {<br />
+	border-bottom: 1px solid #ddd;<br />
+	border-top: 1px solid #fff;<br />
+	padding: 5px 10px;<br />
+	background: -moz-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -ms-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #f2f2f2));<br />
+    background: -webkit-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -o-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#f2f2f2&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#f2f2f2)&#8221;;<br />
+    background: linear-gradient(#f9f9f9, #f2f2f2);<br />
+	background-color: #f0f0f0;<br />
+}<br />
+ul li a {<br />
+	display: block<br />
+}<br />
+ul li:hover {<br />
+	background: -moz-linear-gradient(#eeeeee, #f2f2f2);<br />
+    background: -ms-linear-gradient(#eeeeee, #f2f2f2);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #f2f2f2));<br />
+    background: -webkit-linear-gradient(#eeeeee, #f2f2f2);<br />
+    background: -o-linear-gradient(#eeeeee, #f2f2f2);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#eeeeee&#8217;, endColorstr=&#8217;#f2f2f2&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#eeeeee&#8217;, endColorstr=&#8217;#f2f2f2)&#8221;;<br />
+    background: linear-gradient(#eeeeee, #f2f2f2);<br />
+	background-color: #eeeeee;<br />
+}<br />
+ol {<br />
+	border: 1px solid #ddd;<br />
+	marign: 0;<br />
+	padding: 0;<br />
+	list-style-position: inside;<br />
+	border-radius: 2px;<br />
+}<br />
+ol li {<br />
+	border-bottom: 1px solid #ddd;<br />
+	border-top: 1px solid #fff;<br />
+	padding: 5px 10px;<br />
+	margin: 0;<br />
+	background: -moz-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -ms-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #f2f2f2));<br />
+    background: -webkit-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -o-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#f2f2f2&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#f2f2f2)&#8221;;<br />
+    background: linear-gradient(#f9f9f9, #f2f2f2);<br />
+	background-color: #f0f0f0;<br />
+}<br />
+ol li:hover {<br />
+	background: -moz-linear-gradient(#eeeeee, #f2f2f2);<br />
+    background: -ms-linear-gradient(#eeeeee, #f2f2f2);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #f2f2f2));<br />
+    background: -webkit-linear-gradient(#eeeeee, #f2f2f2);<br />
+    background: -o-linear-gradient(#eeeeee, #f2f2f2);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#eeeeee&#8217;, endColorstr=&#8217;#f2f2f2&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#eeeeee&#8217;, endColorstr=&#8217;#f2f2f2)&#8221;;<br />
+    background: linear-gradient(#eeeeee, #f2f2f2);<br />
+	background-color: #eeeeee;<br />
+}<br />
+table {<br />
+	border: 1px solid #ddd;<br />
+	border-radius: 5px;<br />
+}<br />
+td {<br />
+	border-bottom: 1px solid #ddd;<br />
+	border-top: 1px solid #fff;<br />
+	padding: 5px 10px;<br />
+	margin: 0;<br />
+	background: -moz-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -ms-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #f2f2f2));<br />
+    background: -webkit-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -o-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#f2f2f2&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#f2f2f2)&#8221;;<br />
+    background: linear-gradient(#f9f9f9, #f2f2f2);<br />
+	background-color: #f0f0f0;<br />
+}<br />
+td:hover {<br />
+	background: -moz-linear-gradient(#eeeeee, #f2f2f2);<br />
+    background: -ms-linear-gradient(#eeeeee, #f2f2f2);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #f2f2f2));<br />
+    background: -webkit-linear-gradient(#eeeeee, #f2f2f2);<br />
+    background: -o-linear-gradient(#eeeeee, #f2f2f2);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#eeeeee&#8217;, endColorstr=&#8217;#f2f2f2&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#eeeeee&#8217;, endColorstr=&#8217;#f2f2f2)&#8221;;<br />
+    background: linear-gradient(#eeeeee, #f2f2f2);<br />
+	background-color: #eeeeee;<br />
+}<br />
+.firstTd {<br />
+	background: -moz-linear-gradient(#dddddd, #cccccc) !important;<br />
+    background: -ms-linear-gradient(#dddddd, #cccccc) !important;<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(100%, #cccccc)) !important;<br />
+    background: -webkit-linear-gradient(#dddddd, #cccccc) !important;<br />
+    background: -o-linear-gradient(#dddddd, #cccccc) !important;<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#dddddd&#8217;, endColorstr=&#8217;#cccccc&#8217;) !important;<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#dddddd&#8217;, endColorstr=&#8217;#cccccc)&#8221; !important;<br />
+    background: linear-gradient(#dddddd, #cccccc) !important;<br />
+	background-color: #dddddd !important;<br />
+}<br />
+tr td:first-child {<br />
+	border-right: 1px solid #ddd;<br />
+}<br />
+tr td:nth-child(2) {<br />
+	border-left: 1px solid #fff;<br />
+}<br />
+h1,h2,h3,h4,h5,h6 {<br />
+	border: 1px solid #ddd;<br />
+	border-bottom: 1px solid #ddd;<br />
+	border-top: 1px solid #eee;<br />
+	padding: 5px 10px;<br />
+	margin: 0;<br />
+	background: -moz-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -ms-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #f2f2f2));<br />
+    background: -webkit-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -o-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#f2f2f2&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#f2f2f2)&#8221;;<br />
+    background: linear-gradient(#f9f9f9, #f2f2f2);<br />
+	background-color: #f0f0f0;<br />
+	font-weight: normal;<br />
+	border-left-style: solid;<br />
+	border-left-width: 3px;<br />
+}<br />
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{<br />
+	background: -moz-linear-gradient(#eeeeee, #f2f2f2);<br />
+    background: -ms-linear-gradient(#eeeeee, #f2f2f2);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #f2f2f2));<br />
+    background: -webkit-linear-gradient(#eeeeee, #f2f2f2);<br />
+    background: -o-linear-gradient(#eeeeee, #f2f2f2);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#eeeeee&#8217;, endColorstr=&#8217;#f2f2f2&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#eeeeee&#8217;, endColorstr=&#8217;#f2f2f2)&#8221;;<br />
+    background: linear-gradient(#eeeeee, #f2f2f2);<br />
+	background-color: #eeeeee;<br />
+}<br />
+h1 {<br />
+	font-size: 1.7em;<br />
+	border-left-color: #39C<br />
+}<br />
+h2 {<br />
+	font-size: 1.6em;<br />
+	border-left-color: #6C9<br />
+}<br />
+h3 {<br />
+	font-size: 1.5em;<br />
+	border-left-color: #F99<br />
+}<br />
+h4 {<br />
+	font-size: 1.4em;<br />
+	border-left-color: #FC6<br />
+}<br />
+h5 {<br />
+	font-size: 1.3em;<br />
+	border-left-color: #66C<br />
+}<br />
+h6 {<br />
+	font-size: 1.2em;<br />
+	border-left-color: #F69<br />
+}<br />
+dl {<br />
+	border-radius: 5px;<br />
+	box-shadow: 0 1px 1px #9f9f9f, 0 1px 0 rgba(255,255,255,0.3) inset;<br />
+}<br />
+dt {<br />
+	padding: 5px 10px;<br />
+	margin: 0;<br />
+	background: -moz-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -ms-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #f2f2f2));<br />
+    background: -webkit-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -o-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#f2f2f2&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#f2f2f2)&#8221;;<br />
+    background: linear-gradient(#f9f9f9, #f2f2f2);<br />
+	background-color: #f0f0f0;<br />
+	font-weight: normal;<br />
+	border-bottom: 1px solid #ddd;<br />
+	font-size: 1.2em;<br />
+}<br />
+dd {<br />
+	background-color: #eee;<br />
+	padding: 5px 10px;<br />
+	margin: 0;<br />
+	border-bottom: 1px solid #ddd;<br />
+}</p>
+<p>pre {<br />
+	font-size: 1em;<br />
+	padding: 20px;<br />
+	font-family: &#8220;Courier New&#8221;, Courier, monospace;<br />
+	background: -moz-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -ms-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #f2f2f2));<br />
+    background: -webkit-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -o-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#f2f2f2&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#f2f2f2)&#8221;;<br />
+    background: linear-gradient(#f9f9f9, #f2f2f2);<br />
+	background-color: #f0f0f0;<br />
+	border-radius: 5px;<br />
+}</p>
+<p>blockquote {<br />
+	margin: 0;<br />
+	padding: 20px 30px;<br />
+	background: -moz-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -ms-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #f2f2f2));<br />
+    background: -webkit-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    background: -o-linear-gradient(#f9f9f9, #f2f2f2);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#f2f2f2&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#f2f2f2)&#8221;;<br />
+    background: linear-gradient(#f9f9f9, #f2f2f2);<br />
+	background-color: #f0f0f0;<br />
+	position:relative;<br />
+	border-radius: 5px;<br />
+}<br />
+blockquote:before {<br />
+	content: &#8216;&#8221;&#8216;;<br />
+	display:block;<br />
+	font-size: 100px;<br />
+	position:absolute;<br />
+	top: -40px;<br />
+	left: -10px;<br />
+	color: #ccc;<br />
+	font-family: &#8220;ヒラギノ角ゴ Pro W3&#8221;, &#8220;Hiragino Kaku Gothic Pro&#8221;, &#8220;メイリオ&#8221;, Meiryo, Osaka, &#8220;ＭＳ Ｐゴシック&#8221;, &#8220;MS PGothic&#8221;, sans-serif<br />
+}<br />
+blockquote:after {<br />
+	content: &#8216;&#8221;&#8216;;<br />
+	display:block;<br />
+	font-size: 100px;<br />
+	position:absolute;<br />
+	bottom: -25px;<br />
+	right: -10px;<br />
+	color: #ccc;<br />
+	font-family: &#8220;ヒラギノ角ゴ Pro W3&#8221;, &#8220;Hiragino Kaku Gothic Pro&#8221;, &#8220;メイリオ&#8221;, Meiryo, Osaka, &#8220;ＭＳ Ｐゴシック&#8221;, &#8220;MS PGothic&#8221;, sans-serif<br />
+}<br />
+.button {<br />
+	padding: 5px 0;<br />
+	font-size: .9em;<br />
+	display:block;<br />
+	width: 150px;<br />
+	text-align: center;<br />
+	border-radius: 25px;<br />
+	cursor: pointer;<br />
+	margin-bottom: 10px;<br />
+	-webkit-transition: all 0.3s ease-in-out;<br />
+	-moz-transition: all 0.3s ease-in-out;<br />
+	-ms-transition: all 0.3s ease-in-out;<br />
+	-o-transition: all 0.3s ease-in-out;<br />
+	opacity: 1.0;<br />
+	-moz-opacity: 1.0;<br />
+	filter: alpha(opacity=100);<br />
+	box-shadow: 0 1px 1px #ddd, 0 1px 0 rgba(255,255,255,0.3) inset;<br />
+}<br />
+.button:hover {<br />
+	opacity: 0.8;<br />
+	-moz-opacity:0.8;<br />
+	filter: alpha(opacity=80);<br />
+}<br />
+.button:active {<br />
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3) inset<br />
+}<br />
+.button1 {<br />
+	background: -moz-linear-gradient(#f9f9f9, #efefef);<br />
+    background: -ms-linear-gradient(#f9f9f9, #efefef);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #efefef));<br />
+    background: -webkit-linear-gradient(#f9f9f9, #efefef);<br />
+    background: -o-linear-gradient(#f9f9f9, #efefef);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#efefef&#8217;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f9f9f9&#8242;, endColorstr=&#8217;#efefef)&#8221;;<br />
+    background: linear-gradient(#f9f9f9, #efefef);<br />
+	background-color: #f0f0f0;<br />
+	border: 1px solid #ddd;<br />
+	text-shadow: -1px 1px 0 #fff;<br />
+}<br />
+.button2 {<br />
+	background: -moz-linear-gradient(#3fbfff, #3399cc);<br />
+    background: -ms-linear-gradient(#3fbfff, #3399cc);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3fbfff), color-stop(100%, #3399cc));<br />
+    background: -webkit-linear-gradient(#3fbfff, #3399cc);<br />
+    background: -o-linear-gradient(#3fbfff, #3399cc);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#3fbfff&#8217;, endColorstr=&#8217;#3399cc&#8217;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#3fbfff&#8217;, endColorstr=&#8217;#3399cc)&#8221;;<br />
+    background: linear-gradient(#3fbfff, #3399cc);<br />
+	color: #fff;<br />
+	border: 1px #3399cc solid;<br />
+	text-shadow: 1px 1px 0 #3399cc;<br />
+}<br />
+.button3 {<br />
+	background: -moz-linear-gradient(#78f0b4, #66cc99);<br />
+    background: -ms-linear-gradient(#78f0b4, #66cc99);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #78f0b4), color-stop(100%, #66cc99));<br />
+    background: -webkit-linear-gradient(#78f0b4, #66cc99);<br />
+    background: -o-linear-gradient(#78f0b4, #66cc99);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#78f0b4&#8242;, endColorstr=&#8217;#66cc99&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#78f0b4&#8242;, endColorstr=&#8217;#66cc99)&#8221;;<br />
+    background: linear-gradient(#78f0b4, #66cc99);<br />
+	color: #fff;<br />
+	border: 1px #66cc99 solid;<br />
+	text-shadow: 1px 1px 0 #66cc99;<br />
+}<br />
+.button4 {<br />
+	background: -moz-linear-gradient(#e78b8b, #b86e6e);<br />
+    background: -ms-linear-gradient(#e78b8b, #b86e6e);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e78b8b), color-stop(100%, #b86e6e));<br />
+    background: -webkit-linear-gradient(#e78b8b, #b86e6e);<br />
+    background: -o-linear-gradient(#e78b8b, #b86e6e);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#e78b8b&#8217;, endColorstr=&#8217;#b86e6e&#8217;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#e78b8b&#8217;, endColorstr=&#8217;#b86e6e)&#8221;;<br />
+    background: linear-gradient(#e78b8b, #b86e6e);<br />
+	color: #fff;<br />
+	border: 1px #b86e6e solid;<br />
+	text-shadow: 1px 1px 0 #b86e6e;<br />
+}<br />
+.button5 {<br />
+	background: -moz-linear-gradient(#eebf60, #b49048);<br />
+    background: -ms-linear-gradient(#eebf60, #b49048);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eebf60), color-stop(100%, #b49048));<br />
+    background: -webkit-linear-gradient(#eebf60, #b49048);<br />
+    background: -o-linear-gradient(#eebf60, #b49048);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#eebf60&#8242;, endColorstr=&#8217;#b49048&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#eebf60&#8242;, endColorstr=&#8217;#b49048)&#8221;;<br />
+    background: linear-gradient(#eebf60, #b49048);<br />
+	border: 1px #b49048 solid;<br />
+	text-shadow: 1px 1px 0 #eebf60;<br />
+}<br />
+.button6 {<br />
+	background: -moz-linear-gradient(#7d7dff, #6666cc);<br />
+    background: -ms-linear-gradient(#7d7dff, #6666cc);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7d7dff), color-stop(100%, #6666cc));<br />
+    background: -webkit-linear-gradient(#7d7dff, #6666cc);<br />
+    background: -o-linear-gradient(#7d7dff, #6666cc);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#7d7dff&#8217;, endColorstr=&#8217;#6666cc&#8217;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#7d7dff&#8217;, endColorstr=&#8217;#6666cc)&#8221;;<br />
+    background: linear-gradient(#7d7dff, #6666cc);<br />
+	color: #fff;<br />
+	border: 1px #6666cc solid;<br />
+	text-shadow: 1px 1px 0 #6666cc;<br />
+}<br />
+.button7 {<br />
+	background: -moz-linear-gradient(#f05f8f, #c55077);<br />
+    background: -ms-linear-gradient(#f05f8f, #c55077);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f05f8f), color-stop(100%, #c55077));<br />
+    background: -webkit-linear-gradient(#f05f8f, #c55077);<br />
+    background: -o-linear-gradient(#f05f8f, #c55077);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f05f8f&#8217;, endColorstr=&#8217;#c55077&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#f05f8f&#8217;, endColorstr=&#8217;#c55077)&#8221;;<br />
+    background: linear-gradient(#f05f8f, #c55077);<br />
+	color: #fff;<br />
+	border: 1px #c55077 solid;<br />
+	text-shadow: 1px 1px 0 #c55077<br />
+}<br />
+.button8 {</p>
+<p>	background: -moz-linear-gradient(#ff2b2b, #ca2424);<br />
+    background: -ms-linear-gradient(#ff2b2b, #ca2424);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff2b2b), color-stop(100%, #ca2424));<br />
+    background: -webkit-linear-gradient(#ff2b2b, #ca2424);<br />
+    background: -o-linear-gradient(#ff2b2b, #ca2424);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#ff2b2b&#8217;, endColorstr=&#8217;#ca2424&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#ff2b2b&#8217;, endColorstr=&#8217;#ca2424)&#8221;;<br />
+    background: linear-gradient(#ff2b2b, #ca2424);<br />
+	color: #fff;<br />
+	border: 1px #ca2424 solid;<br />
+	text-shadow: 1px 1px 0 #ca2424<br />
+}<br />
+.button9 {<br />
+	background: -moz-linear-gradient(#ccff00, #afdb00);<br />
+    background: -ms-linear-gradient(#ccff00, #afdb00);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ccff00), color-stop(100%, #afdb00));<br />
+    background: -webkit-linear-gradient(#ccff00, #afdb00);<br />
+    background: -o-linear-gradient(#ccff00, #afdb00);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#ccff00&#8242;, endColorstr=&#8217;#afdb00&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#ccff00&#8242;, endColorstr=&#8217;#afdb00)&#8221;;<br />
+    background: linear-gradient(#ccff00, #afdb00);<br />
+	border: 1px #afdb00 solid;<br />
+	text-shadow: 1px 1px 0 #ccff00<br />
+}<br />
+.button10 {<br />
+	background: -moz-linear-gradient(#009cff, #0086db);<br />
+    background: -ms-linear-gradient(#009cff, #0086db);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #009cff), color-stop(100%, #0086db));<br />
+    background: -webkit-linear-gradient(#009cff, #0086db);<br />
+    background: -o-linear-gradient(#009cff, #0086db);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#009cff&#8217;, endColorstr=&#8217;#0086db&#8217;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#009cff&#8217;, endColorstr=&#8217;#0086db)&#8221;;<br />
+    background: linear-gradient(#009cff, #0086db);<br />
+	color: #fff;<br />
+	border: 1px #0086db solid;<br />
+	text-shadow: 1px 1px 0 #0086db<br />
+}<br />
+.button11 {<br />
+	background: -moz-linear-gradient(#eb00c2, #c700a4);<br />
+    background: -ms-linear-gradient(#eb00c2, #c700a4);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eb00c2), color-stop(100%, #c700a4));<br />
+    background: -webkit-linear-gradient(#eb00c2, #c700a4);<br />
+    background: -o-linear-gradient(#eb00c2, #c700a4);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#eb00c2&#8242;, endColorstr=&#8217;#c700a4&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#eb00c2&#8242;, endColorstr=&#8217;#c700a4)&#8221;;<br />
+    background: linear-gradient(#eb00c2, #c700a4);<br />
+	color: #fff;<br />
+	border: 1px #c700a4 solid;<br />
+	text-shadow: 1px 1px 0 #c700a4<br />
+}<br />
+.button12 {<br />
+	background: -moz-linear-gradient(#00ccff, #00a7d1);<br />
+    background: -ms-linear-gradient(#00ccff, #00a7d1);<br />
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00ccff), color-stop(100%, #00a7d1));<br />
+    background: -webkit-linear-gradient(#00ccff, #00a7d1);<br />
+    background: -o-linear-gradient(#00ccff, #00a7d1);<br />
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#00ccff&#8217;, endColorstr=&#8217;#00a7d1&#8242;);<br />
+    -ms-filter: &#8220;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#8217;#00ccff&#8217;, endColorstr=&#8217;#00a7d1)&#8221;;<br />
+    background: linear-gradient(#00ccff, #00a7d1);<br />
+	color: #fff;<br />
+	border: 1px #00a7d1 solid;<br />
+	text-shadow: 1px 1px 0 #00a7d1<br />
+}<br />
+[/css]</p>
+<p>ご自由にお使いください。<br />
+<a href="http://dl.dropbox.com/u/5840617/coolcss.html" target="_blank"><img src="https://i1.wp.com/colopixie.com/wp-content/themes/colopixie/images/sampleview.png" alt="sampleview" class="sampleview" data-recalc-dims="1" /></a></p>
+<p>投稿<a rel="nofollow" href="/htmlcss/coolcss/">スタイルシートを読み込むだけでul,h1などが綺麗になる Cool CSS</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/htmlcss/coolcss/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">29</post-id>	</item>
+	</channel>
+</rss>

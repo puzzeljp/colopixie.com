@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ESET &#8211; colopixie</title>
+	<atom:link href="/tag/eset/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.3</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>OS X El Capitan で ESET Cyber Security を使う</title>
+		<link>/computer/use-eset-cyber-security-on-os-x-el-capitan/</link>
+		<comments>/computer/use-eset-cyber-security-on-os-x-el-capitan/#respond</comments>
+		<pubDate>Thu, 12 Nov 2015 10:54:25 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[El Capitan]]></category>
+		<category><![CDATA[ESET]]></category>
+		<category><![CDATA[OS X]]></category>
+
+		<guid isPermaLink="false">/?p=1163</guid>
+		<description><![CDATA[<p>ウイルス対策ソフトウェアとしてWindows/Android/Macで５ライセンス使える「ESET」を使っていたのですが、El Capitan にアップデートしたらエラーがでて使えなくなってしまいました。 公式サイトへ行 [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/use-eset-cyber-security-on-os-x-el-capitan/">OS X El Capitan で ESET Cyber Security を使う</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-1164" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/Artboard-1.png?resize=1360%2C440&#038;ssl=1" alt="Artboard 1" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/Artboard-1.png?w=1360&amp;ssl=1 1360w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/Artboard-1.png?resize=300%2C97&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/Artboard-1.png?resize=1024%2C331&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>ウイルス対策ソフトウェアとしてWindows/Android/Macで５ライセンス使える「ESET」を使っていたのですが、El Capitan にアップデートしたらエラーがでて使えなくなってしまいました。</p>
+<p>公式サイトへ行ってみると、</p>
+<blockquote><p>※ 現在は、ベータ版 / パブリックベータ版を含め、非対応となります。<br />
+ESET製品をご利用の端末については、OS X v10.11 El Capitan へのバージョンアップをお控えくださいますようお願いします。</p></blockquote>
+<p><a href="http://eset-support.canon-its.jp/faq/show/3644?site_domain=default">OS X v10.11 El Capitan への対応について | ESETサポート情報</a></p>
+<p>とのことで、使用できないようでした。<br />
+ただ、１１月中旬には新しいバージョンが公開されるようですが、今のところは公開されていないので困りました。</p>
+<h3>海外版は対応している模様</h3>
+<p>色々探して見ると、海外のESETのダウンロードページに、El Capitan対応の文字が。<br />
+<a href="http://www.eset.com/us/support/download/home/cyber-security-pro/">Download ESET Cyber Security Pro for Mac | ESET</a><br />
+<strong>Ready to download?</strong>からダウンロードできました。</p>
+<p><a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/a52632ddf8358e899091df4645d47e71.png?ssl=1" rel="lightbox[1163]"><img class="aligncenter size-full wp-image-1166" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/a52632ddf8358e899091df4645d47e71.png?resize=1744%2C1136&#038;ssl=1" alt="スクリーンショット 2015-11-12 11.45.42" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/a52632ddf8358e899091df4645d47e71.png?w=1744&amp;ssl=1 1744w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/a52632ddf8358e899091df4645d47e71.png?resize=300%2C195&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/a52632ddf8358e899091df4645d47e71.png?resize=1024%2C667&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p>ダウンロードした dmg をダウンロードしたら、日本版では、ユーザ名とパスワードを要求されますが、海外版ではシリアルキーを求められました。<br />
+試しに、入れてみましたがきちんと認証されました。</p>
+<p><a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/11/70bb50f9612a2c90ff0d83de2c975073.png?ssl=1" rel="lightbox[1163]"><img class="aligncenter size-full wp-image-1169" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/11/70bb50f9612a2c90ff0d83de2c975073.png?resize=1744%2C1136&#038;ssl=1" alt="スクリーンショット 2015-11-12 11.45.59" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/11/70bb50f9612a2c90ff0d83de2c975073.png?w=1744&amp;ssl=1 1744w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/11/70bb50f9612a2c90ff0d83de2c975073.png?resize=300%2C195&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/11/70bb50f9612a2c90ff0d83de2c975073.png?resize=1024%2C667&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+<a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/8491b58153cc82586e5446b75b9b4c5c.png?ssl=1" rel="lightbox[1163]"><img class="aligncenter size-full wp-image-1168" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/8491b58153cc82586e5446b75b9b4c5c.png?resize=1744%2C1136&#038;ssl=1" alt="スクリーンショット 2015-11-12 11.46.03" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/8491b58153cc82586e5446b75b9b4c5c.png?w=1744&amp;ssl=1 1744w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/8491b58153cc82586e5446b75b9b4c5c.png?resize=300%2C195&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/8491b58153cc82586e5446b75b9b4c5c.png?resize=1024%2C667&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+インストール完了です。</p>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/430f7341f5d94ecf0a803fe47b88a1a3.png?ssl=1" rel="lightbox[1163]"><img class="aligncenter size-full wp-image-1167" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/430f7341f5d94ecf0a803fe47b88a1a3.png?resize=2044%2C1326&#038;ssl=1" alt="スクリーンショット 2015-11-12 11.46.11" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/430f7341f5d94ecf0a803fe47b88a1a3.png?w=2044&amp;ssl=1 2044w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/430f7341f5d94ecf0a803fe47b88a1a3.png?resize=300%2C195&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/430f7341f5d94ecf0a803fe47b88a1a3.png?resize=1024%2C664&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+エラーなく使えるようです。</p>
+<p>El Capitanは色々とrootless や Photoshop の不具合等ありますが、ライブ日本語変換（使ってないですが）や、フォントが増えた事、ウィンドウの切り替え等のレスポンスの速さなど便利になった部分がありますね。<br />
+ソフトウェアは大体動くと思いましたが、rootless で制限されたフォルダ等にアクセスするソフトウェアについては対応できてないものもありますので、対応OSはきちんと見ておいたほうが良さそうです。</p>
+<p>投稿<a rel="nofollow" href="/computer/use-eset-cyber-security-on-os-x-el-capitan/">OS X El Capitan で ESET Cyber Security を使う</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/use-eset-cyber-security-on-os-x-el-capitan/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1163</post-id>	</item>
+	</channel>
+</rss>

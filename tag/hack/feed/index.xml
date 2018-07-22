@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>hack &#8211; colopixie</title>
+	<atom:link href="/tag/hack/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.3</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>macOS Sierra で US-600 を使う方法</title>
+		<link>/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/</link>
+		<comments>/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/#respond</comments>
+		<pubDate>Wed, 18 Jan 2017 14:17:09 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[hack]]></category>
+
+		<guid isPermaLink="false">/?p=1348</guid>
+		<description><![CDATA[<p>US-600 が標準のドライバでは、El Capitan までしか対応していないので、暫定的に Sierra で使う方法 基本的には、Terminal で kext を編集しますので、バックアップを忘れずに 事前にUS- [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/">macOS Sierra で US-600 を使う方法</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-large wp-image-1350" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?resize=1024%2C545&#038;ssl=1" alt="" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?resize=1024%2C545&amp;ssl=1 1024w, https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?resize=300%2C160&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?resize=768%2C409&amp;ssl=1 768w, https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?w=1227&amp;ssl=1 1227w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>US-600 が標準のドライバでは、El Capitan までしか対応していないので、暫定的に Sierra で使う方法<br />
+基本的には、Terminal で kext を編集しますので、バックアップを忘れずに</p>
+<p>事前にUS-600のドライバをインストールしておきます。（この状態では作動しない）</p>
+<p></p><pre class="crayon-plain-tag">## ファイルが有るか確認
+$ file /Library/Extensions/TASCAM_US600.kext/Contents/MacOS/TASCAM_US600
+
+## デスクトップに64bitようのファイルを一旦書き出し
+$ sudo lipo -thin x86_64 -output ~/Desktop/TASCAM_US600 /Library/Extensions/TASCAM_US600.kext/Contents/MacOS/TASCAM_US600
+
+## オリジナルファイルの削除
+$ sudo rm /Library/Extensions/TASCAM_US600.kext/Contents/MacOS/TASCAM_US600
+
+## 64bitのファイルを戻す
+$ sudo cp ~/Desktop/TASCAM_US600 /Library/Extensions/TASCAM_US600.kext/Contents/MacOS/
+
+## kext をリロードする
+$ sudo kextload /Library/Extensions/TASCAM_US600.kext
+
+## kext のキャッシュをクリア
+$ sudo rm -rf /System/Library/Caches/com.apple.kext.caches
+
+## ↑でうまく行かなかった場合
+$ sudo kextcache -prelinked-kernel /System/Library/Caches/com.apple.kext.caches/Startup/kernelcache -K /System/Library/Kernels/kernel /System/Library/Extensions</pre><p></p>
+<p>&nbsp;</p>
+<p>via <a href="http://www.tascamforums.com/threads/us-200-not-working-with-macos-sierra.4265/#post-20551">US-200 not working with macOS Sierra</a></p>
+<p>投稿<a rel="nofollow" href="/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/">macOS Sierra で US-600 を使う方法</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1348</post-id>	</item>
+	</channel>
+</rss>

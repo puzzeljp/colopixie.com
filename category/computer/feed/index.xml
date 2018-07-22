@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Computer &#8211; colopixie</title>
+	<atom:link href="/category/computer/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>macOS Sierra で US-600 を使う方法</title>
+		<link>/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/</link>
+		<comments>/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/#respond</comments>
+		<pubDate>Wed, 18 Jan 2017 14:17:09 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[hack]]></category>
+
+		<guid isPermaLink="false">/?p=1348</guid>
+		<description><![CDATA[<p>US-600 が標準のドライバでは、El Capitan までしか対応していないので、暫定的に Sierra で使う方法 基本的には、Terminal で kext を編集しますので、バックアップを忘れずに 事前にUS- [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/">macOS Sierra で US-600 を使う方法</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-large wp-image-1350" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?resize=1024%2C545&#038;ssl=1" alt="" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?resize=1024%2C545&amp;ssl=1 1024w, https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?resize=300%2C160&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?resize=768%2C409&amp;ssl=1 768w, https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?w=1227&amp;ssl=1 1227w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>US-600 が標準のドライバでは、El Capitan までしか対応していないので、暫定的に Sierra で使う方法<br />
+基本的には、Terminal で kext を編集しますので、バックアップを忘れずに</p>
+<p>事前にUS-600のドライバをインストールしておきます。（この状態では作動しない）</p>
+<p></p><pre class="crayon-plain-tag">## ファイルが有るか確認
+$ file /Library/Extensions/TASCAM_US600.kext/Contents/MacOS/TASCAM_US600
+
+## デスクトップに64bitようのファイルを一旦書き出し
+$ sudo lipo -thin x86_64 -output ~/Desktop/TASCAM_US600 /Library/Extensions/TASCAM_US600.kext/Contents/MacOS/TASCAM_US600
+
+## オリジナルファイルの削除
+$ sudo rm /Library/Extensions/TASCAM_US600.kext/Contents/MacOS/TASCAM_US600
+
+## 64bitのファイルを戻す
+$ sudo cp ~/Desktop/TASCAM_US600 /Library/Extensions/TASCAM_US600.kext/Contents/MacOS/
+
+## kext をリロードする
+$ sudo kextload /Library/Extensions/TASCAM_US600.kext
+
+## kext のキャッシュをクリア
+$ sudo rm -rf /System/Library/Caches/com.apple.kext.caches
+
+## ↑でうまく行かなかった場合
+$ sudo kextcache -prelinked-kernel /System/Library/Caches/com.apple.kext.caches/Startup/kernelcache -K /System/Library/Kernels/kernel /System/Library/Extensions</pre><p></p>
+<p>&nbsp;</p>
+<p>via <a href="http://www.tascamforums.com/threads/us-200-not-working-with-macos-sierra.4265/#post-20551">US-200 not working with macOS Sierra</a></p>
+<p>投稿<a rel="nofollow" href="/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/">macOS Sierra で US-600 を使う方法</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1348</post-id>	</item>
+		<item>
+		<title>無刻印キーボードの VAIO Z</title>
+		<link>/computer/non-engraved-keyboard-vaio-z/</link>
+		<comments>/computer/non-engraved-keyboard-vaio-z/#respond</comments>
+		<pubDate>Wed, 06 Apr 2016 14:05:28 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[VAIO Z]]></category>
+
+		<guid isPermaLink="false">/?p=1250</guid>
+		<description><![CDATA[<p>ついにきましたよー 無刻印キーボードの VAIO Z ! 今回買ったのはこれ：VAIO &#124; 商品情報 &#124; VAIO Z VAIO Z は、VAIO Z1 (Zシリーズ &#124; &#124; ソニー), VAIO Z21 (Zシリーズ  [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/non-engraved-keyboard-vaio-z/">無刻印キーボードの VAIO Z</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-1251" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/vaioz.jpg?resize=2000%2C1325&#038;ssl=1" alt="vaioz" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/vaioz.jpg?w=2000&amp;ssl=1 2000w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/vaioz.jpg?resize=300%2C199&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/vaioz.jpg?resize=768%2C509&amp;ssl=1 768w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/vaioz.jpg?resize=1024%2C678&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>ついにきましたよー<br />
+無刻印キーボードの VAIO Z !<br />
+今回買ったのはこれ：<a href="http://vaio.com/products/z131/13-3clam/specification.html" target="_blank">VAIO | 商品情報 | VAIO Z</a><br />
+VAIO Z は、VAIO Z1 (<a href="http://www.sony.jp/vaio/products/Z11/" target="_blank">Zシリーズ | | ソニー</a>), VAIO Z21 (<a href="http://www.sony.jp/vaio/products/Z21/" target="_blank">Zシリーズ | | ソニー</a>)を持っていました。</p>
+<p><strong>スペック</strong></p>
+<ul>
+<li>第二世代ハイスピードSSD（NVMe対応） 256GB</li>
+<li>Windows 10 Pro</li>
+<li>ブラック・勝色ダブルアルマイト仕様</li>
+<li>VJZ1311A</li>
+<li>Core i7-6567U（3.30GHz）</li>
+<li>メモリー16GB（オンボード）</li>
+<li>13.3型ワイド（16:9） WQHD 2560×1440</li>
+<li>英字配列無刻印キーボード</li>
+</ul>
+<p>&nbsp;</p>
+<h3>じゃじゃーん！VAIOの箱です</h3>
+<p><img class="aligncenter size-large wp-image-1254" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0082.jpg?resize=1024%2C683&#038;ssl=1" alt="IMG_0082" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0082.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0082.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0082.jpg?resize=768%2C512&amp;ssl=1 768w, https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0082.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<h3>MacBook と違いビニールではなく、不繊維の袋に入ってます<br />
+<img class="aligncenter size-large wp-image-1255" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0085.jpg?resize=1024%2C683&#038;ssl=1" alt="IMG_0085" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0085.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0085.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0085.jpg?resize=768%2C512&amp;ssl=1 768w, https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0085.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></h3>
+<h3>VAIO 社製の VAIOです。</h3>
+<p>勝色ダブルアルマイト仕様です。</p>
+<p><span id="more-1250"></span></p>
+<p><img class="aligncenter size-large wp-image-1256" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0086.jpg?resize=1024%2C578&#038;ssl=1" alt="IMG_0086" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0086.jpg?resize=1024%2C578&amp;ssl=1 1024w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0086.jpg?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0086.jpg?resize=768%2C433&amp;ssl=1 768w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0086.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /><br />
+<img class="aligncenter size-large wp-image-1257" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0087.jpg?resize=1024%2C683&#038;ssl=1" alt="IMG_0087" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0087.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0087.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0087.jpg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0087.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>購入カードが入ってました。<br />
+<img class="aligncenter size-large wp-image-1258" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0090.jpg?resize=1024%2C683&#038;ssl=1" alt="IMG_0090" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0090.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0090.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0090.jpg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0090.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<h3>無刻印キーボードなので、キーボードが印刷された紙が入ってました。<br />
+<img class="aligncenter size-large wp-image-1259" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0093.jpg?resize=1024%2C683&#038;ssl=1" alt="IMG_0093" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0093.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0093.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0093.jpg?resize=768%2C512&amp;ssl=1 768w, https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0093.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></h3>
+<h3>本体です</h3>
+<h3><img class="aligncenter size-large wp-image-1260" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0099.jpg?resize=1024%2C683&#038;ssl=1" alt="IMG_0099" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0099.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0099.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0099.jpg?resize=768%2C512&amp;ssl=1 768w, https://i1.wp.com/colopixie.com/wp-content/uploads/2016/04/IMG_0099.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /><br />
+VAIO Z ｷﾀ━━━━(ﾟ∀ﾟ)━━━━!!</h3>
+<p><img class="aligncenter size-large wp-image-1270" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000636-5.jpg?resize=1024%2C678&#038;ssl=1" alt="R0000636" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000636-5.jpg?resize=1024%2C678&amp;ssl=1 1024w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000636-5.jpg?resize=300%2C199&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000636-5.jpg?resize=768%2C509&amp;ssl=1 768w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000636-5.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<h3>で、でたー！！</h3>
+<p><img class="aligncenter size-large wp-image-1266" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000638-1.jpg?resize=1024%2C678&#038;ssl=1" alt="R0000638" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000638-1.jpg?resize=1024%2C678&amp;ssl=1 1024w, https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000638-1.jpg?resize=300%2C199&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000638-1.jpg?resize=768%2C509&amp;ssl=1 768w, https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000638-1.jpg?w=2000&amp;ssl=1 2000w, https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000638-1.jpg?w=3000&amp;ssl=1 3000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<h3>Z ENGINE® 基板アクセサリーももちろんついてました。かっこいいですね。</h3>
+<h3><img class="aligncenter size-large wp-image-1263" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000640.jpg?resize=1024%2C678&#038;ssl=1" alt="R0000640" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000640.jpg?resize=1024%2C678&amp;ssl=1 1024w, https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000640.jpg?resize=300%2C199&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000640.jpg?resize=768%2C509&amp;ssl=1 768w, https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000640.jpg?w=2000&amp;ssl=1 2000w, https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000640.jpg?w=3000&amp;ssl=1 3000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /><br />
+モバイルメイン機の買い替え</h3>
+<p><img class="aligncenter size-large wp-image-1253" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000647.jpg?resize=1024%2C659&#038;ssl=1" alt="R0000647" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000647.jpg?resize=1024%2C659&amp;ssl=1 1024w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000647.jpg?resize=300%2C193&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000647.jpg?resize=768%2C494&amp;ssl=1 768w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000647.jpg?w=2000&amp;ssl=1 2000w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/R0000647.jpg?w=3000&amp;ssl=1 3000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>MacBook Pro 15 inch with Retina Display (Early 2013) から VAIO Z 2016 に Mac から Windows に変更しましたが、最近ではLightroom、Photoshop、Illustrator は主に使ってますが、Vegas Pro も使うことも多いので Mac 上で Windows で使っていたので、そういった意味でWindowsでも心配なさそうです。<br />
+Sketch とか Flinto については MacBook があるのでそっちで代用しようかなと。</p>
+<p>WIN SCORE SHAREで見ると、SSDの高さがずば抜けていますね。<br />
+<a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/Screenshot_NoName_2016-4-2_23-1-15_No-00.png?ssl=1" rel="lightbox[1250]"><img class="alignnone wp-image-1276 size-medium" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/Screenshot_NoName_2016-4-2_23-1-15_No-00.png?resize=300%2C261&#038;ssl=1" alt="Screenshot_NoName_2016-4-2_23-1-15_No-00" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/Screenshot_NoName_2016-4-2_23-1-15_No-00.png?resize=300%2C261&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/Screenshot_NoName_2016-4-2_23-1-15_No-00.png?resize=768%2C667&amp;ssl=1 768w, https://i2.wp.com/colopixie.com/wp-content/uploads/2016/04/Screenshot_NoName_2016-4-2_23-1-15_No-00.png?w=961&amp;ssl=1 961w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a></p>
+<p>Read が 2133 (MB/s) というノートPCでようわからん速さがでてます。ファイルのコピーだったりもめちゃくちゃ早いです。<br />
+<img class="wp-image-1277 size-medium alignnone" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/SnapCrab_CrystalDiskMark-512-x64_2016-4-3_13-16-27_No-00.png?resize=300%2C273&#038;ssl=1" alt="SnapCrab_CrystalDiskMark 512 x64_2016-4-3_13-16-27_No-00" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/SnapCrab_CrystalDiskMark-512-x64_2016-4-3_13-16-27_No-00.png?resize=300%2C273&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2016/04/SnapCrab_CrystalDiskMark-512-x64_2016-4-3_13-16-27_No-00.png?w=602&amp;ssl=1 602w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></p>
+<p>Badなこと</p>
+<ul>
+<li>なぜかWi-Fiがくっそ不安定です。いきなりWi-FiがOFFになり再起動しないかぎり復帰しません</li>
+<li>お値段が高すぎます。</li>
+<li>ブラックスクリーンになることが多いです。（スリープ解除したらブラックスクリーンでなにもできない・・・アプリの問題な気もする）</li>
+<li>Vegas Pro + After Effects を同時起動すると、映像の音声が途切れ始める。Windowsのメインマシンが、Corei7 4810MQ / 32GB / K2100M とかいうノートPCなので、それと比べるとグラフィックとCPU性能は低くて辛さを感じます。CPUが追いつきません。</li>
+<li>USBポートが2つしかない</li>
+<li>Type C とかやっぱりほしい。</li>
+<li>外部ディスプレイがHDMIだけなのでも心もとない。</li>
+</ul>
+<h3>まとめ</h3>
+<p>ビジネスPCとしては、めちゃくちゃいいです。かっこいいし、Windows だからWordとかもめちゃ使えるし。SSD早すぎて、いろんなファイルが爆速で開きます。Photoshop,Illustratorもフォント数が5000くらいあってもさっと起動します。良いです。<br />
+ただ、After Effects とか C4D とかは流石に限界を感じます。辛いってなります。CPU が Quad Core じゃないとかいろいろありますが、仕方ないので諦めます。グラボに比較的負担をかけると、ブルースクリーンにもなるのも嫌ですね。</p>
+<p>キーボードの打ち心地も上場で、このブログを書いている感じでは、普段使っている HHKB Pro よりは劣りますが、 MacBook Pro のキーよりは打ちやすく感じます。MacBook よりはすごくマシです。</p>
+<p>クラムシェルが出た VAIO Z 、ぜひいかがですか。無刻印VAIO Z 所有感的には最高です。<br />
+VAIO S11 のインターフェイスで VAIO Z がでたらまた考えます。</p>
+<p>投稿<a rel="nofollow" href="/computer/non-engraved-keyboard-vaio-z/">無刻印キーボードの VAIO Z</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/non-engraved-keyboard-vaio-z/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1250</post-id>	</item>
+		<item>
+		<title>純正の4分の1で購入出来る MacBook 対応の マルチポートアダプタ(VGA版)</title>
+		<link>/computer/macbook-multiport-vga/</link>
+		<comments>/computer/macbook-multiport-vga/#respond</comments>
+		<pubDate>Mon, 07 Dec 2015 10:04:24 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[MacBook]]></category>
+		<category><![CDATA[TYPE-C]]></category>
+		<category><![CDATA[USB-C]]></category>
+
+		<guid isPermaLink="false">/?p=1171</guid>
+		<description><![CDATA[<p>MacBook を買ってから、純正のUSB-C Digital AV Multiportアダプタ &#8211; Apple (日本)を使っていましたが、プロジェクターを使う時に、VGA(アナログRGB端子)がやはり必要 [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/macbook-multiport-vga/">純正の4分の1で購入出来る MacBook 対応の マルチポートアダプタ(VGA版)</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-1183" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/macbook_multiport_vga.png?resize=2000%2C794&#038;ssl=1" alt="macbook_multiport_vga" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/macbook_multiport_vga.png?w=2000&amp;ssl=1 2000w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/macbook_multiport_vga.png?resize=300%2C119&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/macbook_multiport_vga.png?resize=1024%2C407&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>MacBook を買ってから、純正の<a href="http://www.apple.com/jp/shop/product/MJ1K2AM/A/usb-c-digital-av-multiport%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF">USB-C Digital AV Multiportアダプタ &#8211; Apple (日本)</a>を使っていましたが、プロジェクターを使う時に、VGA(アナログRGB端子)がやはり必要で、HDMI→VGA変換アダプタを挟むなど無駄なことをしてましたが、どうも邪魔なので、ふとAmazonを見ていると、安価なマルチポートアダプタを発見して買ってみたので、軽くレビューしてみます。</p>
+<p>ちなみに、USBポートがきつすぎる以外は充電もできますし、VGA出力も可能でした。</p>
+<div class="amazlet-box" style="margin-bottom: 0px; border: 2px solid #eee; padding-top: 20px;">
+<div class="amazlet-image" style="float: left; margin: 0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B018EFDHYS/maybexxx-22/ref=nosim/" target="_blank" name="amazletlink"><img style="border: none;" src="https://i0.wp.com/ecx.images-amazon.com/images/I/31YU1SmN55L._SL160_.jpg" alt="【KanaaN カナーン】MacBook 12" data-recalc-dims="1" /></a></div>
+<div class="amazlet-info" style="line-height: 120%; margin-bottom: 10px;">
+<div class="amazlet-name" style="margin-bottom: 10px; line-height: 120%;">
+<p><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B018EFDHYS/maybexxx-22/ref=nosim/" target="_blank" name="amazletlink">【KanaaN カナーン】MacBook 12&#8243;用 USB-C マルチポート アダプター | USBスティックや外付けハードディスクのようにプロジェクタ、モニター、外付けハードディスクとVGA ,USBを接続　充電機能</a></p>
+<div class="amazlet-powered-date" style="font-size: 80%; margin-top: 5px; line-height: 120%;">posted with <a title="amazlet" href="http://www.amazlet.com/" target="_blank">amazlet</a> at 15.12.07</div>
+</div>
+<div class="amazlet-detail">LEICKE KanaaN　ライケカナーン<br />
+売り上げランキング: 32,953</div>
+<div class="amazlet-sub-info" style="float: left;">
+<div class="amazlet-link" style="margin-top: 5px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B018EFDHYS" target="_blank" name="amazletlink">Amazon.co.jpで詳細を見る</a></div>
+</div>
+</div>
+<div class="amazlet-footer" style="clear: left;"></div>
+</div>
+<p>&nbsp;</p>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4547.jpg?ssl=1" rel="lightbox[1171]"><img class="aligncenter size-full wp-image-1172" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4547.jpg?resize=2000%2C1333&#038;ssl=1" alt="IMG_4547" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4547.jpg?w=2000&amp;ssl=1 2000w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4547.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4547.jpg?resize=1024%2C682&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p>パッケージは、あ〜。ってなるような中華クオリティーパッケージです。</p>
+<p>&nbsp;</p>
+<p><a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4550.jpg?ssl=1" rel="lightbox[1171]"><img class="aligncenter size-full wp-image-1173" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4550.jpg?resize=2000%2C1333&#038;ssl=1" alt="IMG_4550" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4550.jpg?w=2000&amp;ssl=1 2000w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4550.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4550.jpg?resize=1024%2C682&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p>USB端子が左に上がっているような気がしますね。また、AppleではUSB3.0の端子は白色ですが、通常の青色ですね。</p>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4551.jpg?ssl=1" rel="lightbox[1171]"><img class="aligncenter size-full wp-image-1174" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4551.jpg?resize=2000%2C1333&#038;ssl=1" alt="IMG_4551" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4551.jpg?w=2000&amp;ssl=1 2000w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4551.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4551.jpg?resize=1024%2C682&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p>純正のアダプタを上に乗せてみましたが、めっちゃでかいです。本当。</p>
+<p><a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4552.jpg?ssl=1" rel="lightbox[1171]"><img class="aligncenter size-full wp-image-1175" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4552.jpg?resize=2000%2C1333&#038;ssl=1" alt="IMG_4552" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4552.jpg?w=2000&amp;ssl=1 2000w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4552.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4552.jpg?resize=1024%2C682&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p>もっと詳しく見てみると、Apple純正のもおはすっきり感（端子の金属部は見えない）ですが、曲がっているし、金属が見えてしまっていますね。</p>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4553.jpg?ssl=1" rel="lightbox[1171]"><img class="aligncenter size-full wp-image-1176" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4553.jpg?resize=2000%2C1631&#038;ssl=1" alt="IMG_4553" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4553.jpg?w=2000&amp;ssl=1 2000w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4553.jpg?resize=300%2C245&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4553.jpg?resize=1024%2C835&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p>上から見た様子。（純正が相当痛んでいますが）大きさはUSB分大きいですね。VGA端子のネジがある影響でしょうか。</p>
+<p>&nbsp;</p>
+<p><a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4555.jpg?ssl=1" rel="lightbox[1171]"><img class="aligncenter size-full wp-image-1177" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4555.jpg?resize=2000%2C1333&#038;ssl=1" alt="IMG_4555" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4555.jpg?w=2000&amp;ssl=1 2000w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4555.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4555.jpg?resize=1024%2C682&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p>差込口ですが、ELECOMのUSB-C→USB-A 3.0のアダプタと同じように、先っぽが黒く加工されています。</p>
+<div class="amazlet-box" style="margin-bottom: 0px; border: 2px solid #eee; padding-top: 20px;">
+<div class="amazlet-image" style="float: left; margin: 0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00ZEN4M0C/maybexxx-22/ref=nosim/" target="_blank" name="amazletlink"><img style="border: none;" src="https://i1.wp.com/ecx.images-amazon.com/images/I/31ZgJtO45wL._SL160_.jpg" alt="ELECOM USB Type-C変換 ケーブル ブラック USB3-AFCM01BK" data-recalc-dims="1" /></a></div>
+<div class="amazlet-info" style="line-height: 120%; margin-bottom: 10px;">
+<div class="amazlet-name" style="margin-bottom: 10px; line-height: 120%;">
+<p><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00ZEN4M0C/maybexxx-22/ref=nosim/" target="_blank" name="amazletlink">ELECOM USB Type-C変換 ケーブル ブラック USB3-AFCM01BK</a></p>
+<div class="amazlet-powered-date" style="font-size: 80%; margin-top: 5px; line-height: 120%;">posted with <a title="amazlet" href="http://www.amazlet.com/" target="_blank">amazlet</a> at 15.12.07</div>
+</div>
+<div class="amazlet-detail">エレコム (2015-06-06)<br />
+売り上げランキング: 47,038</div>
+<div class="amazlet-sub-info" style="float: left;">
+<div class="amazlet-link" style="margin-top: 5px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00ZEN4M0C/naoyadyndnsor-22/ref=nosim/" target="_blank" name="amazletlink">Amazon.co.jpで詳細を見る</a></div>
+</div>
+</div>
+<div class="amazlet-footer" style="clear: left;"></div>
+</div>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4560.jpg?ssl=1" rel="lightbox[1171]"><img class="aligncenter size-full wp-image-1179" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4560.jpg?resize=2000%2C1333&#038;ssl=1" alt="IMG_4560" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4560.jpg?w=2000&amp;ssl=1 2000w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4560.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4560.jpg?resize=1024%2C682&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p>相当無理やりですが、USBメモリを挿してみました。</p>
+<p><a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4557.jpg?ssl=1" rel="lightbox[1171]"><img class="aligncenter size-full wp-image-1178" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4557.jpg?resize=2000%2C1333&#038;ssl=1" alt="IMG_4557" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4557.jpg?w=2000&amp;ssl=1 2000w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4557.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4557.jpg?resize=1024%2C682&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p><a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/Screenshot-2015-12-07-16.33.46.png?ssl=1" rel="lightbox[1171]"><img class="aligncenter size-full wp-image-1189" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/Screenshot-2015-12-07-16.33.46.png?resize=290%2C144&#038;ssl=1" alt="Screenshot 2015-12-07 16.33.46" data-recalc-dims="1" /></a></p>
+<p>USB認識しました。（よかった）</p>
+<p><a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4564.jpg?ssl=1" rel="lightbox[1171]"><img class="aligncenter wp-image-1180 size-medium" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4564.jpg?resize=200%2C300&#038;ssl=1" alt="IMG_4564" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4564.jpg?resize=200%2C300&amp;ssl=1 200w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4564.jpg?resize=682%2C1024&amp;ssl=1 682w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4564.jpg?w=1333&amp;ssl=1 1333w" sizes="(max-width: 200px) 100vw, 200px" data-recalc-dims="1" /></a></p>
+<p>VGA接続で、ミラーリングしてみましたが、正常に表示できました。<br />
+Amazonの説明では、Full HDまでと書いてありますが、U2412MでWUXGAでも表示できました。</p>
+<p><a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4565.jpg?ssl=1" rel="lightbox[1171]"><img class="aligncenter size-full wp-image-1181" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4565.jpg?resize=2000%2C1333&#038;ssl=1" alt="IMG_4565" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4565.jpg?w=2000&amp;ssl=1 2000w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4565.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4565.jpg?resize=1024%2C682&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p>無事にアダプタを通して充電もできました。</p>
+<p>&nbsp;</p>
+<h3>まとめ</h3>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4566.jpg?ssl=1" rel="lightbox[1171]"><img class="aligncenter size-full wp-image-1182" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4566.jpg?resize=2000%2C1333&#038;ssl=1" alt="IMG_4566" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4566.jpg?w=2000&amp;ssl=1 2000w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4566.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_4566.jpg?resize=1024%2C682&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p>純正と比べると、重さだったりとかケーブルの質感、差込口のできなど様々ありますが、４分１で入手できるのはやはり魅力的です。USBも使いたいし、ディスプレイ出力も、充電もしたい。けど高い金を払いたくないと思う方は買いかもしれません。</p>
+<p>ただ、中華クオリテイなので、いつ壊れるかわかりません。</p>
+<p>&nbsp;</p>
+<p>投稿<a rel="nofollow" href="/computer/macbook-multiport-vga/">純正の4分の1で購入出来る MacBook 対応の マルチポートアダプタ(VGA版)</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/macbook-multiport-vga/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1171</post-id>	</item>
+		<item>
+		<title>OS X El Capitan で ESET Cyber Security を使う</title>
+		<link>/computer/use-eset-cyber-security-on-os-x-el-capitan/</link>
+		<comments>/computer/use-eset-cyber-security-on-os-x-el-capitan/#respond</comments>
+		<pubDate>Thu, 12 Nov 2015 10:54:25 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[El Capitan]]></category>
+		<category><![CDATA[ESET]]></category>
+		<category><![CDATA[OS X]]></category>
+
+		<guid isPermaLink="false">/?p=1163</guid>
+		<description><![CDATA[<p>ウイルス対策ソフトウェアとしてWindows/Android/Macで５ライセンス使える「ESET」を使っていたのですが、El Capitan にアップデートしたらエラーがでて使えなくなってしまいました。 公式サイトへ行 [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/use-eset-cyber-security-on-os-x-el-capitan/">OS X El Capitan で ESET Cyber Security を使う</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-1164" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/Artboard-1.png?resize=1360%2C440&#038;ssl=1" alt="Artboard 1" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/Artboard-1.png?w=1360&amp;ssl=1 1360w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/Artboard-1.png?resize=300%2C97&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/Artboard-1.png?resize=1024%2C331&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>ウイルス対策ソフトウェアとしてWindows/Android/Macで５ライセンス使える「ESET」を使っていたのですが、El Capitan にアップデートしたらエラーがでて使えなくなってしまいました。</p>
+<p>公式サイトへ行ってみると、</p>
+<blockquote><p>※ 現在は、ベータ版 / パブリックベータ版を含め、非対応となります。<br />
+ESET製品をご利用の端末については、OS X v10.11 El Capitan へのバージョンアップをお控えくださいますようお願いします。</p></blockquote>
+<p><a href="http://eset-support.canon-its.jp/faq/show/3644?site_domain=default">OS X v10.11 El Capitan への対応について | ESETサポート情報</a></p>
+<p>とのことで、使用できないようでした。<br />
+ただ、１１月中旬には新しいバージョンが公開されるようですが、今のところは公開されていないので困りました。</p>
+<h3>海外版は対応している模様</h3>
+<p>色々探して見ると、海外のESETのダウンロードページに、El Capitan対応の文字が。<br />
+<a href="http://www.eset.com/us/support/download/home/cyber-security-pro/">Download ESET Cyber Security Pro for Mac | ESET</a><br />
+<strong>Ready to download?</strong>からダウンロードできました。</p>
+<p><a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/a52632ddf8358e899091df4645d47e71.png?ssl=1" rel="lightbox[1163]"><img class="aligncenter size-full wp-image-1166" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/a52632ddf8358e899091df4645d47e71.png?resize=1744%2C1136&#038;ssl=1" alt="スクリーンショット 2015-11-12 11.45.42" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/a52632ddf8358e899091df4645d47e71.png?w=1744&amp;ssl=1 1744w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/a52632ddf8358e899091df4645d47e71.png?resize=300%2C195&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/a52632ddf8358e899091df4645d47e71.png?resize=1024%2C667&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p>ダウンロードした dmg をダウンロードしたら、日本版では、ユーザ名とパスワードを要求されますが、海外版ではシリアルキーを求められました。<br />
+試しに、入れてみましたがきちんと認証されました。</p>
+<p><a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/11/70bb50f9612a2c90ff0d83de2c975073.png?ssl=1" rel="lightbox[1163]"><img class="aligncenter size-full wp-image-1169" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/11/70bb50f9612a2c90ff0d83de2c975073.png?resize=1744%2C1136&#038;ssl=1" alt="スクリーンショット 2015-11-12 11.45.59" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/11/70bb50f9612a2c90ff0d83de2c975073.png?w=1744&amp;ssl=1 1744w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/11/70bb50f9612a2c90ff0d83de2c975073.png?resize=300%2C195&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/11/70bb50f9612a2c90ff0d83de2c975073.png?resize=1024%2C667&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+<a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/8491b58153cc82586e5446b75b9b4c5c.png?ssl=1" rel="lightbox[1163]"><img class="aligncenter size-full wp-image-1168" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/8491b58153cc82586e5446b75b9b4c5c.png?resize=1744%2C1136&#038;ssl=1" alt="スクリーンショット 2015-11-12 11.46.03" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/8491b58153cc82586e5446b75b9b4c5c.png?w=1744&amp;ssl=1 1744w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/8491b58153cc82586e5446b75b9b4c5c.png?resize=300%2C195&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/11/8491b58153cc82586e5446b75b9b4c5c.png?resize=1024%2C667&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+インストール完了です。</p>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/430f7341f5d94ecf0a803fe47b88a1a3.png?ssl=1" rel="lightbox[1163]"><img class="aligncenter size-full wp-image-1167" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/430f7341f5d94ecf0a803fe47b88a1a3.png?resize=2044%2C1326&#038;ssl=1" alt="スクリーンショット 2015-11-12 11.46.11" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/430f7341f5d94ecf0a803fe47b88a1a3.png?w=2044&amp;ssl=1 2044w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/430f7341f5d94ecf0a803fe47b88a1a3.png?resize=300%2C195&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/11/430f7341f5d94ecf0a803fe47b88a1a3.png?resize=1024%2C664&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+エラーなく使えるようです。</p>
+<p>El Capitanは色々とrootless や Photoshop の不具合等ありますが、ライブ日本語変換（使ってないですが）や、フォントが増えた事、ウィンドウの切り替え等のレスポンスの速さなど便利になった部分がありますね。<br />
+ソフトウェアは大体動くと思いましたが、rootless で制限されたフォルダ等にアクセスするソフトウェアについては対応できてないものもありますので、対応OSはきちんと見ておいたほうが良さそうです。</p>
+<p>投稿<a rel="nofollow" href="/computer/use-eset-cyber-security-on-os-x-el-capitan/">OS X El Capitan で ESET Cyber Security を使う</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/use-eset-cyber-security-on-os-x-el-capitan/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1163</post-id>	</item>
+		<item>
+		<title>K2100M と Windows 10 の組み合わせで画面描写がバグる対処方法</title>
+		<link>/computer/k2100m_windows-10_displaycrash/</link>
+		<comments>/computer/k2100m_windows-10_displaycrash/#respond</comments>
+		<pubDate>Mon, 26 Oct 2015 16:24:00 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[nVIDIA]]></category>
+		<category><![CDATA[不具合]]></category>
+
+		<guid isPermaLink="false">/?p=1159</guid>
+		<description><![CDATA[<p>最近、QUADRO の K2100M が搭載されたＰＣを買って、プリいインストールは Windows 7 だったのですが、ディスプレイが4KでDPIの設定がうまくできなく重い腰を上げながら（？） Windows 10 に [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/k2100m_windows-10_displaycrash/">K2100M と Windows 10 の組み合わせで画面描写がバグる対処方法</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-1160" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/k2100m_w10_display.png?resize=1360%2C440&#038;ssl=1" alt="k2100m_w10_display" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/k2100m_w10_display.png?w=1360&amp;ssl=1 1360w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/k2100m_w10_display.png?resize=300%2C97&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/k2100m_w10_display.png?resize=1024%2C331&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>最近、QUADRO の K2100M が搭載されたＰＣを買って、プリいインストールは Windows 7 だったのですが、ディスプレイが4KでDPIの設定がうまくできなく重い腰を上げながら（？）<br />
+Windows 10 にアップデートしました。</p>
+<p>そこで問題が。<br />
+動画やPhotoshop・Illustrator、Explorerでの画面描写がおかしなことになってしまいました。<br />
+少し負担をかけると下記のような状態に。</p>
+<p><iframe src="https://vine.co/v/eYK97eApjl2/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script></p>
+<p>デスクトップの壁紙がちらちらと浮き出てくる現象。<br />
+謎ですし、映像を見るきが起きません。。。</p>
+<p>そういえば、Chromeってなんかしてたよねってことで、<code>chrome://flags/</code> にいき、DirectWrite を無効にするを有効にしてみました。<br />
+そうすると、Chromeで動画を再生しているときにはこのちらちら現象がなくなりました。</p>
+<p>しかし、Explorerなどでは状況は変わりません。Windows Updateやメーカー提供のドライバーは降ってきません。。。</p>
+<p>そこでシステムの復元とシステムバックアップを取り、NVIDIA から最新のドライバをインストールすることにしてみました。<br />
+<a href="http://www.nvidia.com/Download/index.aspx?lang=en-us">Drivers &#8211; Download NVIDIA Drivers</a></p>
+<p>インストールをし、再起動を行うと。。。あのチラチラが消えていきました！<br />
+Windows 10になり、裏側が多少なりとも変わったようです。</p>
+<p>ただ、PhotoshopとIllustratorは３０秒毎に応答なしとなってしまうので、これはどうにかならないかと探っているところです。。。。とほほ。</p>
+<p>投稿<a rel="nofollow" href="/computer/k2100m_windows-10_displaycrash/">K2100M と Windows 10 の組み合わせで画面描写がバグる対処方法</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/k2100m_windows-10_displaycrash/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1159</post-id>	</item>
+		<item>
+		<title>iPhone 6s Plus を 1週間使ってみた。</title>
+		<link>/review/iphone-6s-plus-1week/</link>
+		<comments>/review/iphone-6s-plus-1week/#respond</comments>
+		<pubDate>Sun, 04 Oct 2015 08:28:45 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[Review]]></category>
+		<category><![CDATA[iPhone]]></category>
+
+		<guid isPermaLink="false">/?p=1148</guid>
+		<description><![CDATA[<p>Apple Online Shop で予約当日の16:20頃に予約が完了した iPhone 6s Plus (Rose Gold, 128GB)ですが、今週の月曜日に届きまし届きました。 メインの iPhone 6 (S [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/review/iphone-6s-plus-1week/">iPhone 6s Plus を 1週間使ってみた。</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-1149" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/iphone6splus_1week.png?resize=1360%2C440&#038;ssl=1" alt="iphone6splus_1week" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/iphone6splus_1week.png?w=1360&amp;ssl=1 1360w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/iphone6splus_1week.png?resize=300%2C97&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/iphone6splus_1week.png?resize=1024%2C331&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>Apple Online Shop で予約当日の16:20頃に予約が完了した iPhone 6s Plus (Rose Gold, 128GB)ですが、今週の月曜日に届きまし届きました。</p>
+<p>メインの iPhone 6 (Space Gray, 64GB)からの買い替えです。</p>
+<ol>
+<li>動作ががめちゃくちゃ軽い(メモリ2GB)</li>
+<li>本体がめちゃくちゃ重いしでかい。</li>
+<li>Live Photo が便利。めっちゃ楽しそうに写真が撮れる</li>
+</ol>
+<p>iOS 9 については、Preview 版から使っていたので、まだバグだらけって感じですね。</p>
+<p>&nbsp;</p>
+<p><img class="aligncenter size-full wp-image-1151" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/10/21773523752_991afcd6c7_o.jpg?resize=2000%2C754&#038;ssl=1" alt="21773523752_991afcd6c7_o" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/10/21773523752_991afcd6c7_o.jpg?w=2000&amp;ssl=1 2000w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/10/21773523752_991afcd6c7_o.jpg?resize=300%2C113&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/10/21773523752_991afcd6c7_o.jpg?resize=1024%2C386&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>これで、iPhone4 (Black 16GB) &gt; iPhone 4s (White 16Gb) &gt; iPhone 5 ( Silver 32GB ) &gt; iPhone 5s (Gold 32GB) &gt; iPhone 6 (Space Gray 64GB) &gt; iPhone 6s Plus (Rose Gold 128GB)ですね。(下取りで消えてったiPhone多々)</p>
+<h3>良かったこと</h3>
+<ul>
+<li>画面でかいと見やすくなる。（横にした時、iPad のようにカラム追加されるアプリが増える）</li>
+<li>指紋認証が早い</li>
+<li>Live Photo が楽しい！</li>
+</ul>
+<h3>悪いところ</h3>
+<ul>
+<li>持ちにくい（Ringつけてます。）</li>
+<li>指紋認証が早すぎて、ロック画面の通知が見えない</li>
+<li>3D Touch の使い方が未だ分からず。（メールのアーカイブの時だけ使ってる）</li>
+</ul>
+<p>ってな感じです。まだまだ１週間なので、新機能な3D Touch が使えないのがもうちょっとって感じがしますね。</p>
+<p>写真は画素数が上がったので、だいぶ拡大して綺麗！と思えるようになりました。</p>
+<p>4K もまぁ綺麗な感じで4K ディスプレイで見ると、潰れまくってるのできれ〜って感じではなさそうです。</p>
+<p><iframe src="https://www.youtube.com/embed/qnJnlEWGFdo" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />
+また、3D Touchの上手い使い方とか見つけたら、報告します〜。</p>
+<p>使ってるアクセサリー.<br />
+<iframe style="width: 120px; height: 240px;" src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=maybexxx-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00L30W2UW" width="300" height="150" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+<p><iframe style="width: 120px; height: 240px;" src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=maybexxx-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00O1YIW6K" width="300" height="150" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+<p>投稿<a rel="nofollow" href="/review/iphone-6s-plus-1week/">iPhone 6s Plus を 1週間使ってみた。</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/review/iphone-6s-plus-1week/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1148</post-id>	</item>
+		<item>
+		<title>ようやくMacBook を手に入れました。</title>
+		<link>/review/macbook_2015/</link>
+		<comments>/review/macbook_2015/#respond</comments>
+		<pubDate>Sat, 02 May 2015 02:00:47 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[Review]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[MacBook]]></category>
+		<category><![CDATA[PC]]></category>
+
+		<guid isPermaLink="false">/?p=1108</guid>
+		<description><![CDATA[<p>約５ヶ月ぶりの更新です。もう今年も５ヶ月立つんですね。。。！ 毎日 Apple Store に通い詰めて、「MacBook ありますか？」って聞いていたらヨウヤク入荷していました。。。。 長かった。。。。 買ったモデルは [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/review/macbook_2015/">ようやくMacBook を手に入れました。</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-1109" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/macbook_2015.jpg?resize=1360%2C440&#038;ssl=1" alt="macbook_2015" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/macbook_2015.jpg?w=1360&amp;ssl=1 1360w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/macbook_2015.jpg?resize=300%2C97&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/macbook_2015.jpg?resize=1024%2C331&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>約５ヶ月ぶりの更新です。もう今年も５ヶ月立つんですね。。。！<br />
+毎日 Apple Store に通い詰めて、「MacBook ありますか？」って聞いていたらヨウヤク入荷していました。。。。<br />
+長かった。。。。</p>
+<p>買ったモデルは、問題とされている最下位モデル。1.1Ghzなんて久々に聞いたぜ。。<br />
+Apple Store のUS在庫がシルバーのいっちやん安いモデルしかなかったので、即決。</p>
+<p>なぜだかApple Careも入りました。。。（高い。。。）</p>
+<p><a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9703.jpg?ssl=1" rel="lightbox[1108]"><img class="aligncenter size-full wp-image-1110" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9703.jpg?resize=1680%2C1120&#038;ssl=1" alt="IMG_9703" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9703.jpg?w=1680&amp;ssl=1 1680w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9703.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9703.jpg?resize=1024%2C683&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+<a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9706.jpg?ssl=1" rel="lightbox[1108]"><img class="aligncenter size-full wp-image-1111" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9706.jpg?resize=1680%2C1120&#038;ssl=1" alt="IMG_9706" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9706.jpg?w=1680&amp;ssl=1 1680w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9706.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9706.jpg?resize=1024%2C683&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+箱・・・小さいです。。。今まで、MacBook Air 11/13 , MacBook Pro Retina 13/15を買いましたが、ダントツで箱が小さいです。まずそこが驚きです。</p>
+<p><a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9709.jpg?ssl=1" rel="lightbox[1108]"><img class="aligncenter size-full wp-image-1112" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9709.jpg?resize=1680%2C1120&#038;ssl=1" alt="IMG_9709" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9709.jpg?w=1680&amp;ssl=1 1680w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9709.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9709.jpg?resize=1024%2C683&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+<a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9710.jpg?ssl=1" rel="lightbox[1108]"><img class="aligncenter size-full wp-image-1113" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9710.jpg?resize=1680%2C1120&#038;ssl=1" alt="IMG_9710" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9710.jpg?w=1680&amp;ssl=1 1680w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9710.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9710.jpg?resize=1024%2C683&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+MacBook は透明なフォルムではなく、半透明のさらさらな素材に包まれていました。</p>
+<p><a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9712.jpg?ssl=1" rel="lightbox[1108]"><img class="aligncenter size-full wp-image-1114" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9712.jpg?resize=1680%2C1120&#038;ssl=1" alt="IMG_9712" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9712.jpg?w=1680&amp;ssl=1 1680w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9712.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9712.jpg?resize=1024%2C683&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+<a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9714.jpg?ssl=1" rel="lightbox[1108]"><img class="aligncenter size-full wp-image-1115" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9714.jpg?resize=1680%2C1120&#038;ssl=1" alt="IMG_9714" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9714.jpg?w=1680&amp;ssl=1 1680w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9714.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9714.jpg?resize=1024%2C683&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+そしてどーん！うっす。やっぱり薄い。</p>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9715.jpg?ssl=1" rel="lightbox[1108]"><img class="aligncenter size-full wp-image-1116" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9715.jpg?resize=1680%2C1120&#038;ssl=1" alt="IMG_9715" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9715.jpg?w=1680&amp;ssl=1 1680w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9715.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9715.jpg?resize=1024%2C683&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+今まで使っていた MacBook Pro 15 retina がものすごく巨大に感じます。。。！</p>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9722.jpg?ssl=1" rel="lightbox[1108]"><img class="aligncenter size-full wp-image-1118" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9722.jpg?resize=1680%2C1120&#038;ssl=1" alt="IMG_9722" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9722.jpg?w=1680&amp;ssl=1 1680w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9722.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9722.jpg?resize=1024%2C683&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p>MBP15もずいぶん薄いなぁと思っていたのですが、よくわからないレベルで薄い。</p>
+<h3>ここからはただの写真。USキーボードのほうがやっぱりかっこいい。</h3>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9739.jpg?ssl=1" rel="lightbox[1108]"><img class="aligncenter size-full wp-image-1126" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9739.jpg?resize=1680%2C1120&#038;ssl=1" alt="IMG_9739" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9739.jpg?w=1680&amp;ssl=1 1680w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9739.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9739.jpg?resize=1024%2C683&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9738.jpg?ssl=1" rel="lightbox[1108]"><img class="aligncenter size-full wp-image-1125" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9738.jpg?resize=1680%2C1120&#038;ssl=1" alt="IMG_9738" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9738.jpg?w=1680&amp;ssl=1 1680w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9738.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9738.jpg?resize=1024%2C683&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p><a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9737.jpg?ssl=1" rel="lightbox[1108]"><img class="aligncenter size-full wp-image-1124" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9737.jpg?resize=1680%2C1120&#038;ssl=1" alt="IMG_9737" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9737.jpg?w=1680&amp;ssl=1 1680w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9737.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9737.jpg?resize=1024%2C683&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9736.jpg?ssl=1" rel="lightbox[1108]"><img class="aligncenter size-full wp-image-1123" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9736.jpg?resize=1680%2C1120&#038;ssl=1" alt="IMG_9736" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9736.jpg?w=1680&amp;ssl=1 1680w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9736.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9736.jpg?resize=1024%2C683&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9731.jpg?ssl=1" rel="lightbox[1108]"><img class="aligncenter size-full wp-image-1122" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9731.jpg?resize=1680%2C1120&#038;ssl=1" alt="IMG_9731" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9731.jpg?w=1680&amp;ssl=1 1680w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9731.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9731.jpg?resize=1024%2C683&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<p><a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9729.jpg?ssl=1" rel="lightbox[1108]"><img class="aligncenter size-full wp-image-1121" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9729.jpg?resize=1680%2C1120&#038;ssl=1" alt="IMG_9729" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9729.jpg?w=1680&amp;ssl=1 1680w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9729.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/05/IMG_9729.jpg?resize=1024%2C683&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<h3>Type C って実際どうよ</h3>
+<p>Apple Store での在庫がなかったので、全く変換ケーブルがない状態にいます。<br />
+さすがにVGAとかないと困っているので、今はMBP15と一緒に持ち歩いています（軽さの意味）</p>
+<h3>本当に小さい</h3>
+<p>MacBook Air 11 のあの液晶枠の広さがダサすぎて嫌でしたが、そこも解決してすごい細いです。<br />
+また、枠が黒いので中身も引き締まって見えますね。<br />
+ただ、液晶の質はMacBook Proと比べると落ちなぁと感じます。</p>
+<h3>環境設定</h3>
+<p>最近は、Ansible で行っているので、それで行いました。<br />
+MacBook から ghq + peco でリポジトリを管理するようにしました。</p>
+<p>まずは、Type C の マルチアダプタをゲットすることから。。。<br />
+環境設定もしたし、Photoshop,Illustrator、Sketchも入れたからもう仕事はできるぞ。。。！<br />
+ちなみに、Photoshopは結構動きます。写真編集しか最近はPhotoshopしかしていないので、あんまり参考になりませんが。。。<br />
+Sketchは結構快適に動いてます。</p>
+<p>投稿<a rel="nofollow" href="/review/macbook_2015/">ようやくMacBook を手に入れました。</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/review/macbook_2015/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1108</post-id>	</item>
+		<item>
+		<title>ついに日本でも出た、Chromecast を使ってみた</title>
+		<link>/computer/chromecast/</link>
+		<comments>/computer/chromecast/#respond</comments>
+		<pubDate>Fri, 30 May 2014 02:27:47 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[Chromecast]]></category>
+		<category><![CDATA[レビュー]]></category>
+
+		<guid isPermaLink="false">/?p=1041</guid>
+		<description><![CDATA[<p>Chromecast ついに日本でもChromecastが登場しましたね！ 自分は発売日（２８日）にAmazon.co.jpで予約して、その日に到着予定だったのでよろこんでいたら、何故か夜に勝手に２９日発送予定になってて [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/chromecast/">ついに日本でも出た、Chromecast を使ってみた</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/chromecast.png?resize=1360%2C440" alt="chromecast" class="aligncenter size-full wp-image-1042" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/chromecast.png?w=1360&amp;ssl=1 1360w, https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/chromecast.png?resize=300%2C97&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/chromecast.png?resize=1024%2C331&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p><a href="http://www.google.com/intl/ja/chrome/devices/chromecast/" target="_blank">Chromecast</a><br />
+ついに日本でもChromecastが登場しましたね！<br />
+自分は発売日（２８日）にAmazon.co.jpで予約して、その日に到着予定だったのでよろこんでいたら、何故か夜に勝手に２９日発送予定になってて少しショックを受けていました。。。</p>
+<p>そして昨日届いたので早速使ってみました。</p>
+<h3>開封</h3>
+<p><a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0017.jpg" rel="lightbox[1041]"><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0017-1024x685.jpg?resize=1024%2C685" alt="DSC_0017" class="aligncenter size-large wp-image-1044" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0017.jpg?resize=1024%2C685&amp;ssl=1 1024w, https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0017.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0017.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+箱はシンプルにGoogleらしいパッケージです。</p>
+<p><a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0021.jpg" rel="lightbox[1041]"><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0021-1024x685.jpg?resize=1024%2C685" alt="DSC_0021" class="aligncenter size-large wp-image-1046" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0021.jpg?resize=1024%2C685&amp;ssl=1 1024w, https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0021.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0021.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+ものすごく小さいメインのChromecastがでてきました！<br />
+これがChromecastかー！<br />
+使うのワクワクしますね。</p>
+<h3>付属品</h3>
+<p><a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0023.jpg" rel="lightbox[1041]"><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0023-1024x685.jpg?resize=1024%2C685" alt="DSC_0023" class="aligncenter size-large wp-image-1047" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0023.jpg?resize=1024%2C685&amp;ssl=1 1024w, https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0023.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0023.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+あまり想定していなかった、付属品です！USB充電器(800mA出力)とmicroUSBとHDMIの延長ケーブルもついていました。<br />
+なかなかHDMIを何個も刺していると辛いものありますもんね。。。</p>
+<h3>TVへの接続</h3>
+<p><a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06781.jpg" rel="lightbox[1041]"><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06781-1024x821.jpg?resize=1024%2C821" alt="DSC06781" class="aligncenter size-large wp-image-1053" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06781.jpg?resize=1024%2C821&amp;ssl=1 1024w, https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06781.jpg?resize=300%2C240&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06781.jpg?w=1500&amp;ssl=1 1500w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+TVのHDMI端子に接続します。<br />
+割りとでかく感じますね。<br />
+ちなみに上接続されているHDMIは<a href="http://buffalo.jp/product/cable/hdmi/bshd27/" target="_blank">イーサネット対応　HIGH SPEED HDMIケーブル　ハイグレードモデル｜株式会社バッファロー BUFFALO</a>でわりとこちらもでかいHDMIです。</p>
+<h3>いよいよセットアップ</h3>
+<p><a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06782.jpg" rel="lightbox[1041]"><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06782-1024x679.jpg?resize=1024%2C679" alt="DSC06782" class="aligncenter size-large wp-image-1054" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06782.jpg?resize=1024%2C679&amp;ssl=1 1024w, https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06782.jpg?resize=300%2C199&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06782.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+初めて、microUSBとTVのHDMIに挿すとこんな画面が表示されます！<br />
+<a href="http://chromecast.com/setup/" target="_blank">chromecast.com/setup</a><br />
+にアクセスしましょう！<br />
+<a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0029.jpg" rel="lightbox[1041]"><img src="https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0029-1024x685.jpg?resize=1024%2C685" alt="DSC_0029" class="aligncenter size-large wp-image-1048" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0029.jpg?resize=1024%2C685&amp;ssl=1 1024w, https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0029.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0029.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+<a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/Screenshot_2014-05-30-09-36-29.png" rel="lightbox[1041]"><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/Screenshot_2014-05-30-09-36-29-168x300.png?resize=168%2C300" alt="Screenshot_2014-05-30-09-36-29" class="aligncenter size-medium wp-image-1059" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/Screenshot_2014-05-30-09-36-29.png?resize=168%2C300&amp;ssl=1 168w, https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/Screenshot_2014-05-30-09-36-29.png?resize=576%2C1024&amp;ssl=1 576w, https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/Screenshot_2014-05-30-09-36-29.png?w=1080&amp;ssl=1 1080w" sizes="(max-width: 168px) 100vw, 168px" data-recalc-dims="1" /></a><br />
+AndroidでアクセスするとGoogle Playへの誘導がありアプリをダウンロードしてインストールします。</p>
+<p>そして、無線LANへの接続や、Chromecastの名前などを決め（どちらも後で変更が可能です）<br />
+いよいよセットアップ完了と思いきやアップデートが始まりました。<br />
+<a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0031.jpg" rel="lightbox[1041]"><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0031-1024x685.jpg?resize=1024%2C685" alt="DSC_0031" class="aligncenter size-large wp-image-1049" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0031.jpg?resize=1024%2C685&amp;ssl=1 1024w, https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0031.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0031.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<h3>いよいよChromecastへの表示</h3>
+<p><a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0033.jpg" rel="lightbox[1041]"><img src="https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0033-1024x685.jpg?resize=1024%2C685" alt="DSC_0033" class="aligncenter size-large wp-image-1050" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0033.jpg?resize=1024%2C685&amp;ssl=1 1024w, https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0033.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC_0033.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+対応アプリ（今回はGoogle Play Movie）で、右上などにあるChromecastボタンをタップします。<br />
+そうすると、接続するChromecastを選択する画面が出てくるので、選択します。</p>
+<p><a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06783.jpg" rel="lightbox[1041]"><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06783-1024x768.jpg?resize=1024%2C768" alt="DSC06783" class="aligncenter size-large wp-image-1055" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06783.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06783.jpg?resize=300%2C225&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06783.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+そうすると、自動的に接続され、動画がChromecast経由でテレビに動画と音声が表示されます。<br />
+これで大きな画面で動画が見られますね。<br />
+Androidでは、MHLがテレビの接続のよくある形式ですがうちのテレビは対応していないので残念と思っていたり、<br />
+iPhoneの場合では、Apple TV買うかな？と思ったりしていたりしていたので、<br />
+どちらもワイヤレスで表示できるChromecastはすごく便利なのかなと思いました。<br />
+※それでいうとリビングにしかテレビがないので、なかなか使いドコロがないのでどう使うかがポイントかもしれません。。。</p>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06787.jpg" rel="lightbox[1041]"><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06787-1024x768.jpg?resize=1024%2C768" alt="DSC06787" class="aligncenter size-large wp-image-1056" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06787.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06787.jpg?resize=300%2C225&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/DSC06787.jpg?w=2000&amp;ssl=1 2000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+もう一つ使いドコロがあるとしたら、PCのChromeの画面をChromecastに送ることですかね。<br />
+１タブにChromecastを割り当てられるので、テレビで動画を表示しながら他の作業を他のタブですることが可能です。<br />
+<a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/chrome_chromecast1.png" rel="lightbox[1041]"><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/chrome_chromecast1.png?resize=410%2C304" alt="chrome_chromecast1" class="aligncenter size-full wp-image-1061" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/chrome_chromecast1.png?w=410&amp;ssl=1 410w, https://i2.wp.com/colopixie.com/wp-content/uploads/2014/05/chrome_chromecast1.png?resize=300%2C222&amp;ssl=1 300w" sizes="(max-width: 410px) 100vw, 410px" data-recalc-dims="1" /></a></p>
+<p>（1つのタブで動画を表示しながら、もう一つのタブでこのブログを書いています。）<br />
+ニコニコ動画やその他の動画サイトで全画面にすると通常では、パソコンの画面全体が全画面表示になってしまいますが、<br />
+ChromecastをONにしていると、そのタブの中で全画面されていることになります。<br />
+<a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/chrome_chromecast2.png" rel="lightbox[1041]"><img src="https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/chrome_chromecast2-300x184.png?resize=300%2C184" alt="chrome_chromecast2" class="aligncenter size-medium wp-image-1062" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/chrome_chromecast2.png?resize=300%2C184&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/chrome_chromecast2.png?resize=1024%2C628&amp;ssl=1 1024w, https://i0.wp.com/colopixie.com/wp-content/uploads/2014/05/chrome_chromecast2.png?w=1153&amp;ssl=1 1153w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><br />
+こんなかんじです。<br />
+&#8212;&#8212;2014-05-30 20時58分 追記<br />
+Macでやってたら、こう上手くいきませんねぇ…Windowsだけの機能なんでしょうか…残念</p>
+<p>また、動画の場合結構カクつきます。うちの環境が少し悪い（無線ルーターからテレビまで離れているため）<br />
+<a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/chrome_chromecast3.png" rel="lightbox[1041]"><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/chrome_chromecast3.png?resize=342%2C149" alt="chrome_chromecast3" class="aligncenter size-full wp-image-1063" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/chrome_chromecast3.png?w=342&amp;ssl=1 342w, https://i1.wp.com/colopixie.com/wp-content/uploads/2014/05/chrome_chromecast3.png?resize=300%2C130&amp;ssl=1 300w" sizes="(max-width: 342px) 100vw, 342px" data-recalc-dims="1" /></a><br />
+その場合は、ビットレートを設定で変えられるのでこれで対処できるかなという感じです。</p>
+<h3>まとめ</h3>
+<p>なんらかのうまい使い方があるんじゃないかなーと思いますが今のところこれだ！というのがないので、Huluとか対応したら契約しようかな？<br />
+という感じです。<br />
+うまくつかっているかたがいれば教えて下さい！！！</p>
+<table cellpadding="5" border="0" style="border-collapse:separate;border-spacing:5px;border:none 0">
+<tr>
+<td valign="top" align="left" style="vertical-align:top;text-align:left"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00KGVN140/maybexxx-22/ref=nosim/" target="_blank"><img src="https://i0.wp.com/ecx.images-amazon.com/images/I/412oqckVD4L._SL160_.jpg" alt="Google Chromecast ( クロームキャスト )  Wi-Fi経由 テレビ接続 ストリーミング / HDMI / 802.11b/g/n / 1080p ) GA3A00035A16" data-recalc-dims="1" /></a></td>
+<td valign="top" align="left" style="vertical-align:top;text-align:left"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00KGVN140/maybexxx-22/ref=nosim/" target="_blank">Google Chromecast ( クロームキャスト )  Wi-Fi経由 テレビ接続 ストリーミング / HDMI / 802.11b/g/n / 1080p ) GA3A00035A16</a><br /><font size="-1"></p>
+<p>Google<br />売り上げランキング : 1</p>
+<p><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00KGVN140/maybexxx-22/ref=nosim/" target="_blank">Amazonで詳しく見る</a></font></td>
+</tr>
+</table>
+<p>投稿<a rel="nofollow" href="/computer/chromecast/">ついに日本でも出た、Chromecast を使ってみた</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/chromecast/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1041</post-id>	</item>
+	</channel>
+</rss>

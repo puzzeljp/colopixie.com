@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>不具合 &#8211; colopixie</title>
+	<atom:link href="/tag/不具合/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.7</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>K2100M と Windows 10 の組み合わせで画面描写がバグる対処方法</title>
+		<link>/computer/k2100m_windows-10_displaycrash/</link>
+		<comments>/computer/k2100m_windows-10_displaycrash/#respond</comments>
+		<pubDate>Mon, 26 Oct 2015 16:24:00 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[nVIDIA]]></category>
+		<category><![CDATA[不具合]]></category>
+
+		<guid isPermaLink="false">/?p=1159</guid>
+		<description><![CDATA[<p>最近、QUADRO の K2100M が搭載されたＰＣを買って、プリいインストールは Windows 7 だったのですが、ディスプレイが4KでDPIの設定がうまくできなく重い腰を上げながら（？） Windows 10 に [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/k2100m_windows-10_displaycrash/">K2100M と Windows 10 の組み合わせで画面描写がバグる対処方法</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-1160" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/k2100m_w10_display.png?resize=1360%2C440&#038;ssl=1" alt="k2100m_w10_display" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/k2100m_w10_display.png?w=1360&amp;ssl=1 1360w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/k2100m_w10_display.png?resize=300%2C97&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/k2100m_w10_display.png?resize=1024%2C331&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>最近、QUADRO の K2100M が搭載されたＰＣを買って、プリいインストールは Windows 7 だったのですが、ディスプレイが4KでDPIの設定がうまくできなく重い腰を上げながら（？）<br />
+Windows 10 にアップデートしました。</p>
+<p>そこで問題が。<br />
+動画やPhotoshop・Illustrator、Explorerでの画面描写がおかしなことになってしまいました。<br />
+少し負担をかけると下記のような状態に。</p>
+<p><iframe src="https://vine.co/v/eYK97eApjl2/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script></p>
+<p>デスクトップの壁紙がちらちらと浮き出てくる現象。<br />
+謎ですし、映像を見るきが起きません。。。</p>
+<p>そういえば、Chromeってなんかしてたよねってことで、<code>chrome://flags/</code> にいき、DirectWrite を無効にするを有効にしてみました。<br />
+そうすると、Chromeで動画を再生しているときにはこのちらちら現象がなくなりました。</p>
+<p>しかし、Explorerなどでは状況は変わりません。Windows Updateやメーカー提供のドライバーは降ってきません。。。</p>
+<p>そこでシステムの復元とシステムバックアップを取り、NVIDIA から最新のドライバをインストールすることにしてみました。<br />
+<a href="http://www.nvidia.com/Download/index.aspx?lang=en-us">Drivers &#8211; Download NVIDIA Drivers</a></p>
+<p>インストールをし、再起動を行うと。。。あのチラチラが消えていきました！<br />
+Windows 10になり、裏側が多少なりとも変わったようです。</p>
+<p>ただ、PhotoshopとIllustratorは３０秒毎に応答なしとなってしまうので、これはどうにかならないかと探っているところです。。。。とほほ。</p>
+<p>投稿<a rel="nofollow" href="/computer/k2100m_windows-10_displaycrash/">K2100M と Windows 10 の組み合わせで画面描写がバグる対処方法</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/k2100m_windows-10_displaycrash/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1159</post-id>	</item>
+	</channel>
+</rss>

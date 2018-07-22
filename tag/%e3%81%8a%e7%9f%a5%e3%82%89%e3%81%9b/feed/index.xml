@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>お知らせ &#8211; colopixie</title>
+	<atom:link href="/tag/お知らせ/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.7</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>jQueryのプラグインをまとめたサイト「jQuery Clip」をリニューアルしました。</title>
+		<link>/information/jq_240101/</link>
+		<comments>/information/jq_240101/#respond</comments>
+		<pubDate>Tue, 03 Jan 2012 08:43:25 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Information]]></category>
+		<category><![CDATA[お知らせ]]></category>
+		<category><![CDATA[公開]]></category>
+
+		<guid isPermaLink="false">/?p=260</guid>
+		<description><![CDATA[<p>あけましておめでとうございます。 ふくちです。 元日にjQuery Clip &#8211; jQueryのプラグインをまとめました。をバージョンアップしたものを公開しました。 以前から（９月くらい）制作していたのですが [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/information/jq_240101/">jQueryのプラグインをまとめたサイト「jQuery Clip」をリニューアルしました。</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img src="https://i0.wp.com/colopixie.com/wp-content/uploads/2012/01/jqv2.png?resize=558%2C180" alt="" title="jqv2" class="aligncenter size-full wp-image-261" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2012/01/jqv2.png?w=558&amp;ssl=1 558w, https://i0.wp.com/colopixie.com/wp-content/uploads/2012/01/jqv2.png?resize=300%2C96&amp;ssl=1 300w" sizes="(max-width: 558px) 100vw, 558px" data-recalc-dims="1" /></p>
+<p>あけましておめでとうございます。<br />
+ふくちです。</p>
+<p>元日に<a href="http://www.jqueryclip.com/" target="_blank">jQuery Clip &#8211; jQueryのプラグインをまとめました。</a>をバージョンアップしたものを公開しました。<br />
+以前から（９月くらい）制作していたのですが仕事のほうが忙しく進みませんでした。が、やっとの思いで公開できるくらいまでに作ることが出来ました。せっかくなのでアクセスも少なく影響しないだろう元日にメンテナンスを行い、公開を致しました。</p>
+<p>以下の機能等を追加しました。<br />
+・登録後プラグインを追加することができるようになった<br />
+・関連するプラグインを表示可能になりました。<br />
+・追加頻度の向上（※跡で紹介します</p>
+<p>まず、<a href="http://www.jqueryclip.com/wp-login.php?action=register" title="http://www.jqueryclip.com/wp-login.php?action=register" target="_blank">登録（こちらから登録できます）</a>することが可能になりログインすることでお好きなプラグインを追加できる様になりました。</p>
+<h4>・関連するプラグインが表示されるようになった</h4>
+<p>プラグイン任せだったのをPHPの方で表示できるようしました。</p>
+<h4>・追加頻度の向上</h4>
+<p>以前はWPの管理画面でプラグインを追加していたのですが、現バージョンからはadd_plugin.phpから投稿できるように成りました。<br />
+そうすることで簡単にプラグインを追加できるように成りました（以前はキャプチャーもとっていましたが現在はWPのAPIから取ってきています。</p>
+<p>使用したいプラグインなど紹介したいのですが、Howtoや利用規約などが途中なのでそれが公開できたら掲載したいと思います。</p>
+<p>では</p>
+<p><a href="http://www.jqueryclip.com/" target="_blank">jQuery Clip &#8211; jQueryのプラグインをまとめました。</a><br />
+をよろしくお願いします！！！</p>
+<p>投稿<a rel="nofollow" href="/information/jq_240101/">jQueryのプラグインをまとめたサイト「jQuery Clip」をリニューアルしました。</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/information/jq_240101/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">260</post-id>	</item>
+	</channel>
+</rss>

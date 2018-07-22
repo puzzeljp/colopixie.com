@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>テザリング &#8211; colopixie</title>
+	<atom:link href="/tag/テザリング/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.7</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>iPhone4(iOS5)でテザリングできる夢をみた</title>
+		<link>/computer/iphone4_ios5_mac/</link>
+		<comments>/computer/iphone4_ios5_mac/#respond</comments>
+		<pubDate>Sat, 29 Oct 2011 15:17:48 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[テザリング]]></category>
+
+		<guid isPermaLink="false">/?p=169</guid>
+		<description><![CDATA[<p>話題になっているJailbreakなしでテザリングできた夢をみた 以下メモ 因みにアプリはApp Store &#8211; PayUpPunkらしい。 この記事の内容を実際に行ない、何らかの不具合・不都合なことがあって [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/iphone4_ios5_mac/">iPhone4(iOS5)でテザリングできる夢をみた</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-170" title="mac_iphone_ios5" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/10/mac_iphone_ios5.png?resize=558%2C180" alt="" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/10/mac_iphone_ios5.png?w=558&amp;ssl=1 558w, https://i2.wp.com/colopixie.com/wp-content/uploads/2011/10/mac_iphone_ios5.png?resize=300%2C96&amp;ssl=1 300w" sizes="(max-width: 558px) 100vw, 558px" data-recalc-dims="1" /></p>
+<p>話題になっているJailbreakなしでテザリングできた夢をみた<br />
+以下メモ<br />
+因みにアプリは<a href="http://itunes.apple.com/jp/app/payupsucker/id336009164?mt=8&amp;ign-mpt=uo%3D4">App Store &#8211; PayUpPunk</a>らしい。<br />
+この記事の内容を実際に行ない、何らかの不具合・不都合なことがあっても保証はしません。自己責任でどうぞ。主にWiMAXガはいらないとかの緊急用に使うのがいいかと思います。</p>
+<h3>Mac側</h3>
+<p><img style="max-width: 558px; text-align: center;" src="https://i1.wp.com/file.colopixie.com/iphone_ios5_mac/01.png" alt="" data-recalc-dims="1" /><br />
+<img style="max-width: 558px; text-align: center;" src="https://i0.wp.com/file.colopixie.com/iphone_ios5_mac/02.png" alt="" data-recalc-dims="1" /><br />
+<img style="max-width: 558px; text-align: center;" src="https://i1.wp.com/file.colopixie.com/iphone_ios5_mac/03.png" alt="" data-recalc-dims="1" /><br />
+<img style="max-width: 558px; text-align: center;" src="https://i1.wp.com/file.colopixie.com/iphone_ios5_mac/04.png" alt="" data-recalc-dims="1" /><br />
+<img style="max-width: 558px; text-align: center;" src="https://i0.wp.com/file.colopixie.com/iphone_ios5_mac/05.png" alt="" data-recalc-dims="1" /><br />
+10.0.1.10<br />
+255.255.255.0<br />
+<img style="max-width: 558px; text-align: center;" src="https://i1.wp.com/file.colopixie.com/iphone_ios5_mac/06.png" alt="" data-recalc-dims="1" /><br />
+10.0.1.13:8888<br />
+<img style="max-width: 558px; text-align: center;" src="https://i2.wp.com/file.colopixie.com/iphone_ios5_mac/07.png" alt="" data-recalc-dims="1" /></p>
+<h3>iPhone</h3>
+<p><img style="max-width: 558px;" src="https://i0.wp.com/file.colopixie.com/iphone_ios5_mac/image.png" alt="" data-recalc-dims="1" /><br />
+<img style="max-width: 558px;" src="https://i0.wp.com/file.colopixie.com/iphone_ios5_mac/image_1.png" alt="" data-recalc-dims="1" /></p>
+<p>10.0.1.13<br />
+255.255.255.0<br />
+<img style="max-width: 558px;" src="https://i0.wp.com/file.colopixie.com/iphone_ios5_mac/image_2.png" alt="" data-recalc-dims="1" /></p>
+<p>http://10.0.1.13:8888/Socks.pac<br />
+<img style="max-width: 558px;" src="https://i2.wp.com/file.colopixie.com/iphone_ios5_mac/image_3.png" alt="" data-recalc-dims="1" /></p>
+<p>IOU<br />
+<img style="max-width: 558px;" src="https://i2.wp.com/file.colopixie.com/iphone_ios5_mac/image_4.png" alt="" data-recalc-dims="1" /></p>
+<h3>速度</h3>
+<p>iPhoneで速度測ると</p>
+<p><img style="max-width: 558px;" src="https://i1.wp.com/file.colopixie.com/iphone_ios5_mac/image_5.png" alt="" data-recalc-dims="1" /><br />
+な感じで、<br />
+テザリングを使ったMacで測ると<br />
+<img style="max-width: 558px; text-align: center;" src="https://i1.wp.com/file.colopixie.com/iphone_ios5_mac/08.png" alt="" data-recalc-dims="1" /><br />
+な感じでした。</p>
+<p>とりあえずは、メールの送信などに使えそうです。<br />
+くれぐれも自己責任でどうぞ。</p>
+<p>ついき<br />
+2011/10/31<br />
+あたりまえですが、アプリが落ちるとテザリングできなくなるので私みたいにバンバンアプリが落ちるとほとんど使い物になりません…。<br />
+どうにかならないものか…<br />
+ちなみに環境はiPhone4 iOS5です。</p>
+<p>投稿<a rel="nofollow" href="/computer/iphone4_ios5_mac/">iPhone4(iOS5)でテザリングできる夢をみた</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/iphone4_ios5_mac/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">169</post-id>	</item>
+	</channel>
+</rss>

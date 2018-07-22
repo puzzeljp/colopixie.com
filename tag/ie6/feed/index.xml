@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>IE6 &#8211; colopixie</title>
+	<atom:link href="/tag/ie6/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.3</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>[IE6/7] 複数 class を指定したのに適用されない [Advent Calendar 2015]</title>
+		<link>/htmlcss/ie6_7-multiple-class/</link>
+		<comments>/htmlcss/ie6_7-multiple-class/#respond</comments>
+		<pubDate>Thu, 17 Dec 2015 00:59:53 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[HTML/CSS]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[IE6]]></category>
+
+		<guid isPermaLink="false">/?p=1191</guid>
+		<description><![CDATA[<p>本エントリーは「CSS 昔話 Advent Calendar 2015」17日目のエントリーです。 自分がちゃんとCSSを触ったのは、８年くらい前でしょうか。 当時は、IE6真っ盛りでぼちぼちIE7がで始めた頃でした。  [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/htmlcss/ie6_7-multiple-class/">[IE6/7] 複数 class を指定したのに適用されない [Advent Calendar 2015]</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-1201" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_53022.jpg?resize=2000%2C1333&#038;ssl=1" alt="IMG_53022" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_53022.jpg?w=2000&amp;ssl=1 2000w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_53022.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_53022.jpg?resize=768%2C512&amp;ssl=1 768w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_53022.jpg?resize=1024%2C682&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p><img class="aligncenter size-full wp-image-1195" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5306.jpg?resize=3648%2C2432&#038;ssl=1" alt="IMG_5306" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5306.jpg?w=3648&amp;ssl=1 3648w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5306.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5306.jpg?resize=768%2C512&amp;ssl=1 768w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5306.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5306.jpg?w=2000&amp;ssl=1 2000w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5306.jpg?w=3000&amp;ssl=1 3000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p><img class="aligncenter size-full wp-image-1196" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5309.jpg?resize=3648%2C2432&#038;ssl=1" alt="IMG_5309" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5309.jpg?w=3648&amp;ssl=1 3648w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5309.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5309.jpg?resize=768%2C512&amp;ssl=1 768w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5309.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5309.jpg?w=2000&amp;ssl=1 2000w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/IMG_5309.jpg?w=3000&amp;ssl=1 3000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>本エントリーは「<a href="http://www.adventar.org/calendars/723" target="_blank">CSS 昔話 Advent Calendar 2015</a>」17日目のエントリーです。</p>
+<p>自分がちゃんとCSSを触ったのは、８年くらい前でしょうか。<br />
+当時は、IE6真っ盛りでぼちぼちIE7がで始めた頃でした。<br />
+海外ではNetscape Navigator 9が出ていたものの、日本ではNetscape 7.1 止まりだったことが記憶にあります。</p>
+<p>昔話ということで、IE6の時にお世話になっていたCSSについて書きたいと思います。<br />
+<strong>複数のclass 指定をしている場合、一番最後の class が適用されてしまうバグについて。</strong><br />
+IE6 と IE7 が対象です。</p>
+<p>ネット接続をしていない、WinXPの環境を使ってためしてみました。</p>
+<p><img class="aligncenter size-full wp-image-1197" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/01.png?resize=1024%2C768&#038;ssl=1" alt="01" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/01.png?w=1024&amp;ssl=1 1024w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/01.png?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/01.png?resize=768%2C576&amp;ssl=1 768w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p></p><pre class="crayon-plain-tag">.content01.content {
+  background-color: red;
+}
+
+.content02.content {
+  background-color: blue;
+}</pre><p></p>
+<p>と指定した場合、IE6/IE7では、<code>background-color: blue;</code>が適用されてしまいます。</p>
+<h3>その対策</h3>
+<p><img class="aligncenter size-full wp-image-1198" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/02.png?resize=1024%2C768&#038;ssl=1" alt="02" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/02.png?w=1024&amp;ssl=1 1024w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/02.png?resize=300%2C225&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/02.png?resize=768%2C576&amp;ssl=1 768w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p></p><pre class="crayon-plain-tag">.content.content01 {
+  background-color: red;
+}
+
+.content.content02 {
+  background-color: blue;
+}</pre><p></p>
+<p>としていすると、IE6/IE7ではきちんと適用できます。<br />
+今の話をすと、Scss のネストで書いておけば、対策ですね！</p>
+<p></p><pre class="crayon-plain-tag">.content {
+  &amp;.content01 {
+    background-color: red;
+  }
+
+  &amp;.content02 {
+    background-color: blue;
+  }
+}</pre><p></p>
+<p>今となっては、セレクタの順番をそれほど気にしなくてもいいですが、昔は気にしてCSSを書かないといけなかったので、<br />
+今よりは慎重にCSSを書いていましたね&#8230;</p>
+<p>&nbsp;</p>
+<p><img class="aligncenter size-full wp-image-1199" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/paint.png?resize=1024%2C768&#038;ssl=1" alt="paint" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/paint.png?w=1024&amp;ssl=1 1024w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/paint.png?resize=300%2C225&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/12/paint.png?resize=768%2C576&amp;ssl=1 768w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /><img class="aligncenter size-full wp-image-1200" src="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/system.png?resize=487%2C435&#038;ssl=1" alt="system" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/system.png?w=487&amp;ssl=1 487w, https://i0.wp.com/colopixie.com/wp-content/uploads/2015/12/system.png?resize=300%2C268&amp;ssl=1 300w" sizes="(max-width: 487px) 100vw, 487px" data-recalc-dims="1" /></p>
+<p><img class="aligncenter size-full wp-image-1203" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/66c19942ab4ba346fdb64ccc04cde373.png?resize=1576%2C1065&#038;ssl=1" alt="キャプチャ" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/66c19942ab4ba346fdb64ccc04cde373.png?w=1576&amp;ssl=1 1576w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/66c19942ab4ba346fdb64ccc04cde373.png?resize=300%2C203&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/66c19942ab4ba346fdb64ccc04cde373.png?resize=768%2C519&amp;ssl=1 768w, https://i1.wp.com/colopixie.com/wp-content/uploads/2015/12/66c19942ab4ba346fdb64ccc04cde373.png?resize=1024%2C692&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>久しぶりにWindows XPを使ってみたけど、使いづらすぎて困った。キャプチャー時に使ったペイントがWin7あたりから進化してて違いにビビる。<br />
+XPの方メモリ256MBだけど、メインは32GBなので差すごい。</p>
+<p>投稿<a rel="nofollow" href="/htmlcss/ie6_7-multiple-class/">[IE6/7] 複数 class を指定したのに適用されない [Advent Calendar 2015]</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/htmlcss/ie6_7-multiple-class/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1191</post-id>	</item>
+	</channel>
+</rss>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Chrome &#8211; colopixie</title>
+	<atom:link href="/tag/chrome/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.3</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>超重くなったChromeをサクサクにできるかもしれない方法</title>
+		<link>/computer/slow_chrome/</link>
+		<comments>/computer/slow_chrome/#respond</comments>
+		<pubDate>Thu, 22 Sep 2011 11:23:50 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[Chrome]]></category>
+
+		<guid isPermaLink="false">/?p=136</guid>
+		<description><![CDATA[<p>Google Chrome &#8211; ブラウザのダウンロード こんにちは。 愛用しているChromeが、最近（といってもここ２ヶ月）くらい不安定でブラウザごと落ちるし、新規ページを開いてもくるくると読み込んでいてス [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/slow_chrome/">超重くなったChromeをサクサクにできるかもしれない方法</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img src="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/slow_chrome.png?resize=558%2C180" alt="" title="slow_chrome" class="alignnone size-full wp-image-137" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/slow_chrome.png?w=558&amp;ssl=1 558w, https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/slow_chrome.png?resize=300%2C96&amp;ssl=1 300w" sizes="(max-width: 558px) 100vw, 558px" data-recalc-dims="1" /><br />
+<a href="http://www.google.co.jp/chrome/intl/ja/landing_ch.html">Google Chrome &#8211; ブラウザのダウンロード</a><br />
+こんにちは。<br />
+愛用しているChromeが、最近（といってもここ２ヶ月）くらい不安定でブラウザごと落ちるし、新規ページを開いてもくるくると読み込んでいてスクロールやマウスなどの操作ができなかったり…とすごくもっさりだったのです…<br />
+そこでなんで重いのだろうと重いながら色々探っていくことに…</p>
+<h3>とりま、拡張機能アンインストールすればいいんじゃね</h3>
+<p>ということで、５０個くらいあった拡張機能（うち使用していたものは２０個くらい）を１２個に減らしました。<br />
+以下現在使用しているプラグインです。</p>
+<ul>
+<li><del datetime="2011-09-23T09:33:22+00:00"><a href="_blank" href="https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom">AdBlock &#8211; Chrome ウェブストア</a><br />
+	<span>Flash広告などブロックしてくれます</span></del>こいつのせいで重くなっていたみたい(追記：09-23)</li>
+<li><a href="_blank" href="https://chrome.google.com/webstore/detail/aeolcjbaammbkgaiagooljfdepnjmkfd">AutoPatchWork &#8211; Chrome ウェブストア</a><br />
+	<span>Google等の検索ページで１２３４５・・・・を自動で先読みしてくれます。</span></li>
+<li><a href="_blank" href="https://chrome.google.com/webstore/detail/alelhddbbhepgpmgidjdcjakblofbmce">Awesome Screenshot: キャプチャーと注釈 &#8211; Chrome ウェブストア</a><br />
+	<span>Webページのキャプチャを取るときに使用しています。</span></li>
+<li><a href="_blank" href="https://chrome.google.com/webstore/detail/pabfempgigicdjjlccdgnbmeggkbjdhd">Chrome Stylist &#8211; Chrome ウェブストア</a><br />
+	<span>任意のCSSを適用させます。</span></li>
+<li><a href="_blank" href="https://chrome.google.com/webstore/detail/gcmghdmnkfdbncmnmlkkglmnnhagajbm">Create Link &#8211; Chrome ウェブストア</a><br />
+	<span>「Webサイトタイトル &#8211; URL」のようなものをクリップボードにコピーしてくれます。</span></li>
+<li><del><a href="_blank" href="https://chrome.google.com/webstore/detail/mmffncokckfccddfenhkhnllmlobdahm">FastestChrome &#8211; Browse Faster &#8211; Chrome ウェブストア</a><br />
+	<span>文字列を選択するとGoogleのロゴがでてくるのでそれを押すと検索するとこができます。</span></del>こいつのせいで重くなっていたみたい(追記：09-23)</li>
+<li><a href="_blank" href="http://code.google.com/intl/ja/speed/page-speed/docs/extension.html">Page Speed Extensions Overview</a><br />
+	<span>ページのスピードやウェブサイト高速化項目のチェックができます。</span></li>
+<li><a href="_blank" href="https://chrome.google.com/webstore/detail/aegfbpchoheaflicfmggkmlmcccpjpgd">Text URL Linker &#8211; Chrome ウェブストア</a><br />
+	<span>リンクになってないアドレスを押せるようにしてくれます。</span></li>
+<li><a href="_blank" href="https://chrome.google.com/webstore/detail/dnlfpnhinnjdgmjfpccajboogcjocdla">はてなブックマーク GoogleChrome 拡張 &#8211; Chrome ウェブストア</a><br />
+	<span>はてブのプラグインです。たまに動かなくなることがあるので困ります。</span></li>
+</ul>
+<p>とすごく数を減らしてみました。<br />
+これで結構早くなったような…。</p>
+<h3>about:flags・・・！？</h3>
+<p>about:flagsです。<br />
+試験運用機能と行ってまだ実際には搭載されていない機能を使うことができます。がなんらか不具合があるカモしれないので注意しろってこと見たいですね。<br />
+と色々なものを使っていたので確認していました。<br />
+有効になっていたもの</p>
+<ul>
+<li>起動時に既存のタブにフォーカス</li>
+<li>実験用の新しいタブ ページ</li>
+<li>インスタント検索をあらかじめ読み込む</li>
+</ul>
+<p>が有効になっていて要らなそうだと思ったので無効に。<br />
+有効にしたものは</p>
+<ul>
+<li>すべてのページで GPU 合成を行う</li>
+</ul>
+<p>これでちょっと早くなった気が。</p>
+<p>と面倒臭くてやっていなかったものがたくさんありますが、ちょっとやるだけでくるくるしてフリーズしていたサイトがあっさりと開きました…<br />
+なんと…<br />
+ぜひぜひChromeが重い！と思ったかたは見なおしてみてはどうでしょうか。</p>
+<p>投稿<a rel="nofollow" href="/computer/slow_chrome/">超重くなったChromeをサクサクにできるかもしれない方法</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/slow_chrome/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">136</post-id>	</item>
+	</channel>
+</rss>

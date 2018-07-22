@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>拡張機能 &#8211; colopixie</title>
+	<atom:link href="/tag/拡張機能/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.7</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>3 Column Readerがおすすめ</title>
+		<link>/diary/3-column-reader/</link>
+		<comments>/diary/3-column-reader/#respond</comments>
+		<pubDate>Thu, 08 Sep 2011 14:04:42 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Diary]]></category>
+		<category><![CDATA[diary]]></category>
+		<category><![CDATA[Google Reader]]></category>
+		<category><![CDATA[拡張機能]]></category>
+
+		<guid isPermaLink="false">/?p=92</guid>
+		<description><![CDATA[<p>最近見つけたGoogle Chromeの拡張機能でGoogle Readerの画面を３カラムにして綺麗にしてくれます。 3 Column Reader 先ほどのページのDownloadを押してReaderにアクセスするだ [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/diary/3-column-reader/">3 Column Readerがおすすめ</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/google_reader.png?resize=558%2C180" alt="" title="google_reader" class="alignnone size-full wp-image-93" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/google_reader.png?w=558&amp;ssl=1 558w, https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/google_reader.png?resize=300%2C96&amp;ssl=1 300w" sizes="(max-width: 558px) 100vw, 558px" data-recalc-dims="1" /><br />
+最近見つけたGoogle Chromeの拡張機能でGoogle Readerの画面を３カラムにして綺麗にしてくれます。<br />
+<a href="http://zackarycorbett.com/3columnreader/" target="_blank">3 Column Reader<br />
+<img src="https://i2.wp.com/colopixie.com/wp-content/themes/colopixie/images/download.png" alt="Download" class="sampleview" data-recalc-dims="1"></a></p>
+<p>先ほどのページのDownloadを押してReaderにアクセスするだけなのですが、<br />
+.co.jpのReaderページだと下のようになってしまうので<br />
+<a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/reader_big2.png" rel="lightbox[92]" title="reader_big2"><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/reader_big2-300x191.png?resize=300%2C191" alt="" title="reader_big2" class="alignnone size-medium wp-image-95" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/reader_big2.png?resize=300%2C191&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/reader_big2.png?resize=1024%2C653&amp;ssl=1 1024w, https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/reader_big2.png?w=1294&amp;ssl=1 1294w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a></p>
+<p><a href="http://www.google.com/reader/view/" target="_blank">http://www.google.com/reader/view/</a><br />
+にアクセスすると適用されます。<br />
+<a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/reader_big1.png" rel="lightbox[92]" title="reader_big1"><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/reader_big1-300x191.png?resize=300%2C191" alt="" title="reader_big1" class="alignnone size-medium wp-image-94" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/reader_big1.png?resize=300%2C191&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/reader_big1.png?resize=1024%2C653&amp;ssl=1 1024w, https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/reader_big1.png?w=1294&amp;ssl=1 1294w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a></p>
+<p>３カラムにするには、左上のメニューの≡を押せば３カラムになります。</p>
+<p>ぜひWebでGoogle Readerをお使いの方は入れてみてはどうでしょうか。</p>
+<p>投稿<a rel="nofollow" href="/diary/3-column-reader/">3 Column Readerがおすすめ</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/diary/3-column-reader/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">92</post-id>	</item>
+	</channel>
+</rss>

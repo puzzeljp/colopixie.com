@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Computer &#8211; colopixie</title>
+	<atom:link href="/tag/computer/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.3</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>macOS Sierra で US-600 を使う方法</title>
+		<link>/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/</link>
+		<comments>/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/#respond</comments>
+		<pubDate>Wed, 18 Jan 2017 14:17:09 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[hack]]></category>
+
+		<guid isPermaLink="false">/?p=1348</guid>
+		<description><![CDATA[<p>US-600 が標準のドライバでは、El Capitan までしか対応していないので、暫定的に Sierra で使う方法 基本的には、Terminal で kext を編集しますので、バックアップを忘れずに 事前にUS- [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/">macOS Sierra で US-600 を使う方法</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-large wp-image-1350" src="https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?resize=1024%2C545&#038;ssl=1" alt="" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?resize=1024%2C545&amp;ssl=1 1024w, https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?resize=300%2C160&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?resize=768%2C409&amp;ssl=1 768w, https://i1.wp.com/colopixie.com/wp-content/uploads/2017/01/1f98608b0fdb23dec28c6ab0c10308d9.png?w=1227&amp;ssl=1 1227w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>US-600 が標準のドライバでは、El Capitan までしか対応していないので、暫定的に Sierra で使う方法<br />
+基本的には、Terminal で kext を編集しますので、バックアップを忘れずに</p>
+<p>事前にUS-600のドライバをインストールしておきます。（この状態では作動しない）</p>
+<p></p><pre class="crayon-plain-tag">## ファイルが有るか確認
+$ file /Library/Extensions/TASCAM_US600.kext/Contents/MacOS/TASCAM_US600
+
+## デスクトップに64bitようのファイルを一旦書き出し
+$ sudo lipo -thin x86_64 -output ~/Desktop/TASCAM_US600 /Library/Extensions/TASCAM_US600.kext/Contents/MacOS/TASCAM_US600
+
+## オリジナルファイルの削除
+$ sudo rm /Library/Extensions/TASCAM_US600.kext/Contents/MacOS/TASCAM_US600
+
+## 64bitのファイルを戻す
+$ sudo cp ~/Desktop/TASCAM_US600 /Library/Extensions/TASCAM_US600.kext/Contents/MacOS/
+
+## kext をリロードする
+$ sudo kextload /Library/Extensions/TASCAM_US600.kext
+
+## kext のキャッシュをクリア
+$ sudo rm -rf /System/Library/Caches/com.apple.kext.caches
+
+## ↑でうまく行かなかった場合
+$ sudo kextcache -prelinked-kernel /System/Library/Caches/com.apple.kext.caches/Startup/kernelcache -K /System/Library/Kernels/kernel /System/Library/Extensions</pre><p></p>
+<p>&nbsp;</p>
+<p>via <a href="http://www.tascamforums.com/threads/us-200-not-working-with-macos-sierra.4265/#post-20551">US-200 not working with macOS Sierra</a></p>
+<p>投稿<a rel="nofollow" href="/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/">macOS Sierra で US-600 を使う方法</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/macos-sierra-%e3%81%a7-us-600-%e3%82%92%e4%bd%bf%e3%81%86%e6%96%b9%e6%b3%95/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1348</post-id>	</item>
+		<item>
+		<title>K2100M と Windows 10 の組み合わせで画面描写がバグる対処方法</title>
+		<link>/computer/k2100m_windows-10_displaycrash/</link>
+		<comments>/computer/k2100m_windows-10_displaycrash/#respond</comments>
+		<pubDate>Mon, 26 Oct 2015 16:24:00 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[nVIDIA]]></category>
+		<category><![CDATA[不具合]]></category>
+
+		<guid isPermaLink="false">/?p=1159</guid>
+		<description><![CDATA[<p>最近、QUADRO の K2100M が搭載されたＰＣを買って、プリいインストールは Windows 7 だったのですが、ディスプレイが4KでDPIの設定がうまくできなく重い腰を上げながら（？） Windows 10 に [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/k2100m_windows-10_displaycrash/">K2100M と Windows 10 の組み合わせで画面描写がバグる対処方法</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-1160" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/k2100m_w10_display.png?resize=1360%2C440&#038;ssl=1" alt="k2100m_w10_display" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/k2100m_w10_display.png?w=1360&amp;ssl=1 1360w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/k2100m_w10_display.png?resize=300%2C97&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2015/10/k2100m_w10_display.png?resize=1024%2C331&amp;ssl=1 1024w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></p>
+<p>最近、QUADRO の K2100M が搭載されたＰＣを買って、プリいインストールは Windows 7 だったのですが、ディスプレイが4KでDPIの設定がうまくできなく重い腰を上げながら（？）<br />
+Windows 10 にアップデートしました。</p>
+<p>そこで問題が。<br />
+動画やPhotoshop・Illustrator、Explorerでの画面描写がおかしなことになってしまいました。<br />
+少し負担をかけると下記のような状態に。</p>
+<p><iframe src="https://vine.co/v/eYK97eApjl2/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script></p>
+<p>デスクトップの壁紙がちらちらと浮き出てくる現象。<br />
+謎ですし、映像を見るきが起きません。。。</p>
+<p>そういえば、Chromeってなんかしてたよねってことで、<code>chrome://flags/</code> にいき、DirectWrite を無効にするを有効にしてみました。<br />
+そうすると、Chromeで動画を再生しているときにはこのちらちら現象がなくなりました。</p>
+<p>しかし、Explorerなどでは状況は変わりません。Windows Updateやメーカー提供のドライバーは降ってきません。。。</p>
+<p>そこでシステムの復元とシステムバックアップを取り、NVIDIA から最新のドライバをインストールすることにしてみました。<br />
+<a href="http://www.nvidia.com/Download/index.aspx?lang=en-us">Drivers &#8211; Download NVIDIA Drivers</a></p>
+<p>インストールをし、再起動を行うと。。。あのチラチラが消えていきました！<br />
+Windows 10になり、裏側が多少なりとも変わったようです。</p>
+<p>ただ、PhotoshopとIllustratorは３０秒毎に応答なしとなってしまうので、これはどうにかならないかと探っているところです。。。。とほほ。</p>
+<p>投稿<a rel="nofollow" href="/computer/k2100m_windows-10_displaycrash/">K2100M と Windows 10 の組み合わせで画面描写がバグる対処方法</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/k2100m_windows-10_displaycrash/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1159</post-id>	</item>
+		<item>
+		<title>iPhone4(iOS5)でテザリングできる夢をみた</title>
+		<link>/computer/iphone4_ios5_mac/</link>
+		<comments>/computer/iphone4_ios5_mac/#respond</comments>
+		<pubDate>Sat, 29 Oct 2011 15:17:48 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[テザリング]]></category>
+
+		<guid isPermaLink="false">/?p=169</guid>
+		<description><![CDATA[<p>話題になっているJailbreakなしでテザリングできた夢をみた 以下メモ 因みにアプリはApp Store &#8211; PayUpPunkらしい。 この記事の内容を実際に行ない、何らかの不具合・不都合なことがあって [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/iphone4_ios5_mac/">iPhone4(iOS5)でテザリングできる夢をみた</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-170" title="mac_iphone_ios5" src="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/10/mac_iphone_ios5.png?resize=558%2C180" alt="" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/10/mac_iphone_ios5.png?w=558&amp;ssl=1 558w, https://i2.wp.com/colopixie.com/wp-content/uploads/2011/10/mac_iphone_ios5.png?resize=300%2C96&amp;ssl=1 300w" sizes="(max-width: 558px) 100vw, 558px" data-recalc-dims="1" /></p>
+<p>話題になっているJailbreakなしでテザリングできた夢をみた<br />
+以下メモ<br />
+因みにアプリは<a href="http://itunes.apple.com/jp/app/payupsucker/id336009164?mt=8&amp;ign-mpt=uo%3D4">App Store &#8211; PayUpPunk</a>らしい。<br />
+この記事の内容を実際に行ない、何らかの不具合・不都合なことがあっても保証はしません。自己責任でどうぞ。主にWiMAXガはいらないとかの緊急用に使うのがいいかと思います。</p>
+<h3>Mac側</h3>
+<p><img style="max-width: 558px; text-align: center;" src="https://i1.wp.com/file.colopixie.com/iphone_ios5_mac/01.png" alt="" data-recalc-dims="1" /><br />
+<img style="max-width: 558px; text-align: center;" src="https://i0.wp.com/file.colopixie.com/iphone_ios5_mac/02.png" alt="" data-recalc-dims="1" /><br />
+<img style="max-width: 558px; text-align: center;" src="https://i1.wp.com/file.colopixie.com/iphone_ios5_mac/03.png" alt="" data-recalc-dims="1" /><br />
+<img style="max-width: 558px; text-align: center;" src="https://i1.wp.com/file.colopixie.com/iphone_ios5_mac/04.png" alt="" data-recalc-dims="1" /><br />
+<img style="max-width: 558px; text-align: center;" src="https://i0.wp.com/file.colopixie.com/iphone_ios5_mac/05.png" alt="" data-recalc-dims="1" /><br />
+10.0.1.10<br />
+255.255.255.0<br />
+<img style="max-width: 558px; text-align: center;" src="https://i1.wp.com/file.colopixie.com/iphone_ios5_mac/06.png" alt="" data-recalc-dims="1" /><br />
+10.0.1.13:8888<br />
+<img style="max-width: 558px; text-align: center;" src="https://i2.wp.com/file.colopixie.com/iphone_ios5_mac/07.png" alt="" data-recalc-dims="1" /></p>
+<h3>iPhone</h3>
+<p><img style="max-width: 558px;" src="https://i0.wp.com/file.colopixie.com/iphone_ios5_mac/image.png" alt="" data-recalc-dims="1" /><br />
+<img style="max-width: 558px;" src="https://i0.wp.com/file.colopixie.com/iphone_ios5_mac/image_1.png" alt="" data-recalc-dims="1" /></p>
+<p>10.0.1.13<br />
+255.255.255.0<br />
+<img style="max-width: 558px;" src="https://i0.wp.com/file.colopixie.com/iphone_ios5_mac/image_2.png" alt="" data-recalc-dims="1" /></p>
+<p>http://10.0.1.13:8888/Socks.pac<br />
+<img style="max-width: 558px;" src="https://i2.wp.com/file.colopixie.com/iphone_ios5_mac/image_3.png" alt="" data-recalc-dims="1" /></p>
+<p>IOU<br />
+<img style="max-width: 558px;" src="https://i2.wp.com/file.colopixie.com/iphone_ios5_mac/image_4.png" alt="" data-recalc-dims="1" /></p>
+<h3>速度</h3>
+<p>iPhoneで速度測ると</p>
+<p><img style="max-width: 558px;" src="https://i1.wp.com/file.colopixie.com/iphone_ios5_mac/image_5.png" alt="" data-recalc-dims="1" /><br />
+な感じで、<br />
+テザリングを使ったMacで測ると<br />
+<img style="max-width: 558px; text-align: center;" src="https://i1.wp.com/file.colopixie.com/iphone_ios5_mac/08.png" alt="" data-recalc-dims="1" /><br />
+な感じでした。</p>
+<p>とりあえずは、メールの送信などに使えそうです。<br />
+くれぐれも自己責任でどうぞ。</p>
+<p>ついき<br />
+2011/10/31<br />
+あたりまえですが、アプリが落ちるとテザリングできなくなるので私みたいにバンバンアプリが落ちるとほとんど使い物になりません…。<br />
+どうにかならないものか…<br />
+ちなみに環境はiPhone4 iOS5です。</p>
+<p>投稿<a rel="nofollow" href="/computer/iphone4_ios5_mac/">iPhone4(iOS5)でテザリングできる夢をみた</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/iphone4_ios5_mac/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">169</post-id>	</item>
+		<item>
+		<title>怪しいBDドライブ買いました(BD-BRD30_AQ)</title>
+		<link>/computer/bd_sharp/</link>
+		<comments>/computer/bd_sharp/#respond</comments>
+		<pubDate>Sat, 22 Oct 2011 15:46:05 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[BD]]></category>
+		<category><![CDATA[Mac]]></category>
+
+		<guid isPermaLink="false">/?p=147</guid>
+		<description><![CDATA[<p>ふとBDを見たくなった気がしたので、 BDドライブを買いました。 その名は 「BD-BRD30_AQ」 [中古][抜取]SHARP 光学ドライブ スロットタイプBDドライブユニット BD-BRD30_AQ（DRW-243 [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/bd_sharp/">怪しいBDドライブ買いました(BD-BRD30_AQ)</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/10/sharp_bd_d.jpg?resize=558%2C180" alt="" title="sharp_bd_d" class="alignnone size-full wp-image-151" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/10/sharp_bd_d.jpg?w=558&amp;ssl=1 558w, https://i1.wp.com/colopixie.com/wp-content/uploads/2011/10/sharp_bd_d.jpg?resize=300%2C96&amp;ssl=1 300w" sizes="(max-width: 558px) 100vw, 558px" data-recalc-dims="1" /></p>
+<p>ふとBDを見たくなった気がしたので、<br />
+BDドライブを買いました。</p>
+<p>その名は<br />
+「BD-BRD30_AQ」<br />
+<a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/10/DSC_0113.jpg" rel="lightbox[147]" title="DSC_0113"><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/10/DSC_0113-300x200.jpg?resize=300%2C200" alt="" title="DSC_0113" class="aligncenter size-medium wp-image-149" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/10/DSC_0113.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2011/10/DSC_0113.jpg?w=1024&amp;ssl=1 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a></p>
+<p><a href="http://www2.dennobaio.jp/shopdetail/005001000135">[中古][抜取]SHARP 光学ドライブ スロットタイプBDドライブユニット BD-BRD30_AQ（DRW-2434）] | 光学ドライブ＋ | 全商品 | 電脳売王 OnlineStore</a><br />
+ココらへんが参考になるかと</p>
+<p>ほぼ同機種の１２の<a href="http://homepage2.nifty.com/yss/brd12aq/brd12aq_top.htm">SHARP BD-BRD12_AQ</a>がとても参考に。</p>
+<p>ただ、私は主にMacを使っているのでWindowsばかりの記事じゃ役にたたないので色々試してみた</p>
+<p><a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/10/DSC_0114.jpg" rel="lightbox[147]" title="DSC_0114"><img src="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/10/DSC_0114-300x200.jpg?resize=300%2C200" alt="" title="DSC_0114" class="aligncenter size-medium wp-image-150" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/10/DSC_0114.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2011/10/DSC_0114.jpg?w=1024&amp;ssl=1 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><br />
+認識してくれます。ディスク入れるとDVDとか再生してくれます（とりあえずAirのドライブが欲しかったのでもう満足感</p>
+<p>さて、Amazonでかった<a href="http://www.amazon.co.jp/gp/product/B000ICL43M/ref=as_li_ss_tl?ie=UTF8&#038;tag=maybexxx-22&#038;linkCode=as2&#038;camp=247&#038;creative=7399&#038;creativeASIN=B000ICL43M">ブレイブ ストーリー [Blu-ray]</a><img src="http://www.assoc-amazon.jp/e/ir?t=maybexxx-22&#038;l=as2&#038;o=9&#038;a=B000ICL43M" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><br />
+を入れてみる。<br />
+でMacはなんかプレーヤーが１つしか無いみたいなのでそれを入れてみる<br />
+<a href="http://jp.macblurayplayer.com/">Mac Blu-ray Player（Mac ブルーレイプレーヤー）の公式サイト。BD/DVD FLV MP4 動画再生のメディアプレーヤー</a>なんか日本語が怪しいですが気にしないでダウンロード。</p>
+<p>で、アプリケーションに入れて起動。<br />
+でディスク入れてると再生画面に。<br />
+<img alt="" src="https://p.twimg.com/AcVUFprCQAE6LPP.jpg:large" title="https://p.twimg.com/AcVUFprCQAE6LPP.jpg:large" class="aligncenter" width="100%" /><br />
+で、なんともなく再生できました。</p>
+<p>で問題は書き込みなんです。<br />
+Windowsのほうでも苦戦しているのにMacだとどうなるんだという。</p>
+<p>結果は無理でした。<br />
+まず書きこみ準備中後にディスクが排出されてしまい、書きこむことができません。<br />
+ただ、BD-REを使ったので他の形式のディスクだと使えるのかもしれません。</p>
+<p>とりあえず安いのがほしい、暇人の人はぜひ買ってみてはどうでしょうか。<br />
+また、私の環境ではうまい具合に読み込みなどできましたが環境によっては異なると思うのでご了承ください。</p>
+<p><a href="http://www2.dennobaio.jp/shopdetail/005001000151">[中古]Sharp Blu-rayライティングセット SA131WJ他 + USB to S-ATAアダプタ + Nero9+ BDメディア（20枚） | 光学ドライブ＋ | 全商品 | 電脳売王 OnlineStore</a><br />
+違う商品（シャープ製だが）売っていますね。</p>
+<p>投稿<a rel="nofollow" href="/computer/bd_sharp/">怪しいBDドライブ買いました(BD-BRD30_AQ)</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/bd_sharp/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">147</post-id>	</item>
+		<item>
+		<title>キーボードやマウスが共有できる Mouse Without Borders を使ってみた</title>
+		<link>/computer/mouse-without-borders/</link>
+		<comments>/computer/mouse-without-borders/#respond</comments>
+		<pubDate>Mon, 12 Sep 2011 12:34:21 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[Review]]></category>
+		<category><![CDATA[SOFT]]></category>
+
+		<guid isPermaLink="false">/?p=104</guid>
+		<description><![CDATA[<p>TechNet Blogs マウス・キーボード・ファイルのD＆DがLAN共有できるということで試してみました。 インストール まずはマウスとキーボードを共有したいパソコンにインストールします。 進みます 進みます この画 [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/mouse-without-borders/">キーボードやマウスが共有できる Mouse Without Borders を使ってみた</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/Mouse-Without-Borders.png?resize=558%2C180" alt="" title="Mouse-Without-Borders" class="alignnone size-full wp-image-105" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/Mouse-Without-Borders.png?w=558&amp;ssl=1 558w, https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/Mouse-Without-Borders.png?resize=300%2C96&amp;ssl=1 300w" sizes="(max-width: 558px) 100vw, 558px" data-recalc-dims="1" /><br />
+<a href="http://blogs.technet.com/b/next/archive/2011/09/09/microsoft-garage-download-mouse-without-borders.aspx" target="_blank">TechNet Blogs<br />
+<img src="https://i2.wp.com/colopixie.com/wp-content/themes/colopixie/images/download.png" alt="download" class="sampleview" data-recalc-dims="1" /></a></p>
+<p>マウス・キーボード・ファイルのD＆DがLAN共有できるということで試してみました。</p>
+<h3>インストール</h3>
+<p>まずはマウスとキーボードを共有したいパソコンにインストールします。<br />
+<a href="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0908.jpg" rel="lightbox[104]" title="DSC_0908"><img src="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0908-300x200.jpg?resize=300%2C200" alt="" title="DSC_0908" class="alignnone size-medium wp-image-109" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0908.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0908.jpg?w=1024&amp;ssl=1 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><br />
+進みます<br />
+<a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0909.jpg" rel="lightbox[104]" title="DSC_0909"><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0909-300x200.jpg?resize=300%2C200" alt="" title="DSC_0909" class="alignnone size-medium wp-image-110" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0909.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0909.jpg?w=1024&amp;ssl=1 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><br />
+進みます<br />
+<a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0910.jpg" rel="lightbox[104]" title="DSC_0910"><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0910-300x200.jpg?resize=300%2C200" alt="" title="DSC_0910" class="alignnone size-medium wp-image-111" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0910.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0910.jpg?w=1024&amp;ssl=1 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><br />
+この画面で”NO”を選択します。<br />
+<a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0911.jpg" rel="lightbox[104]" title="DSC_0911"><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0911-300x200.jpg?resize=300%2C200" alt="" title="DSC_0911" class="alignnone size-medium wp-image-112" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0911.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0911.jpg?w=1024&amp;ssl=1 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><br />
+そうするとセキュリティコードとPC名が表示されるのでそのままにしておくかメモります。</p>
+<p>次に共有されたマウス・キーボードのほうでインストールします。<br />
+<a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0912.jpg" rel="lightbox[104]" title="DSC_0912"><img src="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0912-300x200.jpg?resize=300%2C200" alt="" title="DSC_0912" class="alignnone size-medium wp-image-113" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0912.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0912.jpg?w=1024&amp;ssl=1 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><br />
+先程は”NO”を選択しましたが、今度は”YES”を選択します。<br />
+<a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0913.jpg" rel="lightbox[104]" title="DSC_0913"><img src="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0913-300x200.jpg?resize=300%2C200" alt="" title="DSC_0913" class="alignnone size-medium wp-image-114" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0913.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0913.jpg?w=1024&amp;ssl=1 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><br />
+セキュリティコードとPC名を入力する画面がでてくるので先ほどのものを入力します。<br />
+<a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0914.jpg" rel="lightbox[104]" title="DSC_0914"><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0914-300x200.jpg?resize=300%2C200" alt="" title="DSC_0914" class="alignnone size-medium wp-image-115" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0914.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0914.jpg?w=1024&amp;ssl=1 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><br />
+NEXT</p>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0915.jpg" rel="lightbox[104]" title="DSC_0915"><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0915-300x200.jpg?resize=300%2C200" alt="" title="DSC_0915" class="alignnone size-medium wp-image-116" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0915.jpg?resize=300%2C200&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2011/09/DSC_0915.jpg?w=1024&amp;ssl=1 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><br />
+画面の位置などを調整できます。</p>
+<p>と、こんな感じでマウス・キーボード・ファイルの共有ができるてしまいます。<br />
+インストール時にすこし重いかと思いましたが、インストール後はそれほど重くなく使えそうです。<br />
+ただ、キーボード入力でJISとUSキーボードが混ざっている場合はキー配置がごっちゃになるのであまり使えないです。</p>
+<p>一応動画もありますのでよかったらどうぞ。<br />
+途中途中に説明をいれてあるはずです。</p>
+<p><object width="560" height="345"><param name="movie" value="http://www.youtube.com/v/UJOMxhEulc4?version=3&amp;hl=ja_JP&amp;rel=0&amp;hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/UJOMxhEulc4?version=3&amp;hl=ja_JP&amp;rel=0&amp;hd=1" type="application/x-shockwave-flash" width="560" height="345" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+<p>投稿<a rel="nofollow" href="/computer/mouse-without-borders/">キーボードやマウスが共有できる Mouse Without Borders を使ってみた</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/mouse-without-borders/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">104</post-id>	</item>
+	</channel>
+</rss>

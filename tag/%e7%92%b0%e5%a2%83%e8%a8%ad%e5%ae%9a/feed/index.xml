@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>環境設定 &#8211; colopixie</title>
+	<atom:link href="/tag/環境設定/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.7</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>Adobe Creative Cloud 契約しました</title>
+		<link>/computer/adobe-creative-cloud/</link>
+		<comments>/computer/adobe-creative-cloud/#comments</comments>
+		<pubDate>Fri, 07 Dec 2012 02:30:03 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[Creative Cloud]]></category>
+		<category><![CDATA[環境設定]]></category>
+
+		<guid isPermaLink="false">/?p=611</guid>
+		<description><![CDATA[<p>Adobe Creative Cloud にしました。 バージョンが変わり、CS5からCS6になりました。 ダウンロードはAdobe Application Managerというツールを使うみたいです。 全部入れたい時に [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/adobe-creative-cloud/">Adobe Creative Cloud 契約しました</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2012/12/creativecloud.png?resize=558%2C180" alt="" title="creativecloud" class="alignnone size-full wp-image-612" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2012/12/creativecloud.png?w=558&amp;ssl=1 558w, https://i2.wp.com/colopixie.com/wp-content/uploads/2012/12/creativecloud.png?resize=300%2C96&amp;ssl=1 300w" sizes="(max-width: 558px) 100vw, 558px" data-recalc-dims="1" /><br />
+<a href="https://creative.adobe.com/" target="_blank">Adobe Creative Cloud</a> にしました。<br />
+バージョンが変わり、CS5からCS6になりました。<br />
+ダウンロードはAdobe Application Managerというツールを使うみたいです。<br />
+全部入れたい時には選択が面倒ですが、メインマシンのMacBook Airの128GBのSSDに全部入れることはきついので、Photoshop・Illustrator・Fireworks・Premiere・After Effects・Dreamweaver・Acrobat・Lightroomをインストールしました。</p>
+<p>AiとかDwとかFwは早くなった気がします。<br />
+問題はメインで使っているPhotoshopが尋常じゃないほど重いのです…ファイルを開く、レイヤー移動、新規テキスト、拡大縮小にレイボークルクルが出現してイライラしました。<br />
+ただ、最近環境設定を変更したら落ち着きだした（CS5よりはまだ重い…）ので、環境設定をメモ。<br />
+何か改善策などありましたら、教えてください…</p>
+<h3>主にPhotoshop＞環境設定</h3>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2012/12/98c02eaf1f0840a7595679510aad287a.png" rel="lightbox[611]" title="環境設定"><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2012/12/98c02eaf1f0840a7595679510aad287a.png" alt="" title="環境設定"  class="alignnone size-full wp-image-616" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2012/12/98c02eaf1f0840a7595679510aad287a.png?w=1012&amp;ssl=1 1012w, https://i2.wp.com/colopixie.com/wp-content/uploads/2012/12/98c02eaf1f0840a7595679510aad287a.png?resize=300%2C207&amp;ssl=1 300w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+とりあえず重そうなものはチェックを外しました。<br />
+フリックパンについて：<a target="_blank" href="http://www.dtp-transit.jp/adobe/photoshop/post_761.html">Photoshop CS4：フリックパン（手のひらツールでドラッグすると、するする〜っとなる機能） &#8211; DTP Transit（CS4, Photoshop, iPhone）</a><br />
+<a href="https://i0.wp.com/colopixie.com/wp-content/uploads/2012/12/2a8ee2604f7605e387026829e7bfb2c6.png" rel="lightbox[611]" title="環境設定-1"><img src="https://i0.wp.com/colopixie.com/wp-content/uploads/2012/12/2a8ee2604f7605e387026829e7bfb2c6.png" alt="" title="環境設定-1" class="alignnone size-full wp-image-614" srcset="https://i0.wp.com/colopixie.com/wp-content/uploads/2012/12/2a8ee2604f7605e387026829e7bfb2c6.png?w=895&amp;ssl=1 895w, https://i0.wp.com/colopixie.com/wp-content/uploads/2012/12/2a8ee2604f7605e387026829e7bfb2c6.png?resize=300%2C194&amp;ssl=1 300w" sizes="(max-width: 895px) 100vw, 895px" data-recalc-dims="1" /></a><br />
+境界線をドロップシャドウからラインに<br />
+<a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2012/12/3290903f0e9133fea2adf175fd971c7d.png" rel="lightbox[611]" title="環境設定-2"><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2012/12/3290903f0e9133fea2adf175fd971c7d.png" alt="" title="環境設定-2" class="alignnone size-full wp-image-615" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2012/12/3290903f0e9133fea2adf175fd971c7d.png?w=1018&amp;ssl=1 1018w, https://i2.wp.com/colopixie.com/wp-content/uploads/2012/12/3290903f0e9133fea2adf175fd971c7d.png?resize=300%2C150&amp;ssl=1 300w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><br />
+ヒストリー＆キャッシュの大きく平坦をクリックして、ヒストリー数を自分は増やしました。（よく戻る）<br />
+仮想記憶ディスクを内蔵SSDとUSB3.0で繋げてる外付けHDDにしています。ただTime MachineとかiTunes使っているせいかプチフリが起きる…</p>
+<p>と言った感じにしたら割りとサクサクいくようになりました。<br />
+<a href="http://connecre.com/connelog/connelog00000177.php" target="_blank">Photoshop CS6の設定変更｜ConneLog｜ConneCre</a>を主に参考にさせていただきました。</p>
+<p>こんなほうほうもあるらしいけど、変わらなかった…</p>
+<blockquote class="twitter-tweet" width="500" lang="ja">
+<p>Photoshop CS6を使っていて「ちょっと動作が遅いな？」とか「なんだか動作がおかしいな？」と思ったら、OpenGLをオフで解消することがあります。設定方法はこちら！<a href="http://t.co/zCUqDpRT" title="http://bit.ly/LaTcIx">bit.ly/LaTcIx</a></p>
+<p>&mdash; アドビ サポート担当さん (@AdobeSupportJ) <a href="https://twitter.com/AdobeSupportJ/status/222938329447018496" data-datetime="2012-07-11T06:20:14+00:00">7月 11, 2012</a></p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>こちらの記事が詳しくPhotoshopのGPUの使い方などに書かれています…！<br />
+<a href="http://d.hatena.ne.jp/photoshopper/20120914/p1" target="_blank">継続は力なり！1日1回Photoshop CS6小ネタ。その13。 &#8211; Photoshopの情報集</a></p>
+<p>今年もあと少しですね。寒くて死にそうです。豚汁が飲みたいです。</p>
+<p>投稿<a rel="nofollow" href="/computer/adobe-creative-cloud/">Adobe Creative Cloud 契約しました</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/adobe-creative-cloud/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">611</post-id>	</item>
+	</channel>
+</rss>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>JS &#8211; colopixie</title>
+	<atom:link href="/tag/js/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.3</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>Checkboxを綺麗にするん</title>
+		<link>/htmlcss/checkbox_design/</link>
+		<comments>/htmlcss/checkbox_design/#respond</comments>
+		<pubDate>Thu, 15 Dec 2011 15:01:49 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[HTML/CSS]]></category>
+		<category><![CDATA[Checkbox]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[JS]]></category>
+
+		<guid isPermaLink="false">/?p=237</guid>
+		<description><![CDATA[<p>Checkboxにあるチェックをなくしてなんかクリックしてこれ選択してるんじゃいって感じにできるようにしてみた。 ⇒⇒⇒⇒⇒Checkboxを綺麗にするん ▼こんな感じです HTML [crayon-5a8fd138bd [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/htmlcss/checkbox_design/">Checkboxを綺麗にするん</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/12/checkd.png?resize=558%2C180" alt="" title="checkd" class="alignnone size-full wp-image-238" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/12/checkd.png?w=558&amp;ssl=1 558w, https://i1.wp.com/colopixie.com/wp-content/uploads/2011/12/checkd.png?resize=300%2C96&amp;ssl=1 300w" sizes="(max-width: 558px) 100vw, 558px" data-recalc-dims="1" /><br />
+Checkboxにあるチェックをなくしてなんかクリックしてこれ選択してるんじゃいって感じにできるようにしてみた。</p>
+<p>⇒⇒⇒⇒⇒<a href="/sample/check_input_design/" target="_blank" link="Checkboxを綺麗にするん">Checkboxを綺麗にするん</a></p>
+<h3>▼こんな感じです</h3>
+<p><a href="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/12/a98fbc4513a2de5dafcf51bec1dc4289.png" rel="lightbox[237]" title="スクリーンショット 2011-12-15 23.43.33"><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/12/a98fbc4513a2de5dafcf51bec1dc4289-1024x991.png?w=100%25" alt="" title="スクリーンショット 2011-12-15 23.43.33" class="aligncenter size-large wp-image-239" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/12/a98fbc4513a2de5dafcf51bec1dc4289.png?resize=1024%2C991&amp;ssl=1 1024w, https://i2.wp.com/colopixie.com/wp-content/uploads/2011/12/a98fbc4513a2de5dafcf51bec1dc4289.png?resize=300%2C290&amp;ssl=1 300w, https://i2.wp.com/colopixie.com/wp-content/uploads/2011/12/a98fbc4513a2de5dafcf51bec1dc4289.png?w=1153&amp;ssl=1 1153w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></p>
+<h3>HTML</h3>
+<p></p><pre class="crayon-plain-tag">&amp;lt;form action=&amp;quot;&amp;quot; id=&amp;quot;form&amp;quot; method=&amp;quot;post&amp;quot;&amp;gt;
+&amp;lt;label for=&amp;quot;checkbox1&amp;quot;&amp;gt;
+	&amp;lt;input type=&amp;quot;checkbox&amp;quot; name=&amp;quot;Checkbox&amp;quot; value=&amp;quot;Checkbox&amp;quot; id=&amp;quot;checkbox1&amp;quot; checked=&amp;quot;checked&amp;quot; /&amp;gt;Checkbox
+&amp;lt;/label&amp;gt;
+......</pre><p></p>
+<h3>CSS</h3>
+<p></p><pre class="crayon-plain-tag">label input {
+	width: 500px !important;
+	position: absolute;
+	display: block;
+	padding: 5px 15px;
+	height: 20px !important;
+	left: -20px
+}
+label{	
+	position: relative;
+	height: 20px !important;
+	
+	border: 1px solid #ddd;
+	display: block;
+	float:left;
+	margin: 5px;
+	line-height: 20px !important;
+	border-radius: 3px;
+	padding: 5px 15px;
+	background: url(check.png);
+   	overflow: hidden; 
+}</pre><p></p>
+<ul>
+<li>checkbox部分はleft:-20pxでぶっ飛ばしてから親のlabelにoverflow:hiddenして消し去ってます</li>
+</ul>
+<h3>jQuery</h3>
+<p>使ってます。<br />
+自分で頑張って売っていたのですが、諦めてグーグル先生に聞いてみたら<br />
+<a href="http://www.detelu.com/blog/2009/02/jquery-%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%E3%81%8C%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%81%95%E3%82%8C%E3%81%9F%E3%82%89%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB/" target="_blank" link="jQuery – チェックボックスがチェックされたらスタイルを変更する | 1：n – DETELU Blog">jQuery – チェックボックスがチェックされたらスタイルを変更する | 1：n – DETELU Blog</a>の記事にありましたので、使わせて頂きました。ありがたやありがたや…</p><pre class="crayon-plain-tag">$(function(){
+	$(&quot;#form :checked&quot;).each(function(){
+		var isl = $(this).attr(&quot;id&quot;);
+		$(&quot;label[for=&quot;+isl+&quot;]&quot;).css({&quot;border&quot;:&quot;1px solid #cb003a&quot;,&quot;color&quot;:&quot;#fff&quot;,&quot;background&quot;:&quot;url(checked.png)&quot;,&quot;text-shadow&quot;:&quot;-1px -1px 0px #a4002f&quot;});
+	});
+	$(&quot;#form :checkbox&quot;).click(function() {
+		var isl = $(this).attr(&quot;id&quot;);
+		if($(this).attr('checked') == true) {
+			$(&quot;label[for=&quot;+isl+&quot;]&quot;).css({&quot;border&quot;:&quot;1px solid #cb003a&quot;,&quot;color&quot;:&quot;#fff&quot;,&quot;background&quot;:&quot;url(checked.png)&quot;,&quot;text-shadow&quot;:&quot;-1px -1px 0px #a4002f&quot;});
+		} else {
+			$(&quot;label[for=&quot;+isl+&quot;]&quot;).css({&quot;border&quot;:&quot;1px solid #ddd&quot;,&quot;color&quot;:&quot;&quot;,&quot;background&quot;:&quot;url(check.png)&quot;,&quot;text-shadow&quot;:&quot;&quot;});
+		}
+	});
+});</pre><p>jQueryの方は元サイトをみた方がいいと思います。</p>
+<p>とりあえず、Checkboxの見た目をがらーんと変えたい人へ。<br />
+押す場所が大きくなる（できる）ので押しやすい！というメリットがあるような。</p>
+<p>サンプルです：<a href="/sample/check_input_design/" target="_blank" link="Checkboxを綺麗にするん">Checkboxを綺麗にするん</a></p>
+<p>投稿<a rel="nofollow" href="/htmlcss/checkbox_design/">Checkboxを綺麗にするん</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/htmlcss/checkbox_design/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">237</post-id>	</item>
+	</channel>
+</rss>

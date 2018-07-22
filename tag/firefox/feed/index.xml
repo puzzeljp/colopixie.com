@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Firefox &#8211; colopixie</title>
+	<atom:link href="/tag/firefox/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Webデザイン、CSSのテクニック、Webで使える素材を紹介していきます。</description>
+	<lastBuildDate>Sun, 31 Dec 2017 12:50:56 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.3</generator>
+<site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
+		<title>Firefoxユーザーに戻りました。使っているアドオンなど。</title>
+		<link>/computer/firefox_mainbrowser/</link>
+		<comments>/computer/firefox_mainbrowser/#respond</comments>
+		<pubDate>Sat, 05 Nov 2011 14:47:24 +0000</pubDate>
+		<dc:creator><![CDATA[chinatsu]]></dc:creator>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[Firefox]]></category>
+		<category><![CDATA[ブラウザ]]></category>
+
+		<guid isPermaLink="false">/?p=191</guid>
+		<description><![CDATA[<p>こんにちは。この前からChromeが遅いとか言っていたのですが、最近文字入力の際にくるくるしだすのであーもー！と思って以前使っていたFirefoxに戻って来ました。過去にネスケ→Firefox。 ネスケとか懐かしいですね [&#8230;]</p>
+<p>投稿<a rel="nofollow" href="/computer/firefox_mainbrowser/">Firefoxユーザーに戻りました。使っているアドオンなど。</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img src="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/11/firefox.png?resize=558%2C180" alt="" title="firefox" class="aligncenter size-full wp-image-192" srcset="https://i2.wp.com/colopixie.com/wp-content/uploads/2011/11/firefox.png?w=558&amp;ssl=1 558w, https://i2.wp.com/colopixie.com/wp-content/uploads/2011/11/firefox.png?resize=300%2C96&amp;ssl=1 300w" sizes="(max-width: 558px) 100vw, 558px" data-recalc-dims="1" /><br />
+こんにちは。この前からChromeが遅いとか言っていたのですが、最近文字入力の際にくるくるしだすのであーもー！と思って以前使っていたFirefoxに戻って来ました。過去にネスケ→Firefox。<br />
+ネスケとか懐かしいですね。</p>
+<h3>とりあえず、Firefox7速い。アドオン。</h3>
+<ul>
+<li><a href="https://addons.mozilla.org/ja/firefox/addon/bartab-lite/?src=api" target="_blank">BarTab Lite :: Add-ons for Firefox</a><br />
+タブを開くまで読み込まず、開いてから読みこんでくれる。
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/download-statusbar/" target="_blank" link="Download Statusbar :: Add-ons for Firefox">Download Statusbar :: Add-ons for Firefox</a><br />
+ダウンロードウィンドウを出さずにステータスバーの上に表示してくれる。
+</li>
+<li><a href="https://addons.mozilla.org/ja/firefox/addon/fasterfox-9148/" target="_blank" link="Fasterfox Lite :: Add-ons for Firefox">Fasterfox Lite :: Add-ons for Firefox</a><br />
+読み込み速度など高速化してくれる
+</li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/firebug/" target="_blank" link="Firebug :: Add-ons for Firefox">Firebug :: Add-ons for Firefox</a><br />
+HTMLやCSSの検証等
+</li>
+<li><a href="http://firemobilesimulator.org/" target="_blank" link="Top - FireMobileSimulator.org">Top &#8211; FireMobileSimulator.org</a><br />
+携帯サイトを制作する際にユーザーエージェントを変更してくれる
+</li>
+<li><a href="https://addons.mozilla.org/ja/firefox/addon/greasemonkey/" target="_blank" link="Greasemonkey :: Add-ons for Firefox">Greasemonkey :: Add-ons for Firefox</a><br />
+ユーザースクリプトを追加してくれる
+</li>
+<li><a href="https://addons.mozilla.org/ja/firefox/addon/hatena-bookmark/" target="_blank" link="Hatena Bookmark :: Add-ons for Firefox">Hatena Bookmark :: Add-ons for Firefox</a><br />
+はてなブックマークのアドオン
+</li>
+<li><a href="http://speeddial.uworks.net/" target="_blank" link="Speed Dial - Main">Speed Dial &#8211; Main</a><br />
+Operaにあるようなよくアクセスするページを新規タブなどに表示
+</li>
+<li><a href="https://addons.mozilla.org/ja/firefox/addon/tab-mix-plus/" target="_blank" link="Tab Mix Plus :: Add-ons for Firefox">Tab Mix Plus :: Add-ons for Firefox</a><br />
+タブの表示を拡張してくれる
+</li>
+<li><a href="http://www.xmarks.com/" target="_blank" link="Xmarks | Bookmark Sync and Search">Xmarks | Bookmark Sync and Search</a><br />
+Chromeなどとブックマークを同期できる。※
+</li>
+</ul>
+<h3>便利なXmarks</h3>
+<p>iMacはメモリ16GBですごく余裕があるんだけど、MBAは2GBしかないのでFirefoxは辛いのです。<br />
+なので、MBAではChromeを使っています。<br />
+オンラインブックマークを使えばいいのですが、ブックマークツールバーをよく使うのでそこのためにこのアドオンをFirefoxとChromeに入れて同期しています。</p>
+<h3>メモリとCPUの</h3>
+<p><img src="https://i1.wp.com/xn--dckno7g6h736r1swa.tk/311c63783ceb566e735a4f41d4ebfcb6.png?w=100%25" alt="http://xn--dckno7g6h736r1swa.tk/8a319b2bf06c34e19face6e47ca08f60.png" data-recalc-dims="1" /></p>
+<p>投稿<a rel="nofollow" href="/computer/firefox_mainbrowser/">Firefoxユーザーに戻りました。使っているアドオンなど。</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
+]]></content:encoded>
+			<wfw:commentRss>/computer/firefox_mainbrowser/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">191</post-id>	</item>
+	</channel>
+</rss>
