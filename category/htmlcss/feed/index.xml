@@ -16,7 +16,7 @@
 	<language>ja</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.3</generator>
+	<generator>https://wordpress.org/?v=4.9.7</generator>
 <site xmlns="com-wordpress:feed-additions:1">62157443</site>	<item>
 		<title>[IE6/7] 複数 class を指定したのに適用されない [Advent Calendar 2015]</title>
 		<link>/htmlcss/ie6_7-multiple-class/</link>
@@ -390,7 +390,7 @@ CSS Selector Generatorhはオプションが選べたり。<br />
 		<category><![CDATA[JS]]></category>
 
 		<guid isPermaLink="false">/?p=237</guid>
-		<description><![CDATA[<p>Checkboxにあるチェックをなくしてなんかクリックしてこれ選択してるんじゃいって感じにできるようにしてみた。 ⇒⇒⇒⇒⇒Checkboxを綺麗にするん ▼こんな感じです HTML [crayon-5a8f8bbb30 [&#8230;]</p>
+		<description><![CDATA[<p>Checkboxにあるチェックをなくしてなんかクリックしてこれ選択してるんじゃいって感じにできるようにしてみた。 ⇒⇒⇒⇒⇒Checkboxを綺麗にするん ▼こんな感じです HTML [crayon-5b52a7b2d2 [&#8230;]</p>
 <p>投稿<a rel="nofollow" href="/htmlcss/checkbox_design/">Checkboxを綺麗にするん</a>は<a rel="nofollow" href="/">colopixie</a>の最初に登場しました。</p>
 ]]></description>
 				<content:encoded><![CDATA[<p><img src="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/12/checkd.png?resize=558%2C180" alt="" title="checkd" class="alignnone size-full wp-image-238" srcset="https://i1.wp.com/colopixie.com/wp-content/uploads/2011/12/checkd.png?w=558&amp;ssl=1 558w, https://i1.wp.com/colopixie.com/wp-content/uploads/2011/12/checkd.png?resize=300%2C96&amp;ssl=1 300w" sizes="(max-width: 558px) 100vw, 558px" data-recalc-dims="1" /><br />
